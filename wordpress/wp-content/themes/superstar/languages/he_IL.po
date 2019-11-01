@@ -1,0 +1,5304 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Superstar 1.2.1\n"
+"Report-Msgid-Bugs-To: team@pojo.me\n"
+"POT-Creation-Date: 2015-12-31 16:13+0200\n"
+"PO-Revision-Date: 2014-10-27 17:38+0200\n"
+"Last-Translator: Yakir Sitbon <yakir@pojo.me>\n"
+"Language-Team: Pojo.me Team <team@pojo.me>\n"
+"Language: he_IL\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.10\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../comments.php:13
+#, php-format
+msgid "%1$s at %2$s"
+msgstr "%1$s בשעה %2$s"
+
+#: ../comments.php:16
+msgid "(Edit)"
+msgstr "(עריכה)"
+
+#: ../comments.php:21
+msgid "Your comment is awaiting moderation."
+msgstr "תגובתך מחכה לאישור המערכת."
+
+#: ../comments.php:35
+msgid "This post is password protected. Enter the password to view comments."
+msgstr "עמוד זה מוגן בסיסמה. הזינו את הפסיסמה כדי לצפות בו."
+
+#: ../comments.php:43
+#, php-format
+msgid "One Response"
+msgid_plural "%1$s Responses"
+msgstr[0] "תגובה אחת"
+msgstr[1] "%1$s תגובות"
+
+#: ../comments.php:51
+msgid "&larr; Older comments"
+msgstr "תגובות ישנות &larr;"
+
+#: ../comments.php:52
+msgid "Newer comments &rarr;"
+msgstr "&rarr; תגובות חדשות"
+
+#: ../comments.php:61
+msgid "Leave a Reply"
+msgstr "השארת תגובה"
+
+#: ../comments.php:61
+#, php-format
+msgid "Leave a Reply to %s"
+msgstr "השארת תגובה ל-%s"
+
+#: ../comments.php:67
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr "חייבים <a href=\"%s\">להתחבר</a> כדי להגיב."
+
+#: ../comments.php:74
+#, php-format
+msgid "Logged in as <a href=\"%s/wp-admin/profile.php\">%s</a>."
+msgstr "תגובתך תתפרסם תחת השם-<a href=\"%s/wp-admin/profile.php\">%s</a>."
+
+#: ../comments.php:75
+msgid "Log out of this account"
+msgstr "התנתקות מחשבון זה"
+
+#: ../comments.php:75
+msgid "Log out &raquo;"
+msgstr "התנתקות &raquo;"
+
+#: ../comments.php:80
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:17
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:35
+#: ../core/page-builder/templates/types/type-local.php:350
+msgid "Name"
+msgstr "שם:"
+
+#: ../comments.php:80 ../comments.php:83
+msgid " (required)"
+msgstr "(חובה)"
+
+#: ../comments.php:83
+msgid "Email"
+msgstr "אימייל"
+
+#: ../comments.php:86
+msgid "Website"
+msgstr "אתר:"
+
+#: ../comments.php:92
+msgid "Enter your comment"
+msgstr "כתיבת תגובה"
+
+#: ../comments.php:93 ../core/helpers/feedback/class-pojo-feedback.php:102
+msgid "Send"
+msgstr "שליחה"
+
+#: ../content/content-grid.php:33 ../content/content-list.php:31
+#: ../content/content-masonry.php:32 ../content/content.php:22
+#: ../content/recent_post-grid_four.php:35
+#: ../content/recent_post-grid_three.php:37 ../content/recent_post.php:36
+#: ../loop/single.php:24
+msgid "No Comments"
+msgstr "אין תגובות"
+
+#: ../content/content-grid.php:33 ../content/content-list.php:31
+#: ../content/content-masonry.php:32 ../content/content.php:22
+#: ../content/recent_post-grid_four.php:35
+#: ../content/recent_post-grid_three.php:37 ../content/recent_post.php:36
+#: ../loop/single.php:24
+msgid "One Comment"
+msgstr "תגובה אחת"
+
+#: ../content/content-grid.php:33 ../content/content-list.php:31
+#: ../content/content-masonry.php:32 ../content/content.php:22
+#: ../content/recent_post-grid_four.php:35
+#: ../content/recent_post-grid_three.php:37 ../content/recent_post.php:36
+#: ../loop/single.php:24
+msgid "% Comments"
+msgstr "% תגובות"
+
+#: ../content/content-none.php:11
+msgid "Sorry, no results were found."
+msgstr "אופס, לא נמצאו תוצאות."
+
+#: ../content/recent_post-grid_four.php:41
+#: ../content/recent_post-grid_three.php:43 ../content/recent_post.php:42
+#: ../core/smart-page/api.php:363
+msgid "Read More &raquo;"
+msgstr "קרא עוד &larr;"
+
+#: ../core/addons/advanced-widget-title/class-pojo-advanced-widget-title.php:39
+msgid "Title Link:"
+msgstr "קישור כותרת:\t"
+
+#: ../core/addons/advanced-widget-title/class-pojo-advanced-widget-title.php:48
+msgid "Sub Title:"
+msgstr "כותרת משנה:"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:17
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:29
+msgid "Galleries"
+msgstr "גלריות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:18
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:285
+#: ../core/addons/galleries/classes/class-pojo-widget-gallery.php:60
+#: ../core/addons/post-formats/post-formats.php:93
+msgid "Gallery"
+msgstr "גלריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:19
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:19
+#: ../core/page-builder/templates/types/type-local.php:17
+msgid "Add New"
+msgstr "הוספת חדש"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:20
+msgid "Add New Gallery"
+msgstr "הוספת גלריה חדשה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:21
+msgid "Edit Gallery"
+msgstr "עריכת גלריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:22
+msgid "New Gallery"
+msgstr "גלריה חדשה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:23
+#: ../core/addons/galleries/classes/class-pojo-widget-gallery.php:54
+msgid "All Galleries"
+msgstr "כל הגלריות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:24
+msgid "View Gallery"
+msgstr "הצגת גלריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:25
+msgid "Search Gallery"
+msgstr "חיפוש גלריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:26
+msgid "No Galleries found"
+msgstr "לא נמצאו גלריות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:27
+msgid "No Galleries found in Trash"
+msgstr "לא נמצאו גלריות בפח"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:53
+msgid "Gallery Categories"
+msgstr "קטגוריות גלריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:54
+msgid "Gallery Category"
+msgstr "קטגורית גלריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:55
+msgctxt "Admin menu name"
+msgid "Categories"
+msgstr "קטגוריות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:56
+msgid "Search Categories"
+msgstr "חיפוש קטגוריות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:57
+msgid "All Categories"
+msgstr "כל הקטגוריות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:58
+msgid "Parent Category"
+msgstr "קטגורית אב"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:59
+msgid "Parent Category:"
+msgstr "קטגורית אב:"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:60
+msgid "Edit Category"
+msgstr "עריכת קטגוריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:61
+msgid "Update Category"
+msgstr "עדכון קטגוריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:62
+msgid "Add New Category"
+msgstr "הוספת קטגוריה חדשה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:63
+msgid "New Category Name"
+msgstr "שם קטגוריה חדשה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:87
+#, php-format
+msgid "Gallery updated. <a href=\"%s\">View gallery</a>"
+msgstr "גלריה עודכנה. <a href=\"%s\">הצגת גלריה</a>"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:88
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:60
+#: ../core/page-builder/templates/types/type-local.php:53
+msgid "Custom field updated."
+msgstr "שדות מיוחדות עודכנו"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:89
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:61
+#: ../core/page-builder/templates/types/type-local.php:54
+msgid "Custom field deleted."
+msgstr "שדות מיוחדים נמחקו"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:90
+msgid "Gallery updated."
+msgstr "גלריה עודכנה."
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:92
+#, php-format
+msgid "Gallery restored to revision from %s"
+msgstr "הגלריה שוחזרה לגרסה מ %s"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:93
+#, php-format
+msgid "Gallery published. <a href=\"%s\">View post</a>"
+msgstr "הגלריה פורסמה. <a href=\"%s\">הצגת גלריה</a>"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:94
+msgid "Gallery saved."
+msgstr "גלריה נשמרה."
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:95
+#, php-format
+msgid "Gallery submitted. <a target=\"_blank\" href=\"%s\">Preview post</a>"
+msgstr "הגלריה נשלחה. <a target=\"_blank\" href=\"%s\">תצוגה מקדימה</a>"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:96
+#, php-format
+msgid ""
+"Gallery scheduled for: <strong>%1$s</strong>. <a target=\"_blank\" href="
+"\"%2$s\">Preview post</a>"
+msgstr ""
+"הגלריה מתוזמנת ל: <strong>%1$s</strong>. <a target=\"_blank\" href=\"%2$s"
+"\">תצוגה מקדימה</a>"
+
+#. //php.net/date
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:98
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:70
+#: ../core/page-builder/templates/types/type-local.php:63
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:99
+#, php-format
+msgid ""
+"Gallery draft updated. <a target=\"_blank\" href=\"%s\">Preview post</a>"
+msgstr "טיוטת גלריה עודכנה. <a target=\"_blank\" href=\"%s\">תצוגה מקדימה</a>"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:118
+msgid "Gallery Title"
+msgstr "כותרת גלריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:119
+msgid "Categories"
+msgstr "קטגוריות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:120
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:83
+msgid "Shortcode"
+msgstr "שורטקוד"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:121
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:234
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:83
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:84
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products-category.php:36
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:42
+#: ../core/page-builder/templates/types/type-local.php:352
+#: ../core/page-format/page-format.php:341
+#: ../core/page-format/page-format.php:385
+#: ../core/page-options/page-options.php:450
+#: ../core/settings/pages/content.php:155
+#: ../core/settings/pages/content.php:261
+#: ../core/widgets/class-pojo-widget-posts-group.php:332
+#: ../core/widgets/class-pojo-widget-recent-posts.php:79
+msgid "Date"
+msgstr "תאריך"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:139
+#, php-format
+msgid "%s Gallery"
+msgid_plural "%s Galleries"
+msgstr[0] "גלריה %s"
+msgstr[1] "%s גלריות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:163
+msgid "Choose Category"
+msgstr "בחירת קטגוריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:169
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:216
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:599
+#: ../core/addons/login-screen/class-pojo-login-style.php:64
+#: ../core/addons/login-screen/class-pojo-login-style.php:82
+#: ../core/addons/login-screen/class-pojo-login-style.php:95
+#: ../core/addons/login-screen/class-pojo-login-style.php:106
+#: ../core/addons/scroll-up/scroll-up.php:184
+#: ../core/customize/class-pojo-customizer-sections.php:23
+#: ../core/customize/class-pojo-customizer-sections.php:55
+#: ../core/helpers/class-pojo-layouts.php:40 ../core/menus/menus.php:85
+#: ../core/page-builder/page-builder.php:216
+#: ../core/page-builder/page-builder.php:230
+#: ../core/page-builder/page-builder.php:242
+#: ../core/page-builder/page-builder.php:261
+#: ../core/page-builder/widgets/class-pojo-widget-sidebar.php:9
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:10
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:102
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:117
+#: ../core/page-format/page-format.php:284
+#: ../core/page-format/page-format.php:323
+#: ../core/page-format/page-format.php:388
+#: ../core/page-format/page-format.php:400
+#: ../core/page-format/page-format.php:412
+#: ../core/page-format/page-format.php:424
+#: ../core/page-format/page-format.php:442
+#: ../core/page-format/page-format.php:456
+#: ../core/page-format/page-format.php:474
+#: ../core/page-format/page-format.php:487
+#: ../core/page-options/page-options.php:38
+#: ../core/page-options/page-options.php:50
+#: ../core/page-options/page-options.php:63
+#: ../core/page-options/page-options.php:132
+#: ../core/page-options/page-options.php:152
+#: ../core/page-options/page-options.php:165
+#: ../core/page-options/page-options.php:180
+#: ../core/page-options/page-options.php:311
+#: ../core/page-options/page-options.php:330
+#: ../core/page-options/page-options.php:342
+#: ../core/page-options/page-options.php:356
+#: ../core/page-options/page-options.php:463
+#: ../core/page-options/page-options.php:478
+#: ../core/settings/pages/content.php:38 ../core/sidebars/admin-ui.php:25
+#: ../core/widgets/abstract-class-pojo-widget-base.php:30
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:102
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:117
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:176
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:191
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:250
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:265
+#: ../core/widgets/class-pojo-widget-image-text.php:150
+#: ../core/widgets/class-pojo-widget-image-text.php:165
+#: ../core/widgets/class-pojo-widget-image-text.php:224
+#: ../core/widgets/class-pojo-widget-image-text.php:239
+msgid "Default"
+msgstr "ברירת מחדל"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:185
+#: ../core/page-format/page-format.php:301
+msgid "Select Content Layout"
+msgstr "מבנה תוכן"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:187
+msgid "Choosing the Structure of the Galleries from your Theme"
+msgstr "בחירת מבנה גלריות מתוך ערכת העיצוב"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:195
+msgid "Add Filter By Category"
+msgstr "סינון לפי קטגוריות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:198
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:478
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:490
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:502
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:52
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:64
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:261
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:63
+#: ../core/page-builder/page-builder.php:315
+#: ../core/page-format/page-format.php:389
+#: ../core/page-format/page-format.php:401
+#: ../core/page-format/page-format.php:413
+#: ../core/page-format/page-format.php:425
+#: ../core/page-format/page-format.php:475
+#: ../core/page-options/page-options.php:40
+#: ../core/page-options/page-options.php:52
+#: ../core/page-options/page-options.php:65
+#: ../core/page-options/page-options.php:79
+#: ../core/page-options/page-options.php:465
+#: ../core/page-options/page-options.php:480
+#: ../core/settings/pages/content.php:21 ../core/settings/pages/content.php:73
+#: ../core/settings/pages/content.php:158
+#: ../core/settings/pages/content.php:169
+#: ../core/settings/pages/content.php:180
+#: ../core/settings/pages/content.php:191
+#: ../core/settings/pages/content.php:205
+#: ../core/settings/pages/content.php:264
+#: ../core/settings/pages/content.php:275
+#: ../core/settings/pages/content.php:286
+#: ../core/settings/pages/content.php:297
+#: ../core/settings/pages/content.php:328
+#: ../core/widgets/class-pojo-widget-posts-group.php:62
+#: ../core/widgets/class-pojo-widget-posts-group.php:74
+#: ../core/widgets/class-pojo-widget-posts-group.php:86
+#: ../core/widgets/class-pojo-widget-posts-group.php:108
+#: ../core/widgets/class-pojo-widget-posts-group.php:126
+#: ../core/widgets/class-pojo-widget-posts-group.php:138
+#: ../core/widgets/class-pojo-widget-posts-group.php:150
+#: ../core/widgets/class-pojo-widget-posts-group.php:162
+#: ../core/widgets/class-pojo-widget-posts-group.php:197
+#: ../core/widgets/class-pojo-widget-posts-group.php:209
+#: ../core/widgets/class-pojo-widget-posts-group.php:221
+#: ../core/widgets/class-pojo-widget-posts-group.php:243
+#: ../core/widgets/class-pojo-widget-posts-group.php:261
+#: ../core/widgets/class-pojo-widget-posts-group.php:273
+#: ../core/widgets/class-pojo-widget-posts-group.php:285
+#: ../core/widgets/class-pojo-widget-posts-group.php:297
+#: ../core/widgets/class-pojo-widget-recent-posts.php:48
+#: ../core/widgets/class-pojo-widget-recent-posts.php:60
+#: ../core/widgets/class-pojo-widget-recent-posts.php:119
+#: ../core/widgets/class-pojo-widget-recent-posts.php:143
+#: ../core/widgets/class-pojo-widget-recent-posts.php:161
+#: ../core/widgets/class-pojo-widget-recent-posts.php:173
+#: ../core/widgets/class-pojo-widget-recent-posts.php:185
+#: ../core/widgets/class-pojo-widget-recent-posts.php:197
+msgid "Show"
+msgstr "להציג"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:199
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:479
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:491
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:503
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:53
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:65
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:260
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:62
+#: ../core/menus/menus.php:86 ../core/page-builder/page-builder.php:314
+#: ../core/page-format/page-format.php:390
+#: ../core/page-format/page-format.php:402
+#: ../core/page-format/page-format.php:414
+#: ../core/page-format/page-format.php:426
+#: ../core/page-format/page-format.php:445
+#: ../core/page-format/page-format.php:476
+#: ../core/page-options/page-options.php:39
+#: ../core/page-options/page-options.php:51
+#: ../core/page-options/page-options.php:64
+#: ../core/page-options/page-options.php:80
+#: ../core/page-options/page-options.php:464
+#: ../core/page-options/page-options.php:479
+#: ../core/settings/pages/content.php:22 ../core/settings/pages/content.php:74
+#: ../core/settings/pages/content.php:159
+#: ../core/settings/pages/content.php:170
+#: ../core/settings/pages/content.php:181
+#: ../core/settings/pages/content.php:192
+#: ../core/settings/pages/content.php:206
+#: ../core/settings/pages/content.php:265
+#: ../core/settings/pages/content.php:276
+#: ../core/settings/pages/content.php:287
+#: ../core/settings/pages/content.php:298
+#: ../core/settings/pages/content.php:310
+#: ../core/settings/pages/content.php:329 ../core/smart-page/api.php:433
+#: ../core/widgets/class-pojo-widget-posts-group.php:63
+#: ../core/widgets/class-pojo-widget-posts-group.php:75
+#: ../core/widgets/class-pojo-widget-posts-group.php:87
+#: ../core/widgets/class-pojo-widget-posts-group.php:107
+#: ../core/widgets/class-pojo-widget-posts-group.php:125
+#: ../core/widgets/class-pojo-widget-posts-group.php:137
+#: ../core/widgets/class-pojo-widget-posts-group.php:149
+#: ../core/widgets/class-pojo-widget-posts-group.php:161
+#: ../core/widgets/class-pojo-widget-posts-group.php:198
+#: ../core/widgets/class-pojo-widget-posts-group.php:210
+#: ../core/widgets/class-pojo-widget-posts-group.php:222
+#: ../core/widgets/class-pojo-widget-posts-group.php:242
+#: ../core/widgets/class-pojo-widget-posts-group.php:260
+#: ../core/widgets/class-pojo-widget-posts-group.php:272
+#: ../core/widgets/class-pojo-widget-posts-group.php:284
+#: ../core/widgets/class-pojo-widget-posts-group.php:296
+#: ../core/widgets/class-pojo-widget-recent-posts.php:49
+#: ../core/widgets/class-pojo-widget-recent-posts.php:61
+#: ../core/widgets/class-pojo-widget-recent-posts.php:120
+#: ../core/widgets/class-pojo-widget-recent-posts.php:142
+#: ../core/widgets/class-pojo-widget-recent-posts.php:160
+#: ../core/widgets/class-pojo-widget-recent-posts.php:172
+#: ../core/widgets/class-pojo-widget-recent-posts.php:184
+#: ../core/widgets/class-pojo-widget-recent-posts.php:196
+msgid "Hide"
+msgstr "להסתיר"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:206
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:270
+#: ../core/page-format/page-format.php:313
+#: ../core/page-format/page-format.php:511
+msgid "Advanced Settings"
+msgstr "הגדרות מתקדמות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:212
+msgid "Galleries Per Page"
+msgstr "מספר גלריות בעמוד"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:217
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:119
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:143
+#: ../core/page-format/page-format.php:324
+#: ../core/page-format/page-format.php:457
+#: ../core/page-format/page-format.php:488
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:290
+#: ../core/widgets/class-pojo-widget-image-text.php:264
+#: ../core/widgets/class-pojo-widget-posts-group.php:171
+#: ../core/widgets/class-pojo-widget-posts-group.php:306
+#: ../core/widgets/class-pojo-widget-posts-group.php:368
+#: ../core/widgets/class-pojo-widget-recent-posts.php:208
+msgid "Custom"
+msgstr "מותאם אישית"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:224
+msgid "Number Galleries"
+msgstr "מספר גלריות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:231
+#: ../core/page-format/page-format.php:338
+msgid "Order By"
+msgstr "סידור לפי"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:235
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:84
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:43
+#: ../core/page-format/page-format.php:342
+#: ../core/widgets/class-pojo-widget-posts-group.php:333
+#: ../core/widgets/class-pojo-widget-recent-posts.php:80
+msgid "Menu Order"
+msgstr "סדר תפריט"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:236
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:85
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:256
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:352
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:44
+#: ../core/page-builder/templates/types/type-local.php:372
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:150
+#: ../core/page-format/page-format.php:343
+#: ../core/widgets/class-pojo-widget-posts-group.php:334
+#: ../core/widgets/class-pojo-widget-recent-posts.php:81
+#: ../core/widgets/class-pojo-widget-tabs.php:31
+#: ../includes/class-pojo-customize-register-fields.php:439
+msgid "Title"
+msgstr "כותרת"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:237
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:91
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products-category.php:37
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:50
+#: ../core/page-format/page-format.php:344
+#: ../core/widgets/class-pojo-widget-posts-group.php:340
+#: ../core/widgets/class-pojo-widget-recent-posts.php:87
+msgid "Random"
+msgstr "אקראי"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:244
+#: ../core/page-format/page-format.php:351
+msgid "Order"
+msgstr "סדר"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:247
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:51
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products-category.php:49
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:63
+#: ../core/page-format/page-format.php:354
+msgid "DESC"
+msgstr "סדר יורד"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:248
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:50
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products-category.php:48
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:62
+#: ../core/page-format/page-format.php:355
+msgid "ASC"
+msgstr "סדר עולה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:255
+#: ../core/page-format/page-format.php:362
+msgid "Offset"
+msgstr "דילוג"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:257
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:114
+#: ../core/page-format/page-format.php:364
+#: ../core/widgets/class-pojo-widget-posts-group.php:363
+#: ../core/widgets/class-pojo-widget-recent-posts.php:110
+msgid "Number of post to displace or pass over"
+msgstr "מספר הפוסטים שהינך רוצה לדלג"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:262
+#: ../core/page-format/page-format.php:369
+#: ../core/settings/pages/content.php:251
+msgid "Pagination"
+msgstr "ניווט בין עמודים"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:292
+#: ../core/page-builder/page-builder.php:806
+msgid "Settings"
+msgstr "הגדרות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:297
+msgid "Simple"
+msgstr "תצוגת גריד"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:298
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:18
+#: ../core/page-options/page-options.php:90
+msgid "Slideshow"
+msgstr "מצגת"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:323
+msgid "Full"
+msgstr "רוחב מלא"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:327
+msgid "Image Size"
+msgstr "גודל תמונה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:336
+msgid "Link To"
+msgstr "קישור אל"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:339
+msgid "Full Image"
+msgstr "תמונה מלאה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:340
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:433
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:92
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:221
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:250
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:38
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:51
+#: ../core/page-builder/page-builder.php:273
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:65
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:57
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:103
+#: ../core/settings/pages/content.php:122
+#: ../core/widgets/abstract-class-pojo-widget-base.php:11
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:103
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:177
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:251
+#: ../core/widgets/class-pojo-widget-image-text.php:36
+#: ../core/widgets/class-pojo-widget-image-text.php:151
+#: ../core/widgets/class-pojo-widget-image-text.php:225
+#: ../core/widgets/class-pojo-widget-image.php:40
+#: ../core/widgets/class-pojo-widget-posts-group.php:341
+#: ../core/widgets/class-pojo-widget-recent-posts.php:88
+#: ../core/widgets/class-pojo-widget-social-links.php:53
+#: ../core/widgets/class-pojo-widget-testimonials.php:83
+#: ../core/widgets/class-pojo-widget-testimonials.php:126
+msgid "None"
+msgstr "ללא"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:348
+msgid "Columns"
+msgstr "עמודות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:367
+msgid "Random Order"
+msgstr "סידור אקראי"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:387
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:175
+msgid "Slide Width (px)"
+msgstr "רוחב שקופית (px)"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:395
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:182
+msgid "Slide Height (px)"
+msgstr "גובה שקופית (px)"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:403
+msgid "Slide Full Width"
+msgstr "שקופית רוחב מלא"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:406
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:419
+#: ../core/addons/system-info/classes/class-pojo-info-server.php:60
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:69
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:41
+#: ../core/widgets/class-pojo-widget-embed-video.php:50
+#: ../core/widgets/class-pojo-widget-embed-video.php:61
+#: ../core/widgets/class-pojo-widget-embed-video.php:73
+#: ../core/widgets/class-pojo-widget-embed-video.php:85
+msgid "Yes"
+msgstr "כן"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:407
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:418
+#: ../core/addons/system-info/classes/class-pojo-info-server.php:60
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:69
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:41
+#: ../core/widgets/class-pojo-widget-embed-video.php:49
+#: ../core/widgets/class-pojo-widget-embed-video.php:62
+#: ../core/widgets/class-pojo-widget-embed-video.php:74
+#: ../core/widgets/class-pojo-widget-embed-video.php:86
+msgid "No"
+msgstr "לא"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:415
+msgid "Slide Auto Height"
+msgstr "גובה שקופית אוטומטי"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:427
+msgid "Thumbnails"
+msgstr "תמונות ממוזערות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:430
+#: ../core/addons/post-formats/post-formats.php:124
+#: ../core/widgets/class-pojo-widget-embed-video.php:30
+msgid "16:9"
+msgstr ""
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:431
+#, fuzzy
+msgid "1:1"
+msgstr ""
+"<p>נשמח לשמוע ממך! הינך מוזמן ליצור איתנו קשר בכל נושא, נתינת משוב, שאלות, "
+"הצעות לשת\"פ או כל בקשה אחרת <a href=\"mailto:%1$s\">%1$s</a>.</p>"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:432
+#: ../core/addons/post-formats/post-formats.php:125
+#: ../core/widgets/class-pojo-widget-embed-video.php:31
+#, fuzzy
+msgid "4:3"
+msgstr "גלריה עם 3 או 4 עמודות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:441
+msgid "Transitions"
+msgstr "סגנון אנימציה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:444
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:272
+#: ../core/widgets/class-pojo-widget-testimonials.php:140
+msgid "Fade"
+msgstr "עמעום"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:445
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:273
+#: ../core/widgets/class-pojo-widget-testimonials.php:141
+msgid "Slide Horizontal"
+msgstr "גלילה אופקית"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:446
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:274
+#: ../core/widgets/class-pojo-widget-testimonials.php:142
+msgid "Slide Vertical"
+msgstr "גלילה אנכית"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:447
+msgid "Scale"
+msgstr "זום"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:455
+msgid "Autoplay"
+msgstr "ניגון אוטומטי"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:458
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:298
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:317
+msgid "On"
+msgstr "הפעלה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:459
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:299
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:318
+msgid "Off"
+msgstr "כיבוי"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:467
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:305
+msgid "Slide Duration (Seconds)"
+msgstr "אורך זמן שקופית (שניות)"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:475
+msgid "Navigation Arrow"
+msgstr "חיצי ניווט"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:487
+msgid "Open in LightBox"
+msgstr "פתיחה בלייטבוקס"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:499
+msgid "Caption"
+msgstr "כיתוב תמונה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:511
+msgid "Images"
+msgstr "תמונות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:535
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:596
+msgid "Gallery Layout"
+msgstr "פריסת גלריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:538
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:600
+#: ../core/page-options/page-options.php:267
+msgid "Wide"
+msgstr "רחב"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:539
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:601
+msgid "Content Left"
+msgstr "תוכן מימין"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:540
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:602
+msgid "Content Right"
+msgstr "תוכן משמאל"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:548
+msgid "Gallery Single:"
+msgstr "עמוד גלריה:"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:568
+#: ../core/settings/pages/content.php:242
+msgid "Select Display Type"
+msgstr "סוג תצוגה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:570
+msgid "Gallery with 3 or 4 columns"
+msgstr "גלריה עם 3 או 4 עמודות"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:578
+msgid "Gallery Archive:"
+msgstr "ארכיון גלריה:"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:590
+msgid "Gallery Options"
+msgstr "אפשרויות גלריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:613
+msgid "Choose Gallery Layout"
+msgstr "בחירת פריסת גלריה"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:661
+msgid "All"
+msgstr "הכל"
+
+#: ../core/addons/galleries/classes/class-pojo-gallery-cpt.php:676
+msgid ""
+"Copy and paste this shortcode into your Text editor or use with Gallery "
+"Widget."
+msgstr ""
+"יש להעתיק ולהדביק את השורטקוד לתוך עורך הטקסט, או להשתמש בוידג'ט גלריה."
+
+#: ../core/addons/galleries/classes/class-pojo-widget-gallery.php:14
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:14
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:48
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-widget.php:16
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:11
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products-category.php:11
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:11
+#: ../core/page-builder/widgets/class-pojo-widget-rev-slider.php:14
+#: ../core/page-builder/widgets/class-pojo-widget-sidebar.php:24
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:23
+#: ../core/page-builder/widgets/class-pojo-widget-wysiwyg.php:11
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:26
+#: ../core/widgets/class-pojo-widget-catalog.php:13
+#: ../core/widgets/class-pojo-widget-catalog.php:21
+#: ../core/widgets/class-pojo-widget-embed-video.php:13
+#: ../core/widgets/class-pojo-widget-google-maps.php:11
+#: ../core/widgets/class-pojo-widget-image-text.php:11
+#: ../core/widgets/class-pojo-widget-image.php:18
+#: ../core/widgets/class-pojo-widget-opening-hours.php:26
+#: ../core/widgets/class-pojo-widget-posts-group.php:11
+#: ../core/widgets/class-pojo-widget-posts-group.php:58
+#: ../core/widgets/class-pojo-widget-posts-group.php:193
+#: ../core/widgets/class-pojo-widget-recent-posts.php:11
+#: ../core/widgets/class-pojo-widget-recent-posts.php:44
+#: ../core/widgets/class-pojo-widget-social-links.php:40
+#: ../core/widgets/class-pojo-widget-sub-page-menu.php:14
+#: ../core/widgets/class-pojo-widget-tabs.php:23
+#: ../core/widgets/class-pojo-widget-testimonials.php:11
+msgid "Title:"
+msgstr "כותרת:"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-gallery.php:38
+msgid "Choose Gallery:"
+msgstr "בחירת גלריה:"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-gallery.php:47
+msgid "Create a Gallery"
+msgstr "יצירת גלריה"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-gallery.php:61
+msgid "Display a gallery"
+msgstr "הצגת גלריה"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:24
+#: ../core/widgets/class-pojo-widget-posts-group.php:20
+#: ../core/widgets/class-pojo-widget-recent-posts.php:20
+msgid "Style:"
+msgstr "סגנון:"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:33
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products-category.php:17
+msgid "Category:"
+msgstr ":קטגוריה"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:41
+msgid "Number Galleries:"
+msgstr "מספר גלריות:"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:60
+#: ../core/widgets/class-pojo-widget-posts-group.php:29
+#: ../core/widgets/class-pojo-widget-recent-posts.php:29
+msgid "Categories:"
+msgstr "קטגוריות:"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:72
+#: ../core/page-builder/templates/types/type-local.php:87
+#: ../core/page-options/page-options.php:387
+#: ../core/widgets/class-pojo-widget-posts-group.php:316
+#: ../core/widgets/class-pojo-widget-posts-group.php:321
+#: ../core/widgets/class-pojo-widget-recent-posts.php:68
+msgid "Advanced Options"
+msgstr "אפשרויות מתקדמות"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:79
+#: ../core/widgets/class-pojo-widget-posts-group.php:328
+#: ../core/widgets/class-pojo-widget-recent-posts.php:75
+msgid "Order By:"
+msgstr "סידור לפי:"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:86
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:19
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:45
+#: ../core/page-builder/templates/types/type-local.php:353
+#: ../core/page-format/page-format.php:421
+#: ../core/page-options/page-options.php:453
+#: ../core/settings/pages/content.php:188
+#: ../core/settings/pages/content.php:294
+#: ../core/widgets/class-pojo-widget-posts-group.php:335
+#: ../core/widgets/class-pojo-widget-recent-posts.php:82
+msgid "Author"
+msgstr "מחבר"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:87
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:46
+#: ../core/widgets/class-pojo-widget-posts-group.php:336
+#: ../core/widgets/class-pojo-widget-recent-posts.php:83
+msgid "Post Slug"
+msgstr "מזהה פוסט"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:88
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:47
+#: ../core/widgets/class-pojo-widget-posts-group.php:337
+#: ../core/widgets/class-pojo-widget-recent-posts.php:84
+msgid "Modified"
+msgstr "נערך לאחרונה"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:89
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:48
+#: ../core/widgets/class-pojo-widget-posts-group.php:338
+#: ../core/widgets/class-pojo-widget-recent-posts.php:85
+msgid "Comment Count"
+msgstr "מספר תגובות"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:90
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:49
+#: ../core/widgets/class-pojo-widget-posts-group.php:339
+#: ../core/widgets/class-pojo-widget-recent-posts.php:86
+msgid "Post ID"
+msgstr "פוסט ID"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:99
+#: ../core/widgets/class-pojo-widget-posts-group.php:348
+#: ../core/widgets/class-pojo-widget-recent-posts.php:95
+msgid "Order:"
+msgstr "מיון"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:103
+#: ../core/widgets/class-pojo-widget-posts-group.php:352
+#: ../core/widgets/class-pojo-widget-recent-posts.php:99
+msgid "Descending"
+msgstr "סדר יורד"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:104
+#: ../core/widgets/class-pojo-widget-posts-group.php:353
+#: ../core/widgets/class-pojo-widget-recent-posts.php:100
+msgid "Ascending"
+msgstr "סדר עולה"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:111
+#: ../core/widgets/class-pojo-widget-posts-group.php:360
+#: ../core/widgets/class-pojo-widget-recent-posts.php:107
+msgid "Offset:"
+msgstr "דילוג:"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:126
+msgid "Recent Galleries"
+msgstr "גלריות אחרונות"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:127
+msgid "Display latest galleries by category"
+msgstr "להציג גלריות אחרונות לפי קטגוריה"
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:181
+msgid "No found posts."
+msgstr "לא נמצאו פוסטים."
+
+#: ../core/addons/galleries/classes/class-pojo-widget-recent-galleries.php:184
+msgid "Galleries not found. Please select a category."
+msgstr " לא נמצאו גלריות, יש לבחור קטגוריה."
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:28
+msgid "Logo Image"
+msgstr "תמונת לוגו"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:30
+msgid "Image size recommended: 320px / 100px"
+msgstr "גודל תמונה מומלץ: 320px / 100px"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:36
+msgid "http://pojo.me"
+msgstr ""
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:37
+msgid "Logo URL"
+msgstr "קישור לוגו"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:43
+msgid "Logo Alt"
+msgstr "תיאור לוגו"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:49
+#: ../core/page-builder/page-builder.php:205
+#: ../core/page-options/page-options.php:122
+#: ../core/page-options/page-options.php:302
+msgid "Background Image"
+msgstr "רקע תמונה"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:56
+#: ../core/page-builder/page-builder.php:196
+#: ../core/page-options/page-options.php:106
+#: ../core/page-options/page-options.php:288
+msgid "Background Color"
+msgstr "צבע רקע"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:62
+#: ../core/customize/fields/background.php:128
+#: ../core/page-builder/page-builder.php:239
+#: ../core/page-options/page-options.php:129
+#: ../core/page-options/page-options.php:308
+msgid "Background Position"
+msgstr "מיקום"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:65
+#: ../core/page-builder/page-builder.php:243
+#: ../core/page-options/page-options.php:133
+#: ../core/page-options/page-options.php:312
+msgid "Top Left"
+msgstr "עליון שמאל"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:66
+#: ../core/page-builder/page-builder.php:244
+#: ../core/page-options/page-options.php:134
+#: ../core/page-options/page-options.php:313
+msgid "Top Center"
+msgstr "עליון מרכז"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:67
+#: ../core/page-builder/page-builder.php:245
+#: ../core/page-options/page-options.php:135
+#: ../core/page-options/page-options.php:314
+msgid "Top Right"
+msgstr "עליון ימין"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:68
+#: ../core/page-builder/page-builder.php:246
+#: ../core/page-options/page-options.php:136
+#: ../core/page-options/page-options.php:315
+msgid "Center Left"
+msgstr "מרכז שמאל"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:69
+#: ../core/page-builder/page-builder.php:247
+#: ../core/page-options/page-options.php:137
+#: ../core/page-options/page-options.php:316
+msgid "Center Center"
+msgstr "מרכז מרכז"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:70
+#: ../core/page-builder/page-builder.php:248
+#: ../core/page-options/page-options.php:138
+#: ../core/page-options/page-options.php:317
+msgid "Center Right"
+msgstr "מרכז ימין"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:71
+#: ../core/page-builder/page-builder.php:249
+#: ../core/page-options/page-options.php:139
+#: ../core/page-options/page-options.php:318
+msgid "Bottom Left"
+msgstr "תחתון שמאל"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:72
+#: ../core/page-builder/page-builder.php:250
+#: ../core/page-options/page-options.php:140
+#: ../core/page-options/page-options.php:319
+msgid "Bottom Center"
+msgstr "מרכז תחתון"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:73
+#: ../core/page-builder/page-builder.php:251
+#: ../core/page-options/page-options.php:141
+#: ../core/page-options/page-options.php:320
+msgid "Bottom Right"
+msgstr "תחתון ימין"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:80
+#: ../core/customize/fields/background.php:140
+#: ../core/page-builder/page-builder.php:213
+#: ../core/page-options/page-options.php:162
+#: ../core/page-options/page-options.php:339
+msgid "Background Repeat"
+msgstr "שכפול רקע"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:83
+#: ../core/page-options/page-options.php:166
+msgid "no-repeat"
+msgstr "ללא חזרה"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:84
+#: ../core/page-builder/page-builder.php:218
+#: ../core/page-options/page-options.php:167
+#: ../core/page-options/page-options.php:344
+msgid "repeat"
+msgstr "שכפול"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:85
+#: ../core/page-builder/page-builder.php:219
+#: ../core/page-options/page-options.php:168
+#: ../core/page-options/page-options.php:345
+msgid "repeat-x"
+msgstr "שכפול לרוחב"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:86
+#: ../core/page-builder/page-builder.php:220
+#: ../core/page-options/page-options.php:169
+#: ../core/page-options/page-options.php:346
+msgid "repeat-y"
+msgstr "שכפול לאורך"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:93
+#: ../core/customize/fields/background.php:152
+#: ../core/page-builder/page-builder.php:227
+#: ../core/page-options/page-options.php:177
+#: ../core/page-options/page-options.php:353
+msgid "Background Size"
+msgstr "גודל רקע"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:96
+#: ../core/page-builder/page-builder.php:231
+#: ../core/page-options/page-options.php:181
+#: ../core/page-options/page-options.php:357
+msgid "Auto"
+msgstr "אוטומטי"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:97
+#: ../core/page-builder/page-builder.php:232
+#: ../core/page-options/page-options.php:182
+#: ../core/page-options/page-options.php:358
+#, fuzzy
+msgid "Cover"
+msgstr "מעבר"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:104
+#: ../core/customize/fields/background.php:164
+#: ../core/page-builder/page-builder.php:258
+#: ../core/page-options/page-options.php:149
+#: ../core/page-options/page-options.php:327
+msgid "Background Attachment"
+msgstr "גלילה"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:107
+#: ../core/page-builder/page-builder.php:262
+#: ../core/page-options/page-options.php:153
+#: ../core/page-options/page-options.php:331
+msgid "Scroll"
+msgstr "גלילה"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:108
+#: ../core/page-options/page-options.php:154
+#: ../core/page-options/page-options.php:332
+msgid "fixed"
+msgstr "קבוע"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:115
+msgid "Login Style"
+msgstr "עיצוב מסך התחברות"
+
+#: ../core/addons/login-screen/class-pojo-login-style.php:116
+msgid ""
+"Here you can personally customize your wp-login. Simply add your own logo, "
+"link and background to the login screen."
+msgstr ""
+"כאן ניתן להתאים אישית את אזור wp-login. פשוט יש להוסיף את הלוגו שלך, קישור "
+"ורקע לעיצוב מסך ההתחברות"
+
+#: ../core/addons/menu-search/menu-search.php:15 ../searchform.php:4
+#: ../searchform.php:5
+msgid "Search"
+msgstr "חיפוש"
+
+#: ../core/addons/menu-search/menu-search.php:29
+msgid "Add Search Button"
+msgstr "הוספת כפתור חיפוש"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:198
+#: ../core/addons/plugins/plugin-activation.php:157
+msgid "Install Required Plugins"
+msgstr "התקנת תוספי מערכת"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:199
+#: ../core/addons/plugins/plugin-activation.php:158
+msgid "Install Plugins"
+msgstr "תוספי מערכת"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:200
+#: ../core/addons/plugins/plugin-activation.php:159
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "התקנת תוסף: %s"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:201
+msgid "Something went wrong."
+msgstr "משהו היה שגוי"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:202
+#: ../core/addons/plugins/plugin-activation.php:161
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "ערכת עיצוב זו מבקשת להתקין את התוסף הבא: %1$s."
+msgstr[1] "ערכת עיצוב זו מבקשת להתקין את התוספים הבאים: %1$s."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:203
+#: ../core/addons/plugins/plugin-activation.php:162
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "ערכת עיצוב ממליצה להתקין את התוסף: %1$s."
+msgstr[1] "ערכת עיצוב זו ממליצה להתקין את התוספים: %1$s."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:204
+#: ../core/addons/plugins/plugin-activation.php:163
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to install the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"installed."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to install the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins installed."
+msgstr[0] ""
+" מצטערים, אבל אין לך את ההרשאות הנכונות כדי להתקין את התוסף%s. יש ליצור קשר "
+"עם מנהל האתר כדי להתקין את התוסף."
+msgstr[1] ""
+" מצטערים, אבל אין לך את ההרשאות הנכונות כדי להתקין את התוספים%s. יש ליצור "
+"קשר עם מנהל האתר כדי להתקין את התוסף."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:205
+#: ../core/addons/plugins/plugin-activation.php:164
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "התוספים הנדרשים הופעלו בהצלחה: %1$s."
+msgstr[1] "התוספים הנדרשים הופעלו בהצלחה: %1$s."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:206
+#: ../core/addons/plugins/plugin-activation.php:165
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "התוסף הבא שהומלץ עדיין לא הופעל: %1$s."
+msgstr[1] "התוספים המומלצים הבאים עדיין לא הופעלו: %1$s."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:207
+#: ../core/addons/plugins/plugin-activation.php:166
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugin. Contact the administrator of this site for help on getting the "
+"plugin activated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to activate the %s "
+"plugins. Contact the administrator of this site for help on getting the "
+"plugins activated."
+msgstr[0] ""
+"מצטערים, אבל אין לך את ההרשאות המתאימות כדי להפעיל את התוסף %s. יש ליצור קשר "
+"עם מנהל האתר כדי להפעיל את התוסף."
+msgstr[1] ""
+"מצטערים, אבל אין לך את ההרשאות המתאימות כדי להפעיל את התוסף %s. יש ליצור קשר "
+"עם מנהל האתר כדי להפעיל את התוספים."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:208
+#: ../core/addons/plugins/plugin-activation.php:167
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"התוסף הבא צריך להיות מעודכן לגרסה האחרונה שלו כדי להבטיח תאימות מקסימלית עם "
+"ערכת נושא זו: %1$s."
+msgstr[1] ""
+"התוספים הבאים צריכים להיות מעודכנים לגרסה האחרונה שלהם כדי להבטיח תאימות "
+"מקסימלית עם ערכת נושא זו: %1$s."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:209
+#: ../core/addons/plugins/plugin-activation.php:168
+#, php-format
+msgid ""
+"Sorry, but you do not have the correct permissions to update the %s plugin. "
+"Contact the administrator of this site for help on getting the plugin "
+"updated."
+msgid_plural ""
+"Sorry, but you do not have the correct permissions to update the %s plugins. "
+"Contact the administrator of this site for help on getting the plugins "
+"updated."
+msgstr[0] ""
+"מצטערים, אבל אין לך הרשאות כדי לעדכן את התוס; %s. יש ליצור קשר עם מנהל האתר "
+"כדי לעדכן את התוסף."
+msgstr[1] ""
+"מצטערים, אבל אין לך הרשאות כדי לעדכן את התוספים %s. יש ליצור קשר עם מנהל "
+"האתר כדי לעדכן את התוספים."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:210
+#: ../core/addons/plugins/plugin-activation.php:169
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "התקנת תוסף"
+msgstr[1] "התקנת תוספים"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:211
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "להתחיל עדכון תוסף"
+msgstr[1] "להתחיל עדכון תוספים"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:212
+#: ../core/addons/plugins/plugin-activation.php:170
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "הפעלת תוסף"
+msgstr[1] "הפעלת תוספים"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:213
+#: ../core/addons/plugins/plugin-activation.php:171
+msgid "Return to Required Plugins Installer"
+msgstr "חזרה להתקנת תוספי מערכת"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:214
+msgid "Return to the dashboard"
+msgstr "חזרה אל לוח הבקרה"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:215
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2029
+#: ../core/addons/plugins/plugin-activation.php:172
+msgid "Plugin activated successfully."
+msgstr "תוסף הופעל בהצלחה"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:216
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1719
+#: ../core/addons/plugins/plugin-activation.php:173
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "התוסף הבא הופעל בהצלחה:"
+msgstr[1] "התוספים הבאים הופעלו בהצלחה:"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:217
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "כל התוספים הותקנו והופעלו בהצלחה. %1$s"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:218
+msgid "Dismiss this notice"
+msgstr "הסתר הערה זו"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:576
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2246
+msgid "Return to the Dashboard"
+msgstr "חזרה אל לוח הבקרה"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1225
+msgid "Private Repository"
+msgstr "מאגר פרטי"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1228
+msgid "Pre-Packaged"
+msgstr "לא עודכן"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1233
+msgid "WordPress Repository"
+msgstr "מאגר וורדפרס"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1236
+msgid "Required"
+msgstr "(חובה)"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1236
+msgid "Recommended"
+msgstr "מומלץ"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1239
+msgid "Not Installed"
+msgstr "לא מותקן"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1241
+msgid "Installed But Not Activated"
+msgstr "הותקן אבל לא הופעל"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1243
+msgid "Not Updated"
+msgstr "לא עודכן"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1245
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:107
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:96
+#: ../core/licenses/class-pojo-licenses-settings.php:163
+msgid "Active"
+msgstr "פעיל"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1346
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1476
+msgid "Install"
+msgstr "התקנה"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1368
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1477
+#: ../core/licenses/class-pojo-licenses-settings.php:141
+msgid "Activate"
+msgstr "הפעלה"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1440
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+"אין פלאגינים להתקנה או להפעלה. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">חזרה אל לוח הבקרה</a>"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1455
+msgid "Plugin"
+msgstr "תוסף"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1456
+msgid "Source"
+msgstr "מקור"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1457
+msgid "Type"
+msgstr "סוג"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1458
+#: ../core/licenses/class-pojo-licenses-settings.php:157
+msgid "Status"
+msgstr "סטטוס"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1478
+#: ../core/widgets.php:58
+msgid "Update"
+msgstr "עדכון"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1588
+msgid "No plugins are available to be installed at this time."
+msgstr "אין תוספים זמינים להתקנה בשלב זה."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:1697
+msgid "No plugins are available to be activated at this time."
+msgstr "אין תוספים זמינים להפעלה בשלב זה."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2012
+msgid "Install package not available."
+msgstr "חבילת התקנה אינה זמינה."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2013
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "הורדת חבילת הורדה מ<span class=\"code\">%s</span>&#8230;"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2014
+msgid "Unpacking the package&#8230;"
+msgstr "לחלץ את החבילה&#8230;"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2015
+msgid "Installing the plugin&#8230;"
+msgstr "התקנת תוסף&#8230;"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2016
+msgid "Plugin install failed."
+msgstr "התקנת תוסף נכשלה."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2017
+msgid "Plugin installed successfully."
+msgstr "תוסף הותקן בהצלחה."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2028
+msgid "Plugin activation failed."
+msgstr "הפעלת התוסף נכשלה."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2142
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"תהליך ההתקנה וההפעלה מתחיל. במקרים מסויימים תהליך זה עלול לקחת זמן מה, יש "
+"להמתין בסבלנות. "
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2143
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "הותקן והופעל בהצלחה. %1$s"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2143
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2152
+msgid "Show Details"
+msgstr "הצגת פרטים"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2143
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2152
+msgid "Hide Details"
+msgstr "הסתרת פרטים"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2144
+msgid "All installations and activations have been completed."
+msgstr "כל ההתקנות וההפעלות כבר הושלמו."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2145
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "להתקין ולהפעיל את %1$s (%2$d/%3$d)"
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2149
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"תהליךם ההתקנה מתחיל. במקרים מסויימים תהליך זה עלול לקחת זמן מה, יש להמתין "
+"בסבלנות."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2150
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "אירעה שגיאאה בעת התקנת %1$s: <strong>%2$s</strong>."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2151
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "ההתקנה של %1$s נכשלה."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2152
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s הותקן בהצלחה."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2153
+msgid "All installations have been completed."
+msgstr "כל ההתקנות כבר הושלמו."
+
+#: ../core/addons/plugins/class-tgm-plugin-activation.php:2154
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "התקנת תוסף %1$s (%2$d/%3$d)"
+
+#: ../core/addons/plugins/plugin-activation.php:160
+msgid "Something went wrong with the plugin API."
+msgstr "משהו השתבש עם ה API של התוסף."
+
+#: ../core/addons/plugins/plugin-activation.php:174
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr "כל התוספים הותקנו והופעלו בהצלחה. %s"
+
+#: ../core/addons/post-formats/post-formats.php:50
+msgid "Input your link."
+msgstr "יש להזין קישור."
+
+#: ../core/addons/post-formats/post-formats.php:55
+msgid "Link URL"
+msgstr "קישור URL"
+
+#: ../core/addons/post-formats/post-formats.php:62
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:365
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:49
+#: ../core/widgets/class-pojo-widget-button.php:25
+#: ../core/widgets/class-pojo-widget-catalog.php:74
+#: ../core/widgets/class-pojo-widget-image-text.php:88
+#: ../core/widgets/class-pojo-widget-image.php:58
+#: ../core/widgets/class-pojo-widget-testimonials.php:52
+msgid "Open Link in"
+msgstr "פתיחת קישור"
+
+#: ../core/addons/post-formats/post-formats.php:65
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:368
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:52
+#: ../core/widgets/class-pojo-widget-button.php:28
+#: ../core/widgets/class-pojo-widget-catalog.php:77
+#: ../core/widgets/class-pojo-widget-image-text.php:91
+#: ../core/widgets/class-pojo-widget-image.php:61
+#: ../core/widgets/class-pojo-widget-testimonials.php:55
+msgid "Same Window"
+msgstr "באותו חלון"
+
+#: ../core/addons/post-formats/post-formats.php:66
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:369
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:53
+#: ../core/widgets/class-pojo-widget-button.php:29
+#: ../core/widgets/class-pojo-widget-catalog.php:78
+#: ../core/widgets/class-pojo-widget-image-text.php:92
+#: ../core/widgets/class-pojo-widget-image.php:62
+#: ../core/widgets/class-pojo-widget-testimonials.php:56
+msgid "New Tab or Window"
+msgstr "לשונית חדשה"
+
+#: ../core/addons/post-formats/post-formats.php:73
+msgid "Format: Link"
+msgstr "פורמט: קישור"
+
+#: ../core/addons/post-formats/post-formats.php:88
+msgid "Insert your Gallery"
+msgstr "הכנסת גלריה"
+
+#: ../core/addons/post-formats/post-formats.php:100
+msgid "Format: Gallery"
+msgstr "פורמט: גלריה"
+
+#: ../core/addons/post-formats/post-formats.php:115
+msgid "These settings enable you to embed videos into your posts."
+msgstr "הגדרות אלו מאפשרות לך לשים הטמעה של הוידאו בתוך הפוסט."
+
+#: ../core/addons/post-formats/post-formats.php:120
+msgid "Embed Ratio"
+msgstr "יחס נגן"
+
+#: ../core/addons/post-formats/post-formats.php:122
+msgid "Select the aspect ratio for your video."
+msgstr "יש לבחור את יחס הגודל של נגן הוידאו."
+
+#: ../core/addons/post-formats/post-formats.php:126
+#: ../core/widgets/class-pojo-widget-embed-video.php:32
+msgid "3:2"
+msgstr ""
+
+#: ../core/addons/post-formats/post-formats.php:133
+msgid "Video Link"
+msgstr "קישור וידאו"
+
+#: ../core/addons/post-formats/post-formats.php:134
+#: ../core/addons/post-formats/post-formats.php:175
+#, php-format
+msgid ""
+"Insert the URL of the media. Read more about <a href=\"%s\" target=\"_blank"
+"\">WordPress Embeds</a>"
+msgstr ""
+"להכניס קישור URL של כתובת המדיה. תיעוד נוסף על <a href=\"%s\" target=\"_blank"
+"\">WordPress Embeds</a>"
+
+#: ../core/addons/post-formats/post-formats.php:140
+msgid "Format: Video"
+msgstr "פורמט: וידאו"
+
+#: ../core/addons/post-formats/post-formats.php:155
+msgid ""
+"These settings enable you to embed audio into your posts. You must provide "
+"both .mp3 and .agg/.oga file formats in order for self hosted audio to "
+"function accross all browsers."
+msgstr ""
+"הגדרות אלו מאפשרות לך להטמיע אודיו לתוך הפוסט שלך. עליך לספק גם קובץ את "
+"הקובץ בשני הפורמטים הבאים: mp3 / oga על מנת שנגן האודיו יעבוד היטב בכל "
+"הדפדפנים."
+
+#: ../core/addons/post-formats/post-formats.php:160
+msgid "MP3 File URL"
+msgstr "קישור לקובץ MP3"
+
+#: ../core/addons/post-formats/post-formats.php:161
+msgid "The URL to the .mp3 or .m4a audio file."
+msgstr "הקישור לקובץ MP3 או m4a"
+
+#: ../core/addons/post-formats/post-formats.php:167
+msgid "OGA File URL"
+msgstr "קישור לקובץ OGA"
+
+#: ../core/addons/post-formats/post-formats.php:168
+msgid "The URL to the .oga or .ogg audio file."
+msgstr "קישור לקובץ OGA או OGG"
+
+#: ../core/addons/post-formats/post-formats.php:174
+msgid "Embed URL"
+msgstr "קישור הטמעה"
+
+#: ../core/addons/post-formats/post-formats.php:181
+msgid "Format: Audio"
+msgstr "פורמט: אודיו"
+
+#: ../core/addons/scroll-up/scroll-up.php:26
+#: ../core/addons/scroll-up/scroll-up.php:170
+#: ../core/addons/scroll-up/scroll-up.php:181
+#: ../core/page-builder/page-builder.php:274
+msgid "Scroll Up"
+msgstr "גלילה למעלה"
+
+#: ../core/addons/scroll-up/scroll-up.php:29
+#: ../core/page-builder/page-builder.php:342
+msgid "Show on all devices"
+msgstr "להציג בכל המסכים"
+
+#: ../core/addons/scroll-up/scroll-up.php:30
+#: ../core/addons/scroll-up/scroll-up.php:185
+#: ../core/page-builder/page-builder.php:343
+msgid "Visible Desktop"
+msgstr "להציג בדסקטופ"
+
+#: ../core/addons/scroll-up/scroll-up.php:31
+#: ../core/addons/scroll-up/scroll-up.php:186
+#: ../core/page-builder/page-builder.php:344
+msgid "Visible Tablet"
+msgstr "להציג בטאבלט"
+
+#: ../core/addons/scroll-up/scroll-up.php:32
+#: ../core/addons/scroll-up/scroll-up.php:187
+#: ../core/page-builder/page-builder.php:345
+msgid "Visible Phone"
+msgstr "להציג במובייל"
+
+#: ../core/addons/scroll-up/scroll-up.php:33
+#: ../core/addons/scroll-up/scroll-up.php:188
+#: ../core/page-builder/page-builder.php:346
+msgid "Hidden Desktop"
+msgstr "להסתיר בדסקטופ"
+
+#: ../core/addons/scroll-up/scroll-up.php:34
+#: ../core/addons/scroll-up/scroll-up.php:189
+#: ../core/page-builder/page-builder.php:347
+msgid "Hidden Tablet"
+msgstr "להסתיר בטאבלט"
+
+#: ../core/addons/scroll-up/scroll-up.php:35
+#: ../core/addons/scroll-up/scroll-up.php:190
+#: ../core/page-builder/page-builder.php:348
+msgid "Hidden Phone"
+msgstr "להסתיר במובייל"
+
+#: ../core/addons/scroll-up/scroll-up.php:36
+#: ../core/addons/scroll-up/scroll-up.php:191
+msgid "Disable"
+msgstr "לכבות"
+
+#: ../core/addons/scroll-up/scroll-up.php:53
+msgid "Icon"
+msgstr "אייקון"
+
+#: ../core/addons/scroll-up/scroll-up.php:66
+msgid "Icon Size"
+msgstr "גודל איקוון"
+
+#: ../core/addons/scroll-up/scroll-up.php:74
+#: ../includes/class-pojo-customize-register-fields.php:265
+msgid "Width"
+msgstr "רוחב"
+
+#: ../core/addons/scroll-up/scroll-up.php:83
+#: ../core/widgets/class-pojo-widget-google-maps.php:38
+#: ../includes/class-pojo-customize-register-fields.php:431
+msgid "Height"
+msgstr "גובה"
+
+#: ../core/addons/scroll-up/scroll-up.php:92
+msgid "Icon Color"
+msgstr "צבע אייקון"
+
+#: ../core/addons/scroll-up/scroll-up.php:101
+#: ../includes/class-pojo-customize-register-fields.php:79
+#: ../includes/class-pojo-customize-register-fields.php:95
+#: ../includes/class-pojo-customize-register-fields.php:271
+#: ../includes/class-pojo-customize-register-fields.php:415
+msgid "Background"
+msgstr "רקע"
+
+#: ../core/addons/scroll-up/scroll-up.php:118
+msgid "Border Radius"
+msgstr "עיגול גבול"
+
+#: ../core/addons/scroll-up/scroll-up.php:126
+msgid "Position"
+msgstr "מיקום"
+
+#: ../core/addons/scroll-up/scroll-up.php:129
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:66
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:58
+#: ../core/widgets/class-pojo-widget-image-text.php:37
+#: ../core/widgets/class-pojo-widget-image-text.php:72
+#: ../core/widgets/class-pojo-widget-image.php:41
+#: ../core/widgets/class-pojo-widget-social-links.php:50
+#: ../core/widgets/class-pojo-widget-testimonials.php:84
+msgid "Right"
+msgstr "ימין"
+
+#: ../core/addons/scroll-up/scroll-up.php:130
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:68
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:60
+#: ../core/widgets/class-pojo-widget-image-text.php:38
+#: ../core/widgets/class-pojo-widget-image.php:43
+#: ../core/widgets/class-pojo-widget-testimonials.php:86
+msgid "Center"
+msgstr "מרכז"
+
+#: ../core/addons/scroll-up/scroll-up.php:131
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:67
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:59
+#: ../core/widgets/class-pojo-widget-image-text.php:39
+#: ../core/widgets/class-pojo-widget-image-text.php:73
+#: ../core/widgets/class-pojo-widget-image.php:42
+#: ../core/widgets/class-pojo-widget-social-links.php:51
+#: ../core/widgets/class-pojo-widget-testimonials.php:85
+msgid "Left"
+msgstr "שמאל"
+
+#: ../core/addons/scroll-up/scroll-up.php:138
+msgid "Distance from Top"
+msgstr "מרחק מלמעלה"
+
+#: ../core/addons/scroll-up/scroll-up.php:141
+msgid "Always"
+msgstr "תמיד"
+
+#: ../core/addons/scroll-up/scroll-up.php:158
+msgid "Scroll Duration"
+msgstr "משך זמן גלילה"
+
+#: ../core/addons/scroll-up/scroll-up.php:161
+msgid "Slow"
+msgstr "איטי"
+
+#: ../core/addons/scroll-up/scroll-up.php:162
+#: ../core/widgets/class-pojo-widget-image-text.php:240
+msgid "Normal"
+msgstr "רגיל"
+
+#: ../core/addons/scroll-up/scroll-up.php:163
+msgid "Fast"
+msgstr "מהיר"
+
+#: ../core/addons/scroll-up/scroll-up.php:256
+#: ../core/addons/scroll-up/scroll-up.php:257
+msgid "Scroll to top"
+msgstr "גלילה לראש העמוד"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:17
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:29
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-widget.php:49
+msgid "Slideshows"
+msgstr "מצגות"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:20
+msgid "Add New Slideshow"
+msgstr "הוספת מצגת חדשה"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:21
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-shortcode.php:34
+msgid "Edit Slideshow"
+msgstr "עריכת מצגת"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:22
+msgid "New Slideshow"
+msgstr "מצגת חדשה"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:23
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-widget.php:43
+#: ../core/page-options/page-options.php:239
+msgid "All Slideshows"
+msgstr "כל המצגות"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:24
+msgid "View Slideshow"
+msgstr "הצגת מצגת"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:25
+msgid "Search Slideshow"
+msgstr "חיפוש מצגת"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:26
+msgid "No slideshows found"
+msgstr "לא נמצאו מצגות"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:27
+msgid "No slideshows found in Trash"
+msgstr "לא נמצאו מצגות בפח"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:59
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:62
+msgid "Slideshow updated."
+msgstr "מצגת עודכנה"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:64
+#, php-format
+msgid "Slideshow restored to revision from %s"
+msgstr "המצגת שוחזרה לגרסה קודמת מ %s"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:65
+msgid "Slideshow published."
+msgstr "המצגת פורסמה"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:66
+msgid "Slideshow saved."
+msgstr "מצגת נשמרה"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:67
+msgid "Slideshow submitted."
+msgstr "המצגת נשלחה."
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:68
+#, php-format
+msgid "Post scheduled for: <strong>%1$s</strong>."
+msgstr "הפוסט מתוזמן ל: <strong>%1$s</strong>."
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:71
+msgid "Slideshow draft updated."
+msgstr "טיוטת מצגת עודכנה"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:80
+msgid "Slider Title"
+msgstr "כותרת מצגת"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:81
+msgid "Preview Slideshow"
+msgstr "תצוגה מקדימה"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:82
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:390
+msgid "Slides"
+msgstr "שקופיות"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:93
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:422
+msgid "Preview"
+msgstr "תצוגה מקדימה"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:110
+#, php-format
+msgid "%s Slideshow"
+msgid_plural "%s Slideshows"
+msgstr[0] "שקופית %s"
+msgstr[1] "%s שקופיות"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:123
+msgid "Slider"
+msgstr "סליידר"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:124
+msgid "Carousel"
+msgstr "קרוסלה"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:147
+msgid "Slider Settings"
+msgstr "הגדרות סליידר"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:154
+msgid "Carousel Settings"
+msgstr "הגדרות קרוסלה"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:161
+msgid "Width Slider (px)"
+msgstr "רוחב סליידר (px)"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:168
+msgid "Height Slider (px)"
+msgstr "גובה סליידר (px)"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:189
+msgid "Slide Margin (px)"
+msgstr "מרווח בין שקופית (px)"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:196
+msgid "Minimum Slides"
+msgstr "מינימום שקופיות"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:203
+msgid "Maximum Slides"
+msgstr "מקסימום שקופיות"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:210
+msgid "Move Slides"
+msgstr "תזוזת שקופיות"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:217
+msgid "Hover Animation"
+msgstr "אנימציית מעבר"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:222
+#: ../core/widgets/abstract-class-pojo-widget-base.php:12
+msgid "Grow"
+msgstr ""
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:223
+#: ../core/widgets/abstract-class-pojo-widget-base.php:13
+msgid "Shrink"
+msgstr ""
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:224
+#: ../core/widgets/abstract-class-pojo-widget-base.php:14
+msgid "Pulse Grow"
+msgstr ""
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:225
+#: ../core/widgets/abstract-class-pojo-widget-base.php:15
+msgid "Pulse Shrink"
+msgstr ""
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:226
+#: ../core/widgets/abstract-class-pojo-widget-base.php:16
+msgid "Push"
+msgstr ""
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:227
+#: ../core/widgets/abstract-class-pojo-widget-base.php:17
+#, fuzzy
+msgid "Pop"
+msgstr "למעלה"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:228
+#: ../core/widgets/abstract-class-pojo-widget-base.php:18
+msgid "Rotate"
+msgstr ""
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:229
+#: ../core/widgets/abstract-class-pojo-widget-base.php:19
+msgid "Grow Rotate"
+msgstr ""
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:230
+#: ../core/widgets/abstract-class-pojo-widget-base.php:20
+msgid "Float"
+msgstr ""
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:231
+#: ../core/widgets/abstract-class-pojo-widget-base.php:21
+msgid "Sink"
+msgstr ""
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:232
+#: ../core/customize/fields/two_color.php:25
+#: ../core/widgets/abstract-class-pojo-widget-base.php:22
+msgid "Hover"
+msgstr "מעבר"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:233
+#: ../core/widgets/abstract-class-pojo-widget-base.php:23
+#, fuzzy
+msgid "Wobble Vertical"
+msgstr "גלילה אנכית"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:234
+#: ../core/widgets/abstract-class-pojo-widget-base.php:24
+#, fuzzy
+msgid "Wobble Horizontal"
+msgstr "גלילה אופקית"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:235
+#: ../core/widgets/abstract-class-pojo-widget-base.php:25
+msgid "Buzz"
+msgstr ""
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:243
+#: ../includes/class-pojo-customize-register-fields.php:391
+msgid "Navigation"
+msgstr "ניווט"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:247
+#: ../core/widgets/class-pojo-widget-testimonials.php:127
+msgid "Arrows"
+msgstr "חיצים"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:248
+#: ../core/widgets/class-pojo-widget-testimonials.php:128
+msgid "Bullets"
+msgstr "נקודות"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:249
+#: ../core/widgets/class-pojo-widget-testimonials.php:129
+msgid "Both"
+msgstr "שניהם"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:267
+msgid "Transition Style"
+msgstr "סגנון אנימציה"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:280
+msgid "Transition Speed (in ms)"
+msgstr "מהירות אנימציה (ms)"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:287
+msgid "Slide Duration (in ms)"
+msgstr "אורך זמן שקופית (ms)"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:294
+msgid "Auto Play"
+msgstr "ניגון אוטומטי"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:313
+msgid "Auto Pause Hover"
+msgstr "עצירה אוטומטית במעבר"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:324
+msgid "Slideshow Options"
+msgstr "אפשרויות מצגת"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:340
+msgid "Add to Slide"
+msgstr "הוספה לשקופית"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:358
+msgid "Add Link"
+msgstr "הוספת קישור"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:384
+msgid "+ Add Slide"
+msgstr "+ הוספת שקופית"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-cpt.php:418
+msgid ""
+"Copy and paste this shortcode into your Text editor or use with Slideshow "
+"Widget."
+msgstr ""
+"יש להעתיק ולהדביק את השורטקוד לתוך עורך הטקסט, או להשתמש בוידג'ט טפסים."
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-widget.php:27
+msgid "Choose Slider:"
+msgstr "בחירת מצגת:"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-widget.php:36
+msgid "Create a Slider"
+msgstr "יצירת מצגת"
+
+#: ../core/addons/slideshow/classes/class-pojo-slideshow-widget.php:50
+msgid "Display your slideshow"
+msgstr "להציג את המצגת שלך"
+
+#: ../core/addons/system-info/classes/class-pojo-info-mu_plugins.php:21
+msgid "Must-Use Plugins"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-mu_plugins.php:26
+msgid "Must Use Plugins"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-network_plugins.php:7
+#: ../core/addons/system-info/classes/class-pojo-info-network_plugins.php:16
+msgid "Network Plugins"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-plugins.php:7
+#: ../core/addons/system-info/classes/class-pojo-info-plugins.php:12
+msgid "Active Plugins"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-server.php:7
+msgid "Server Environment"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-server.php:12
+msgid "Operating System"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-server.php:13
+msgid "Software"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-server.php:14
+msgid "MySQL version"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-server.php:15
+msgid "PHP Version"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-server.php:16
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-server.php:17
+msgid "PHP Max Post Size"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-server.php:18
+msgid "GD Installed"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-server.php:40
+msgid "We recommend to use php 5.4 or higher"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:12
+msgid "Theme"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:18
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:12
+msgid "Version"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:20
+#: ../core/settings/pages/home.php:98
+msgid "Child Theme"
+msgstr "תבנית בת"
+
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:21
+msgid "License Status"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:26
+msgid "Parent Theme Name"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:27
+msgid "Parent Theme Version"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:28
+msgid "Parent Theme Author"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:73
+msgid ""
+"If you want to modify the source code of your theme, we recommend using a "
+"child theme. See: <a href=\"http://pojo.me/go/child-theme/\">How to use a "
+"child theme</a>"
+msgstr ""
+"If you want to modify the source code of your theme, we recommend using a "
+"child theme. See: <a href=\"http://pojo.co.il/go/child-theme/\">How to use a "
+"child theme</a>"
+
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:103
+#: ../core/licenses/class-pojo-licenses-settings.php:159
+msgid "Expired"
+msgstr "פג תוקף"
+
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:105
+#: ../core/licenses/class-pojo-licenses-settings.php:161
+msgid "No Match"
+msgstr "אינו תואם"
+
+#: ../core/addons/system-info/classes/class-pojo-info-theme.php:110
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:96
+msgid "Inactive"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-user.php:7
+msgid "User"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-user.php:12
+msgid "WP Profile lang"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-user.php:13
+msgid "User Agent"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:7
+msgid "WordPress Environment"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:13
+msgid "Site URL"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:14
+msgid "Home URL"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:15
+msgid "WP Multisite"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:16
+msgid "Max Upload Size"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:17
+msgid "Memory limit"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:18
+msgid "Permalink Structure"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:19
+msgid "Language"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:20
+msgid "Timezone"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:21
+msgid "System Email"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:22
+msgid "Debug Mode"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:23
+msgid "Pojo Server"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:104
+msgid "Connected"
+msgstr ""
+
+#: ../core/addons/system-info/classes/class-pojo-info-wordpress.php:106
+msgid "Not Connected"
+msgstr ""
+
+#: ../core/addons/system-info/system-info.php:60
+#: ../core/addons/system-info/system-info.php:153
+msgid "System Info"
+msgstr "מידע מערכת"
+
+#: ../core/addons/system-info/system-info.php:62
+msgid "Copy & Paste Info"
+msgstr ""
+
+#: ../core/addons/system-info/system-info.php:65
+msgid "You can copy the below info as simple text:"
+msgstr ""
+
+#: ../core/addons/system-info/system-info.php:80
+msgid "Download System Info"
+msgstr ""
+
+#: ../core/addons/system-info/system-info.php:88
+msgid "You don't have a permission to download this file"
+msgstr ""
+
+#: ../core/addons/system-info/templates/html.php:44
+#, php-format
+msgid "By %s"
+msgstr ""
+
+#: ../core/addons/woocommerce-integration/class-pojo-woocommerce-integration.php:50
+msgid "Add WooCommerce Cart in Primary Menu"
+msgstr "הוספת סל הקניות לתפריט הראשי"
+
+#: ../core/addons/woocommerce-integration/class-pojo-woocommerce-integration.php:57
+msgid "Add WooCommerce Cart in Sticky Menu"
+msgstr "הוספת סל הקניות לתפריט דביק"
+
+#: ../core/addons/woocommerce-integration/class-pojo-woocommerce-integration.php:68
+#, fuzzy
+msgid "WooCommerce"
+msgstr "WooCommerce סל קניות בתפריט"
+
+#: ../core/addons/woocommerce-integration/class-pojo-woocommerce-integration.php:78
+msgid "View your shopping cart"
+msgstr "להציג את סל הקניות"
+
+#: ../core/addons/woocommerce-integration/class-pojo-woocommerce-integration.php:79
+msgid "Start shopping"
+msgstr "לחנות"
+
+#: ../core/addons/woocommerce-integration/class-pojo-woocommerce-integration.php:84
+#, php-format
+msgid "%d item"
+msgid_plural "%d items"
+msgstr[0] "פריט %d"
+msgstr[1] "%d פריטים"
+
+#: ../core/addons/woocommerce-integration/class-pojo-woocommerce-integration.php:125
+msgid "View Cart"
+msgstr "סל קניות"
+
+#: ../core/addons/woocommerce-integration/class-pojo-woocommerce-integration.php:126
+msgid "Checkout"
+msgstr "רכישה"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:17
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:11
+msgid "Number:"
+msgstr "מספר:"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:19
+msgid "The `number` field is used to display the number of products."
+msgstr "השדה 'מספר' משמש להגדרת מספר המוצרים שיוצגו"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:24
+#, fuzzy
+msgid "IDs:"
+msgstr "השדה 'IDs' מעדכן אלו קטגוריות להציג בוידג'ט"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:26
+msgid "The `ids` field is to tell the widget which categories to display."
+msgstr "השדה 'IDs' מעדכן אלו קטגוריות להציג בוידג'ט"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:31
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products-category.php:32
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:38
+msgid "Order by:"
+msgstr "סידור לפי"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:36
+msgid "Slug"
+msgstr "מזהה"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:37
+msgctxt "count of WC products"
+msgid "Count"
+msgstr "מספר מוצרים"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:39
+#, fuzzy
+msgid "ID"
+msgstr "מספר מזהה"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:46
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products-category.php:44
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:58
+msgctxt "Sorting order"
+msgid "Order"
+msgstr "סידור"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:58
+msgid "Hide Empty:"
+msgstr "להסתיר ריקים:"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:70
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products-category.php:56
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:70
+msgid "Columns:"
+msgstr "עמודות:"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:77
+msgid "Child of:"
+msgstr "עם ילדים:"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:79
+msgid ""
+"Set the parent paramater to 0 to only display top level categories. Set ids "
+"to a comma separated list of category ids to only show those."
+msgstr ""
+"יש להגדיר את הפרמטר 0 כדי להציג רק את הקטגוריות הראשיות. או להגדיר את ה IDs "
+"(להפריד בפסיקים) כדי להציג את הילדים שלהם."
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:84
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-product-categories.php:85
+msgid "Product Categories"
+msgstr "קטגוריות מוצרים"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products-category.php:25
+#: ../core/widgets/class-pojo-widget-posts-group.php:37
+#: ../core/widgets/class-pojo-widget-recent-posts.php:37
+msgid "Number Posts:"
+msgstr "מספר פוסטים:"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products-category.php:63
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products-category.php:64
+msgid "Products by Category"
+msgstr "מוצרים לפי קטגוריה"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:17
+msgid "Number Products:"
+msgstr "מספר מוצרים:"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:24
+msgid "Show:"
+msgstr ":להציג"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:28
+msgid "All Products"
+msgstr "כל המוצרים"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:29
+msgid "Featured Products"
+msgstr "מוצרים נבחרים"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:30
+msgid "On-sale Products"
+msgstr "מוצרים במבצע"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:31
+msgid "Top Rated Products"
+msgstr "המוצרים הכי מדורגים"
+
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:77
+#: ../core/addons/woocommerce-integration/widgets/class-pojo-widget-wc-products.php:78
+msgid "Recent Products"
+msgstr "מוצרים אחרונים"
+
+#: ../core/admin-ui.php:19 ../core/helpers/class-pojo-breadcrumbs.php:336
+#: ../core/settings/pages/content.php:30 ../core/settings/pages/home.php:11
+msgid "Home"
+msgstr "ראשי"
+
+#: ../core/bootstrap.php:252 ../core/bootstrap.php:263
+#, fuzzy
+msgid "Cheatin&#8217; huh?"
+msgstr "מרמה&#8217;  אה?"
+
+#: ../core/customize/class-pojo-customizer-sections.php:11
+msgid "General Layout"
+msgstr "פריסה כללית"
+
+#: ../core/customize/class-pojo-customizer-sections.php:19
+msgid "General Main Sidebar"
+msgstr "סרגל צדדי ראשי"
+
+#: ../core/customize/class-pojo-customizer-sections.php:39
+#, fuzzy, php-format
+msgctxt "Customizer Layout. 1: PostType Label; 2: View type"
+msgid "%1$s %2$s"
+msgstr "אירעה שגיאאה בעת התקנת %1$s: <strong>%2$s</strong>."
+
+#: ../core/customize/class-pojo-customizer-sections.php:51
+#, php-format
+msgctxt "Customizer Main Sidebar. 1: PostType Label; 2: View type"
+msgid "Sidebar: %1$s %2$s"
+msgstr "סיידבר: %1$s %2$s"
+
+#: ../core/customize/class-pojo-customizer-sections.php:63
+msgid "404 Page"
+msgstr "עמוד 404"
+
+#: ../core/customize/class-pojo-customizer-sections.php:71
+msgid "Select 404 Page Content"
+msgstr "בחירת תוכן עמוד 404"
+
+#: ../core/customize/class-pojo-customizer-sections.php:78
+#: ../core/page-format/page-format.php:231
+#: ../core/page-options/page-options.php:408
+msgid "Layout"
+msgstr "פריסת עמוד"
+
+#: ../core/customize/class-pojo-customizer-sections.php:98
+#, fuzzy
+msgid "Live CSS"
+msgstr "תצוגה מקדימה:"
+
+#: ../core/customize/class-pojo-customizer-sections.php:99
+msgid "Enter your custom CSS here"
+msgstr "יש להזין את קוד ה CSS שלך כאן"
+
+#: ../core/customize/fields/background.php:61
+#: ../core/customize/fields/image.php:23 ../core/meta-box/fields/image.php:19
+#: ../core/page-builder/page-builder.php:613
+#: ../core/page-builder/page-builder.php:661
+#: ../core/settings/fields/image.php:18
+#: ../core/widgets/abstract-class-pojo-widget-base.php:154
+msgid "Remove"
+msgstr "מחיקה"
+
+#: ../core/customize/fields/background.php:110
+#: ../core/customize/fields/color.php:51
+#: ../core/customize/fields/two_color.php:78
+#: ../core/customize/fields/two_color.php:82
+#: ../core/customize/fields/typography.php:55
+#: ../core/widgets/abstract-class-pojo-widget-base.php:193
+msgid "Hex Value"
+msgstr ""
+
+#: ../core/customize/fields/background.php:112
+msgid "Select Image"
+msgstr "בחירת תמונה"
+
+#: ../core/customize/fields/background.php:116
+#: ../core/customize/fields/background.php:121
+#: ../core/customize/fields/image.php:35
+#: ../core/page-builder/page-builder.php:682
+#: ../core/settings/fields/image.php:34
+#: ../core/widgets/abstract-class-pojo-widget-base.php:172
+msgid "Choose Image"
+msgstr "בחירת תמונה"
+
+#: ../core/customize/fields/background.php:178
+msgid "Opacity"
+msgstr "אטימות"
+
+#: ../core/customize/fields/two_color.php:19
+#: ../includes/class-pojo-customize-register-fields.php:143
+msgid "Text Selection"
+msgstr "טקסט נבחר"
+
+#: ../core/customize/fields/two_color.php:20
+#: ../includes/class-pojo-customize-register-fields.php:152
+msgid "Text Background Selection"
+msgstr "רקע טקסט נבחר"
+
+#: ../core/customize/fields/two_color.php:24
+#: ../includes/class-pojo-customize-register-fields.php:123
+#: ../includes/class-pojo-customize-register-fields.php:498
+#: ../includes/class-pojo-customize-register-fields.php:560
+#: ../includes/class-pojo-customize-register-fields.php:622
+msgid "Link"
+msgstr "קישור"
+
+#: ../core/customize/fields/typography.php:58
+msgid "Font & Size"
+msgstr "פונט & גודל"
+
+#: ../core/customize/fields/typography.php:65
+msgid "Size"
+msgstr "גודל"
+
+#: ../core/customize/fields/typography.php:77
+msgid "Family"
+msgstr "משפחה"
+
+#: ../core/customize/fields/typography.php:89
+msgid "Weight"
+msgstr "משקל"
+
+#: ../core/customize/fields/typography.php:101
+msgid "Text Transform"
+msgstr "צורת טקסט (English)"
+
+#: ../core/customize/fields/typography.php:113
+msgid "Font Style"
+msgstr "סגנון פונט"
+
+#: ../core/customize/fields/typography.php:126
+msgid "Line Height"
+msgstr "גובה שורה"
+
+#: ../core/customize/fields/typography.php:135
+msgid "Letter Spacing"
+msgstr "ריווח טקסט"
+
+#: ../core/enqueue-scripts.php:174
+msgid "Do you want remove the Widget?"
+msgstr "בטוח למחוק את הוידג'ט?"
+
+#: ../core/enqueue-scripts.php:175
+msgid "Do you want remove the Row?"
+msgstr "בטוח למחוק את השורה הזאת?"
+
+#: ../core/enqueue-scripts.php:176
+msgid "Do you want remove this template?"
+msgstr "בטוח למחוק את הטמפלט הזה?"
+
+#: ../core/helpers/bfi_thumb/BFI_Thumb.php:122
+msgid ""
+"The server does not have ImageMagick or GD installed and/or enabled! Any of "
+"these libraries are required for WordPress to be able to resize images. "
+"Please contact your server administrator to enable this before continuing."
+msgstr ""
+"ImageMagick או GD לא מותקנים או מופעלים בשרת. ספריות אלו נדרשות עבור "
+"WordPress כדי לתת את האפשרות לשנות את גודל התמונות. יש ליצור קשר עם מנהל "
+"השרת שלך, כדי לאפשר זאת לפני שתמשיך."
+
+#: ../core/helpers/bfi_thumb/BFI_Thumb.php:243
+#, fuzzy
+msgid "Image rotate failed."
+msgstr "תמונה"
+
+#: ../core/helpers/bfi_thumb/BFI_Thumb.php:267
+#, fuzzy
+msgid "Image opacity change failed."
+msgstr "תמונה"
+
+#: ../core/helpers/bfi_thumb/BFI_Thumb.php:351
+#, fuzzy
+msgid "Image color change failed."
+msgstr "תמונה"
+
+#: ../core/helpers/bfi_thumb/BFI_Thumb.php:368
+#, fuzzy
+msgid "Image grayscale failed."
+msgstr "תמונה"
+
+#: ../core/helpers/bfi_thumb/BFI_Thumb.php:385
+#, fuzzy
+msgid "Image negate failed."
+msgstr "תמונה"
+
+#: ../core/helpers/class-pojo-breadcrumbs.php:153 ../loop/archive.php:26
+#, php-format
+msgid "Article of: %s"
+msgstr "מאמרים של: %s"
+
+#: ../core/helpers/class-pojo-breadcrumbs.php:311
+msgid "Error 404"
+msgstr "שגיאה 404"
+
+#: ../core/helpers/class-pojo-breadcrumbs.php:314
+#, php-format
+msgid " (Page %d)"
+msgstr " (עמוד %d)"
+
+#: ../core/helpers/class-pojo-layouts.php:45
+msgid "Full Width"
+msgstr "רוחב מלא"
+
+#: ../core/helpers/class-pojo-layouts.php:50
+#: ../core/helpers/class-pojo-layouts.php:55
+msgid "Sidebar Right"
+msgstr "סרגל ימני"
+
+#: ../core/helpers/class-pojo-layouts.php:50
+#: ../core/helpers/class-pojo-layouts.php:55
+msgid "Sidebar Left"
+msgstr "סרגל שמאלי"
+
+#: ../core/helpers/class-pojo-layouts.php:60
+msgid "Two Sidebars"
+msgstr "שני סרגלי צד"
+
+#: ../core/helpers/class-pojo-layouts.php:65
+#: ../core/page-builder/page-builder.php:180
+msgid "100% Width"
+msgstr "100% רוחב"
+
+#: ../core/helpers/class-pojo-templates.php:168
+msgid "Load More"
+msgstr "טען עוד"
+
+#: ../core/helpers/class-pojo-templates.php:168
+msgid "Loading"
+msgstr "טעינה"
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:12
+msgid ""
+"Want to improve your Pojo theme? Rate our new Forms feature so we know "
+"what's important to you."
+msgstr ""
+"רוצים להפוך את ערכת העיצוב של Pojo להיות טובה עוד יותר? דרגו עכשיו את התכונה "
+"החדשה של הטפסים ותעזרו לנו להבין מה באמת חשוב לכם."
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:55
+msgid "Rate Now"
+msgstr "דרג עכשיו"
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:56
+msgid "No, don't bother me again"
+msgstr "לא, אל תציק לי יותר"
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:68
+msgid "Give us a feedback"
+msgstr "המשוב שלך"
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:70
+msgid ""
+"We like to receive feedback from our users, it's what helps us be better and "
+"more improved."
+msgstr ""
+"אנחנו אוהבים לקבל פידבק מהמשתמשים שלנו, זה מה שעוזר לנו להיות טובים יותר "
+"ולהשתפר עוד עוד."
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:71
+msgid "We'd be happy to receive a short feedback on the this feature:"
+msgstr "נשמח לקבל משוב קצר על תכונה זו:"
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:77
+msgid "Dislike"
+msgstr "לא אהבתי\t"
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:81
+msgid "Not useful"
+msgstr "לא שימושי"
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:85
+msgid "Like"
+msgstr "נחמד"
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:89
+msgid "Very useful"
+msgstr "מאוד שימושי"
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:93
+msgid "Amazing feature!"
+msgstr "מצויין!"
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:98
+msgid "Have anything to add? We're listening."
+msgstr "יש לך משהו להוסיף? אנחנו כאן."
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:138
+#: ../core/page-builder/templates/types/type-local.php:157
+#: ../core/page-builder/templates/types/type-local.php:162
+#: ../core/settings/pages/tools.php:241 ../core/settings/pages/tools.php:253
+#: ../core/settings/pages/tools.php:271
+msgid "You do not have sufficient permissions to access this page."
+msgstr "אין לך הרשאות מספיקות כדי לגשת לדף זה."
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:167
+#: ../core/helpers/feedback/class-pojo-feedback.php:176
+msgid "An error has occurred."
+msgstr "אירעה שגיאה."
+
+#: ../core/helpers/feedback/class-pojo-feedback.php:185
+msgid "Thank you for your feedback, we appreciate it!"
+msgstr "תודה רבה על הפידבק, אנחנו מעריכים את זה מאוד!"
+
+#: ../core/helpers/pointers/class-pojo-wp-pointers.php:94
+#: ../core/page-builder/templates/templates.php:44
+msgid "Template Library"
+msgstr "ספריית טמפלטים"
+
+#: ../core/helpers/pointers/class-pojo-wp-pointers.php:95
+msgid ""
+"Meet our new Template Library. In this area you can save, edit or export "
+"Page Builder templates and import them into each page or site that works "
+"with Pojo Framework."
+msgstr ""
+"תכירו את ספריית הטמפלטים החדשה שלנו. באזור זה תוכלו לשמור, לרוך או לייצא "
+"טמפלטים של ממשק ה Builder ולייבא אותם בכל עמוד או אתר שעובד עם Pojo "
+"Framework."
+
+#: ../core/helpers/pointers/class-pojo-wp-pointers.php:96
+msgid ""
+"Please note, in every template you can add a title, description and image "
+"for a visual preview in the Template Library."
+msgstr ""
+"שימו לב, לכל טמפלט תוכלו להוסיף כותרת, תיאור ותמונה לתצוגה ויזואלית מקדימה "
+"בספריית הטמפלטים."
+
+#: ../core/licenses/class-pojo-licenses-settings.php:109
+#: ../core/licenses/class-pojo-licenses-settings.php:110
+msgid "Licenses"
+msgstr "רשיונות"
+
+#: ../core/licenses/class-pojo-licenses-settings.php:123
+msgid "Licenses Setting"
+msgstr "הגדרות רישיון"
+
+#: ../core/licenses/class-pojo-licenses-settings.php:128
+msgid ""
+"Using this settings page you can set the license key that you purchased, "
+"then you can get automatic updates for your theme."
+msgstr ""
+"בעמוד זה ניתן להגדיר את המפתח רישיון שרכשת, לאחר מכן ניתן יהיה לקבל עדכונים "
+"אוטומטיים עבור ערכת העיצוב שלך."
+
+#: ../core/licenses/class-pojo-licenses-settings.php:130
+msgid "Your Licenses"
+msgstr "הרישיון שלך"
+
+#: ../core/licenses/class-pojo-licenses-settings.php:132
+#, php-format
+msgid ""
+"A license key qualifies you for support and enables automatic updates "
+"straight to your dashboard. Simply enter your license key where indicated "
+"and getted started. If you have not purchased your license key, you can <a "
+"href=\"%s\" target=\"_blank\">buy new license key in our website</a>."
+msgstr ""
+"מפתח רישיון מאפשר לך לקבל תמיכה ועדכונים אוטומטיים ישירות אל לוח הבקרה שלך. "
+"יש להזין את מפתח הרישיון בשדה הבא ולהתחיל לעבוד. במידה ועדיין לא רכשת מפתח "
+"רישיון ניתן <a href=\"%s\" target=\"_blank\">לרכוש מפתח רישיון חדש באתר "
+"שלנו</a>."
+
+#: ../core/licenses/class-pojo-licenses-settings.php:137
+#: ../core/licenses/class-pojo-licenses-settings.php:150
+msgid "Licenses Key:"
+msgstr "מפתח רישיון"
+
+#: ../core/licenses/class-pojo-licenses-settings.php:139
+#, php-format
+msgid "Place %s license key here"
+msgstr "יש להזין את מפתח הרישיון של %s כאן"
+
+#: ../core/licenses/class-pojo-licenses-settings.php:143
+#, php-format
+msgid ""
+"Please enter your license key, you can find your key in <a href=\"%s\" "
+"target=\"_blank\">your purchases</a>. License key looks similar to this: "
+"fb351f05958872E193feb37a505a84be"
+msgstr ""
+"יש להזין את מפתח הרישיון שלך, ניתן למצוא אותו באזור <a href=\"%s\" target="
+"\"_blank\">הרכישות שלך</a>. מפתח הרישיון נראה כמו משהו כזה: "
+"fb351f05958872E193feb37a505a84be"
+
+#: ../core/licenses/class-pojo-licenses-settings.php:154
+msgid "Deactivate"
+msgstr "לכבות"
+
+#: ../core/licenses/class-pojo-licenses-settings.php:168
+msgid ""
+"<strong>Your license is expired!</strong> Please <a href=\"http://pojo.me/my-"
+"account/\" target=\"_blank\">renew it or purchase a new one</a> in order to "
+"update this theme."
+msgstr ""
+"<strong>מפתח הרישיון שלך פג!</strong> <a href=\"http://pojo.me/my-account/\" "
+"target=\"_blank\">יש לחדש אותו או לרכוש אחד חדש</a> כדי שיהיה ניתן לעדכן את "
+"ערכת העיצוב."
+
+#: ../core/licenses/class-pojo-licenses-settings.php:176
+msgid "Site Count"
+msgstr "מספר אתרים"
+
+#: ../core/licenses/class-pojo-licenses-settings.php:178
+msgid "Activations Left"
+msgstr "מספר הפעלות שנשארו"
+
+#: ../core/licenses/class-pojo-licenses-settings.php:180
+msgid "Expiration"
+msgstr "תפוגה"
+
+#: ../core/licenses/class-pojo-licenses-settings.php:192
+msgid "Key updated. Now you can get theme updates automatically."
+msgstr "מפתח עודכן. עכשיו ניתן לקבל עדכונים אוטומטיים."
+
+#: ../core/licenses/class-pojo-licenses-settings.php:196
+msgid "Your license have been successfully deleted."
+msgstr "מפתח הרישיון שלך נמחק בהצלחה."
+
+#: ../core/licenses/class-pojo-licenses-settings.php:200
+msgid "Please enter your license key."
+msgstr "יש להזין את מפתח הרישיון שלך."
+
+#: ../core/licenses/class-pojo-licenses-settings.php:205
+msgid "Your license key not good. Please check your key again."
+msgstr "מפתח הרישיון שלך אינו טוב. יש לבדוק שוב את מפתח הרישיון."
+
+#: ../core/licenses/class-pojo-licenses-settings.php:210
+msgid "No have activations left. Please upgrade your licence for auto updates."
+msgstr ""
+"לא נשארו לך הפעלות. יש לשדרג את הרישיון שלך כדי לקבל עדכונים אוטומטיים."
+
+#: ../core/licenses/class-pojo-licenses-settings.php:214
+msgid "Your license has expired. Please renew your licence for auto updates."
+msgstr "מפתח הרישיון שלך פג. יש לחדש אותו כדי לקבל עדכונים אוטומטיים."
+
+#: ../core/licenses/class-pojo-licenses-settings.php:218
+msgid "Your license has missing. Please check your key again."
+msgstr "משהו חסר במפתח הרישיון שלך. יש לבדוק שוב את מפתח הרישיון."
+
+#: ../core/licenses/class-pojo-licenses-settings.php:222
+msgid " Your license has revoked."
+msgstr "הרישיון שלך בוטל."
+
+#: ../core/licenses/class-pojo-licenses-settings.php:226
+#, php-format
+msgid ""
+"Your license has no match name. Please go to <a href=\"%s\" target=\"_blank"
+"\">your purchases</a> and take the right key."
+msgstr ""
+"הרישיון שלך אינו תואם לשם ערכת העיצוב. יש לעבור אל <a href=\"%s\" target="
+"\"_blank\">הרכישות שלך</a> ולקבל רישיון טוב. "
+
+#: ../core/licenses/class-pojo-theme-updater.php:39
+msgid ""
+"Updating this theme will lose any files you have changes. 'Cancel' to stop, "
+"'OK' to update."
+msgstr ""
+"במידה וביצעת שינויים בקוד מקור של ערכת העיצוב עדכון זה ידרוס אותם. יש ללחוץ "
+"על 'ביטול' כדי לעצור או 'אוקי' כדי לעדכן."
+
+#: ../core/licenses/class-pojo-theme-updater.php:40
+msgid "Check out what's new"
+msgstr "רוצה לבדוק מה חדש?"
+
+#: ../core/licenses/class-pojo-theme-updater.php:45
+msgid " or "
+msgstr "או"
+
+#: ../core/licenses/class-pojo-theme-updater.php:45
+msgid "update now"
+msgstr "לעדכן עכשיו"
+
+#: ../core/licenses/class-pojo-theme-updater.php:47
+#, php-format
+msgid "<a href=\"%s\">Activate license</a> to enable automatic updates"
+msgstr "<a href=\"%s\">להפעיל רישיון</a> כדי לאפשר עדכונים אוטומטיים"
+
+#: ../core/licenses/class-pojo-theme-updater.php:51
+msgid "is available"
+msgstr "הינו זמין"
+
+#: ../core/licenses/class-pojo-theme-updater.php:66
+#, php-format
+msgid ""
+"<strong>Welcome to Pojo Framework!</strong> Please <a href=\"%s\">activate "
+"your license key</a> to enable automatic updates."
+msgstr ""
+"<strong>ברוכים הבאים אל Pojo Framework!</strong> יש <a href=\"%s\">להפעיל את "
+"מפתח הרישיון</a> שלך כדי לאפשר עדכונים אוטומטיים."
+
+#: ../core/licenses/class-pojo-theme-updater.php:74
+#, php-format
+msgid ""
+"The license does not match the domain registered in the system, please <a "
+"href=\"%s\">deactivate the license</a> and try reinserting it to receive "
+"updates."
+msgstr ""
+"מפתח הרישיון אינו תואם לדומיין הרשום במערכת, יש <a href=\"%s\"> לכבות את "
+"הרישיון</a> ולהזין אותו מחדש לקבלת עדכונים אוטומטיים."
+
+#: ../core/licenses/class-pojo-theme-updater.php:80
+#, php-format
+msgid ""
+"Something went wrong with license key is activated on your site. Please go "
+"to <a href=\"%s\">your account in pojo.me</a> to get an updated license key."
+msgstr ""
+"משהו השתבש עם מפתח הרישיון שמופעל באתר שלך. אנא עבור אל <a href=\"%s"
+"\">החשבון שלך באתר Pojo.me</a> כדי לקבל מפתח רישיון מעודכן."
+
+#: ../core/licenses/class-pojo-theme-updater.php:93
+#, php-format
+msgid "<strong>Note:</strong> Your license key will expire in %s."
+msgstr "<strong>הערה:</strong> מפתח הרישיון שלך יפוג בעוד %s."
+
+#: ../core/menus/menus.php:97
+msgid "Menus"
+msgstr "תפריטים"
+
+#: ../core/meta-box/classes/meta-box-field.php:137
+#, fuzzy
+msgid "No setup render field"
+msgstr "הגדרת ID של הפורום תמיכה והרעיונות"
+
+#: ../core/meta-box/classes/meta-box-panel.php:111
+#, fuzzy
+msgid "Pojo Meta Box"
+msgstr "פרטי פוסט"
+
+#: ../core/meta-box/fields/checkbox_list.php:8
+msgid "No found any results"
+msgstr "לא נמצאו תוצאות"
+
+#: ../core/meta-box/fields/gallery.php:31
+msgid "Add/Edit Gallery"
+msgstr "הוספת/עריכת גלריה"
+
+#: ../core/meta-box/fields/gallery.php:36
+msgid "Reset Gallery"
+msgstr "איפוס גלריה"
+
+#: ../core/meta-box/fields/gallery.php:44 ../core/meta-box/fields/image.php:53
+msgid "Add to Post"
+msgstr "הוספת פוסט"
+
+#: ../core/meta-box/fields/image.php:39
+msgid "Add image"
+msgstr "הוספת תמונה"
+
+#: ../core/meta-box/fields/radio.php:17
+#: ../core/meta-box/fields/radio_image.php:16
+msgid "No found any options"
+msgstr "לא נמצאו אפשרויות"
+
+#: ../core/meta-box/fields/repeater.php:140
+msgid "+ Add Row"
+msgstr "+ הוספת שורה"
+
+#: ../core/page-builder/page-builder-embed-shortcode.php:8
+msgid "Setup template ID in the template"
+msgstr ""
+
+#: ../core/page-builder/page-builder.php:144
+#, fuzzy
+msgid "Builder Widgets"
+msgstr "וידג'ט כותרת"
+
+#: ../core/page-builder/page-builder.php:148
+#, fuzzy
+msgid "WordPress Widgets"
+msgstr "מאגר וורדפרס"
+
+#: ../core/page-builder/page-builder.php:176
+#: ../core/page-options/page-options.php:263
+msgid "Width Content"
+msgstr "רוחב תוכן"
+
+#: ../core/page-builder/page-builder.php:179
+#: ../core/page-options/page-options.php:266
+msgid "Boxed"
+msgstr ""
+
+#: ../core/page-builder/page-builder.php:187
+msgid "Text Color"
+msgstr "צבע טקסט"
+
+#: ../core/page-builder/page-builder.php:217
+#: ../core/page-options/page-options.php:343
+msgid "No repeat"
+msgstr "ללא חזרה"
+
+#: ../core/page-builder/page-builder.php:263
+msgid "Fixed"
+msgstr ""
+
+#: ../core/page-builder/page-builder.php:270
+msgid "Parallax Effect"
+msgstr "אפקט Parallax:"
+
+#: ../core/page-builder/page-builder.php:275
+msgid "Scroll Down"
+msgstr ""
+
+#: ../core/page-builder/page-builder.php:278
+msgid ""
+"For best results we recommend using an image with a ratio of 1:1 (e.g. "
+"1000x1000 px)."
+msgstr "לתוצאה מיטבית מומלץ להשתמש בתמונה ביחס של 1:1 (לדוגמה: 1000X1000 px)."
+
+#: ../core/page-builder/page-builder.php:283
+msgid "Parallax Speed"
+msgstr "מהירות Parallax"
+
+#: ../core/page-builder/page-builder.php:302
+msgid "Background Video"
+msgstr "רקע וידאו"
+
+#: ../core/page-builder/page-builder.php:306
+msgid "Enter the URL of your YouTube video"
+msgstr "יש להזין את כתובת ה URL של סרטון ה YouTube"
+
+#: ../core/page-builder/page-builder.php:311
+msgid "Hide video on Mobile?"
+msgstr "להסתיר וידאו במובייל?"
+
+#: ../core/page-builder/page-builder.php:318
+msgid ""
+"You can choose to hide the video entirely on Mobile devices and instead "
+"display the Section Background image"
+msgstr "ניתן להסתיר את רקע הוידאו במובייל ולהציג במקום זאת רקע תמונה (מומלץ)"
+
+#: ../core/page-builder/page-builder.php:323
+msgid "Padding Top"
+msgstr "ריווח פנימי עליון"
+
+#: ../core/page-builder/page-builder.php:331
+msgid "Padding Bottom"
+msgstr "ריווח פנימי תחתון"
+
+#: ../core/page-builder/page-builder.php:339
+msgid "Section Visibility"
+msgstr "נראות אזור"
+
+#: ../core/page-builder/page-builder.php:349
+msgid "Logged-in users"
+msgstr "רק למשתמשים מחוברים"
+
+#: ../core/page-builder/page-builder.php:350
+msgid "Disable Row"
+msgstr "להסתיר פריט"
+
+#: ../core/page-builder/page-builder.php:357
+#: ../core/page-builder/page-builder.php:1134
+msgid "CSS Classes"
+msgstr ""
+
+#: ../core/page-builder/page-builder.php:359
+#: ../core/page-builder/page-builder.php:367
+msgid "(Optional)"
+msgstr "(אופציונאלי)"
+
+#: ../core/page-builder/page-builder.php:365
+msgid "CSS ID"
+msgstr ""
+
+#: ../core/page-builder/page-builder.php:606
+msgid "+ Add Column"
+msgstr "+ הוספת עמודה"
+
+#: ../core/page-builder/page-builder.php:608
+msgid "Section Settings"
+msgstr "הגדרות אזור"
+
+#: ../core/page-builder/page-builder.php:611
+#: ../core/page-builder/page-builder.php:783
+#: ../core/page-builder/page-builder.php:799
+msgid "Duplicate"
+msgstr "שכפול"
+
+#: ../core/page-builder/page-builder.php:722
+msgid "Remove Column"
+msgstr "מחיקת עמודה"
+
+#: ../core/page-builder/page-builder.php:785
+#: ../core/page-builder/page-builder.php:801
+#: ../core/widgets/abstract-class-pojo-widget-base.php:251
+#: ../core/widgets/abstract-class-pojo-widget-base.php:275
+msgid "Delete"
+msgstr "מחיקה"
+
+#: ../core/page-builder/page-builder.php:803
+msgid "Close"
+msgstr "סגירה"
+
+#: ../core/page-builder/page-builder.php:853
+msgid "+ Add Section"
+msgstr "+ הוספת אזור"
+
+#: ../core/page-builder/page-builder.php:860
+msgid "Pick a column structure:"
+msgstr "בחר מבנה עמודות:"
+
+#: ../core/page-builder/page-builder.php:1125
+msgid "Admin Label"
+msgstr "תווית ניהול"
+
+#: ../core/page-builder/templates/templates.php:31
+#: ../core/page-builder/templates/templates.php:43
+msgid "Save Template"
+msgstr "שמירת טמפלט"
+
+#: ../core/page-builder/templates/templates.php:32
+msgid "Insert Template"
+msgstr "הכנס טמפלט"
+
+#: ../core/page-builder/templates/types/type-local.php:15
+#: ../core/page-builder/templates/types/type-local.php:27
+msgid "Builder Templates"
+msgstr "טמפלטים"
+
+#: ../core/page-builder/templates/types/type-local.php:16
+msgid "Template"
+msgstr "טמפלט"
+
+#: ../core/page-builder/templates/types/type-local.php:18
+msgid "Add New Template"
+msgstr "הוספת טמפלט חדש"
+
+#: ../core/page-builder/templates/types/type-local.php:19
+#: ../core/page-builder/templates/types/type-local.php:354
+msgid "Edit Template"
+msgstr "עריכת טמפלט"
+
+#: ../core/page-builder/templates/types/type-local.php:20
+msgid "New Template"
+msgstr "טמפלט חדש"
+
+#: ../core/page-builder/templates/types/type-local.php:21
+msgid "All Templates"
+msgstr "כל הטמפלטים"
+
+#: ../core/page-builder/templates/types/type-local.php:22
+msgid "View Template"
+msgstr "הצגת טמפלט"
+
+#: ../core/page-builder/templates/types/type-local.php:23
+msgid "Search Template"
+msgstr "חיפוש טמפלט"
+
+#: ../core/page-builder/templates/types/type-local.php:24
+msgid "No Templates found"
+msgstr "לא נמצאו טמפלטים"
+
+#: ../core/page-builder/templates/types/type-local.php:25
+msgid "No Templates found in Trash"
+msgstr "לא נמצאו טמפלטים בפח"
+
+#: ../core/page-builder/templates/types/type-local.php:52
+#: ../core/page-builder/templates/types/type-local.php:55
+msgid "Template updated."
+msgstr "טמפלט עודכן."
+
+#: ../core/page-builder/templates/types/type-local.php:57
+#, php-format
+msgid "Template restored to revision from %s"
+msgstr "טמפלט שוחזר לגרסה %s"
+
+#: ../core/page-builder/templates/types/type-local.php:58
+msgid "Template published."
+msgstr "טמפלט פורסם."
+
+#: ../core/page-builder/templates/types/type-local.php:59
+msgid "Template saved."
+msgstr "טמפלט נשמר."
+
+#: ../core/page-builder/templates/types/type-local.php:60
+msgid "Template submitted."
+msgstr "טמפלט נשלח."
+
+#: ../core/page-builder/templates/types/type-local.php:61
+#, php-format
+msgid "Template scheduled for: <strong>%1$s</strong>."
+msgstr "הטמפלט מתוזמן ל: <strong>%1$s</strong>."
+
+#: ../core/page-builder/templates/types/type-local.php:64
+msgid "Template draft updated."
+msgstr "טיוטת טמפלט עודכנה."
+
+#: ../core/page-builder/templates/types/type-local.php:75
+#: ../core/page-builder/templates/types/type-local.php:351
+#: ../core/page-builder/templates/types/type-local.php:373
+msgid "Description"
+msgstr "תיאור"
+
+#: ../core/page-builder/templates/types/type-local.php:81
+msgid "Export"
+msgstr "ייצוא"
+
+#: ../core/page-builder/templates/types/type-local.php:110
+#: ../core/page-builder/templates/types/type-local.php:239
+#: ../core/page-builder/templates/types/type-local.php:355
+msgid "Export Template"
+msgstr "ייצוא טמפלט"
+
+#: ../core/page-builder/templates/types/type-local.php:111
+msgid ""
+"When you click the button below WordPress will create a JSON file for you to "
+"save to your computer. Once you have saved the downloaded file, you can use "
+"the Template Import area to import the exported template."
+msgstr ""
+"בעת לחיצה על הכפתור ייצוא, וורדפרס תייצר קובץ JSON לשמירה במחשב שלך. ברגע "
+"שתשמור את הקובץ להורדה, תוכל להשתמש באזור ייבוא הטמפלט כדי לייבא את הקובץ "
+"שהורדת."
+
+#: ../core/page-builder/templates/types/type-local.php:137
+msgid "(no title)"
+msgstr "(ללא כותרת)"
+
+#: ../core/page-builder/templates/types/type-local.php:197
+#: ../core/settings/pages/tools.php:56
+msgid "Please upload a file to import"
+msgstr "יש להעלות קובץ לייבוא"
+
+#: ../core/page-builder/templates/types/type-local.php:201
+#: ../core/settings/pages/tools.php:60
+msgid "Invalid file"
+msgstr "קובץ אינו תקני"
+
+#: ../core/page-builder/templates/types/type-local.php:216
+#: ../core/page-builder/templates/types/type-local.php:217
+msgid "Templates"
+msgstr "טמפלטים"
+
+#: ../core/page-builder/templates/types/type-local.php:247
+msgid "Import Template"
+msgstr "ייבוא טמפלט"
+
+#: ../core/page-builder/templates/types/type-local.php:253
+msgid ""
+"Here you can choose a JSON file from an exported template on your computer, "
+"then click Upload File and Import. Once the template is imported it will be "
+"listed with the rest of the site's templates."
+msgstr ""
+"כאן ניתן לבחור קובץ JSON של טמפלט מהמחשב שלך, יש ללחוץ על כפתור העלאה כדי "
+"לייבא. מיד לאחר הייבוא הטמפלט יוצג ברשימת הטמפלטים של האתר כאן למטה."
+
+#: ../core/page-builder/templates/types/type-local.php:256
+msgid "Choose a file:"
+msgstr "בחירת קובץ:"
+
+#: ../core/page-builder/templates/types/type-local.php:261
+msgid "Upload"
+msgstr "העלאה"
+
+#: ../core/page-builder/templates/types/type-local.php:325
+msgid "Deselect"
+msgstr "לא נבחר"
+
+#: ../core/page-builder/templates/types/type-local.php:349
+msgid "Template Details"
+msgstr "פרטי טמפלט"
+
+#: ../core/page-builder/templates/types/type-local.php:438
+msgid "My Templates"
+msgstr "הטמפלטים שלי"
+
+#: ../core/page-builder/templates/types/type-pojo.php:12
+msgid "Pojo Templates"
+msgstr ""
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:11
+msgid "Divider Style:"
+msgstr "סגנון מפריד"
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:14
+msgid "Space"
+msgstr "מרווח"
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:15
+msgid "Solid"
+msgstr "קו אחיד"
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:16
+msgid "Double"
+msgstr "קו כפול"
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:17
+msgid "Dotted"
+msgstr "קו מנוקד"
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:18
+msgid "Dashed"
+msgstr "קו מקווקו"
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:26
+msgid "Divider Weight:"
+msgstr "סגנון מפריד:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:46
+msgid "Divider Color:"
+msgstr "צבע מפריד:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:54
+msgid "Width:"
+msgstr "רוחב:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:61
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:53
+#: ../core/widgets/class-pojo-widget-button.php:92
+#: ../core/widgets/class-pojo-widget-image-text.php:33
+#: ../core/widgets/class-pojo-widget-image.php:37
+#: ../core/widgets/class-pojo-widget-testimonials.php:80
+msgid "Align:"
+msgstr "יישור:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:75
+msgid "Margin Top:"
+msgstr "ריווח עליון:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:82
+msgid "Margin Bottom:"
+msgstr "ריווח תחתון:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:89
+#: ../core/page-builder/widgets/class-pojo-widget-divider.php:90
+msgid "Divider"
+msgstr "מפריד"
+
+#: ../core/page-builder/widgets/class-pojo-widget-menu-anchor.php:11
+msgid "Name of Menu Anchor:"
+msgstr "השם של עוגן תפריט"
+
+#: ../core/page-builder/widgets/class-pojo-widget-menu-anchor.php:12
+msgid "This name will be the ID you will have to use in your one page menu."
+msgstr "שם ה ID של העוגן תפריט לשימוש באזור התפריטים"
+
+#: ../core/page-builder/widgets/class-pojo-widget-menu-anchor.php:13
+msgid "For Example: About"
+msgstr "לדוגמא: About"
+
+#: ../core/page-builder/widgets/class-pojo-widget-menu-anchor.php:19
+#: ../core/page-builder/widgets/class-pojo-widget-menu-anchor.php:20
+msgid "Menu Anchor"
+msgstr "עוגן תפריט"
+
+#: ../core/page-builder/widgets/class-pojo-widget-rev-slider.php:26
+#: ../core/page-options/page-options.php:214
+msgid "No have any register Rev Slider in website"
+msgstr "לא מצאו סליידר של Rev Slider במערכת"
+
+#: ../core/page-builder/widgets/class-pojo-widget-rev-slider.php:33
+#, fuzzy
+msgid "Rev Slider:"
+msgstr "לא מצאו סליידר של Rev Slider במערכת"
+
+#: ../core/page-builder/widgets/class-pojo-widget-rev-slider.php:42
+#: ../core/page-builder/widgets/class-pojo-widget-rev-slider.php:43
+#: ../core/page-options/page-options.php:87
+#, fuzzy
+msgid "Rev Slider"
+msgstr "לא מצאו סליידר של Rev Slider במערכת"
+
+#: ../core/page-builder/widgets/class-pojo-widget-sidebar.php:30
+msgid "Sidebar:"
+msgstr "סיידבר:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-sidebar.php:39
+#: ../core/page-builder/widgets/class-pojo-widget-sidebar.php:40
+#: ../includes/class-pojo-customize-register-fields.php:532
+msgid "Sidebar"
+msgstr "סרגל צד"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:29
+#: ../core/widgets/class-pojo-widget-button.php:17
+#: ../core/widgets/class-pojo-widget-catalog.php:66
+#: ../core/widgets/class-pojo-widget-image.php:51
+#: ../core/widgets/class-pojo-widget-testimonials.php:38
+msgid "Link:"
+msgstr "קישור:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:30
+#: ../core/widgets/class-pojo-widget-button.php:18
+#, fuzzy
+msgid "http://pojo.me/"
+msgstr "ברוך הבא ל Pojo.me!"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:37
+#: ../core/widgets/class-pojo-widget-image-text.php:17
+msgid "Heading Size:"
+msgstr "גודל כותרת:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:41
+#: ../core/widgets/class-pojo-widget-image-text.php:21
+msgid "H1"
+msgstr "H1"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:42
+#: ../core/widgets/class-pojo-widget-image-text.php:22
+#: ../includes/class-pojo-customize-register-fields.php:176
+msgid "H2"
+msgstr ""
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:43
+#: ../core/widgets/class-pojo-widget-image-text.php:23
+msgid "H3"
+msgstr "H3"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:44
+#: ../core/widgets/class-pojo-widget-image-text.php:24
+msgid "H4"
+msgstr "H4"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:45
+#: ../core/widgets/class-pojo-widget-image-text.php:25
+#: ../includes/class-pojo-customize-register-fields.php:222
+msgid "H5"
+msgstr "H5 - כותרת וידג'ט"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:46
+#: ../core/widgets/class-pojo-widget-image-text.php:26
+#: ../includes/class-pojo-customize-register-fields.php:237
+msgid "H6"
+msgstr ""
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:67
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:61
+#: ../core/widgets/class-pojo-widget-image-text.php:109
+#: ../includes/class-pojo-customize-register-fields.php:404
+msgid "Style"
+msgstr "סגנון"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:74
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:74
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:148
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:222
+#: ../core/widgets/class-pojo-widget-image-text.php:122
+#: ../core/widgets/class-pojo-widget-image-text.php:196
+msgid "Color:"
+msgstr "צבע:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:82
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:82
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:156
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:230
+#: ../core/widgets/class-pojo-widget-image-text.php:130
+#: ../core/widgets/class-pojo-widget-image-text.php:204
+msgid "Font Size:"
+msgstr "גודל פונט:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:89
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:89
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:163
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:237
+#: ../core/widgets/class-pojo-widget-image-text.php:137
+#: ../core/widgets/class-pojo-widget-image-text.php:211
+msgid "Font Weight:"
+msgstr "משקל פונט:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:98
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:98
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:172
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:246
+#: ../core/widgets/class-pojo-widget-image-text.php:146
+#: ../core/widgets/class-pojo-widget-image-text.php:220
+msgid "Text Transform:"
+msgstr "צורת טקסט (English)"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:104
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:104
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:178
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:252
+#: ../core/widgets/class-pojo-widget-image-text.php:152
+#: ../core/widgets/class-pojo-widget-image-text.php:226
+msgid "Uppercase"
+msgstr ""
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:105
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:105
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:179
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:253
+#: ../core/widgets/class-pojo-widget-image-text.php:153
+#: ../core/widgets/class-pojo-widget-image-text.php:227
+msgid "Lowercase"
+msgstr ""
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:106
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:106
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:180
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:254
+#: ../core/widgets/class-pojo-widget-image-text.php:154
+#: ../core/widgets/class-pojo-widget-image-text.php:228
+msgid "Capitalize"
+msgstr ""
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:113
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:113
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:187
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:261
+#: ../core/widgets/class-pojo-widget-image-text.php:161
+#: ../core/widgets/class-pojo-widget-image-text.php:235
+msgid "Font Style:"
+msgstr "סגנון פונט"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:118
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:118
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:192
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:266
+#: ../core/widgets/class-pojo-widget-image-text.php:166
+msgid "normal"
+msgstr "רגיל"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:119
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:119
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:193
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:267
+#: ../core/widgets/class-pojo-widget-image-text.php:167
+#: ../core/widgets/class-pojo-widget-image-text.php:241
+msgid "Italic"
+msgstr ""
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:120
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:120
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:194
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:268
+#: ../core/widgets/class-pojo-widget-image-text.php:168
+#: ../core/widgets/class-pojo-widget-image-text.php:242
+msgid "Oblique"
+msgstr ""
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:127
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:127
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:201
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:275
+#: ../core/widgets/class-pojo-widget-image-text.php:175
+#: ../core/widgets/class-pojo-widget-image-text.php:249
+msgid "Line Height:"
+msgstr "גובה שורה:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:135
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:134
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:208
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:282
+#: ../core/widgets/class-pojo-widget-image-text.php:182
+#: ../core/widgets/class-pojo-widget-image-text.php:256
+msgid "Letter Spacing:"
+msgstr "ריווח טקסט"
+
+#: ../core/page-builder/widgets/class-pojo-widget-title.php:151
+msgid "Title Widget"
+msgstr "וידג'ט כותרת"
+
+#: ../core/page-builder/widgets/class-pojo-widget-wysiwyg.php:18
+msgid "Editor:"
+msgstr "עורך:"
+
+#: ../core/page-builder/widgets/class-pojo-widget-wysiwyg.php:26
+#: ../core/page-builder/widgets/class-pojo-widget-wysiwyg.php:27
+msgid "Text Editor"
+msgstr "עורך טקסט"
+
+#: ../core/page-format/page-format.php:28
+msgid "Editor"
+msgstr "עורך טקסט"
+
+#: ../core/page-format/page-format.php:68
+msgid "Builder"
+msgstr ""
+
+#: ../core/page-format/page-format.php:93
+msgid "Page Format"
+msgstr "פורמט עמוד"
+
+#: ../core/page-format/page-format.php:222
+msgid "Format"
+msgstr "פורמט"
+
+#: ../core/page-format/page-format.php:266
+msgid "Select Taxonomy"
+msgstr "סוג קטגוריה"
+
+#: ../core/page-format/page-format.php:303
+msgid "Blog with thumbnail (List) or Gallery with columns (Grid)"
+msgstr "תצוגת בלוג עם תמונות (רשימה) או תצוגת עמודות (גריד)"
+
+#: ../core/page-format/page-format.php:319
+msgid "Posts Per Page"
+msgstr "מספר פוסטים בעמוד"
+
+#: ../core/page-format/page-format.php:331
+msgid "Number Posts"
+msgstr "מספר פוסטים"
+
+#: ../core/page-format/page-format.php:377
+msgid "Meta Data"
+msgstr "פרטי פוסט"
+
+#: ../core/page-format/page-format.php:397
+#: ../core/page-options/page-options.php:451
+#: ../core/settings/pages/content.php:166
+#: ../core/settings/pages/content.php:272
+msgid "Time"
+msgstr "זמן"
+
+#: ../core/page-format/page-format.php:409
+#: ../core/page-options/page-options.php:452
+#: ../core/settings/pages/content.php:177
+#: ../core/settings/pages/content.php:283
+msgid "Comments"
+msgstr "תגובות"
+
+#: ../core/page-format/page-format.php:433
+msgid "Content Post"
+msgstr "תוכן פוסט"
+
+#: ../core/page-format/page-format.php:439
+#: ../core/settings/pages/content.php:305
+#: ../core/settings/pages/content.php:356
+msgid "Content"
+msgstr "תוכן"
+
+#: ../core/page-format/page-format.php:443
+#: ../core/settings/pages/content.php:308
+msgid "Excerpt"
+msgstr "תקציר"
+
+#: ../core/page-format/page-format.php:444
+#: ../core/settings/pages/content.php:309
+msgid "Full Content"
+msgstr "תוכן מלא"
+
+#: ../core/page-format/page-format.php:452
+#: ../core/settings/pages/content.php:317
+msgid "Excerpt Length (Words)"
+msgstr "אורך תקציר (מילים)"
+
+#: ../core/page-format/page-format.php:464
+msgid "Number Words"
+msgstr "מספר מילים"
+
+#: ../core/page-format/page-format.php:471
+#: ../core/settings/pages/content.php:325 ../core/smart-page/api.php:205
+msgid "Read More"
+msgstr "קרא עוד"
+
+#: ../core/page-format/page-format.php:483
+#: ../core/page-format/page-format.php:495
+#: ../core/settings/pages/content.php:336
+msgid "Text Read More"
+msgstr "טקסט קרא עוד"
+
+#: ../core/page-format/page-format.php:504
+msgid "Don't apply the page settings to the child posts"
+msgstr "אל תחיל הגדרות עמוד לפוסטים ילדים"
+
+#: ../core/page-options/page-options.php:28
+#: ../core/settings/pages/general.php:112
+msgid "General Settings"
+msgstr "הגדרות כלליות"
+
+#: ../core/page-options/page-options.php:34
+#: ../core/settings/pages/content.php:70
+msgid "Page Title"
+msgstr "כותרת עמוד"
+
+#: ../core/page-options/page-options.php:36
+msgid "If you want to Hide/Show the Page Title."
+msgstr "ניתן להסתיר/להציג את הכותרת של העמוד"
+
+#: ../core/page-options/page-options.php:47
+#: ../core/settings/pages/content.php:18
+#: ../includes/class-pojo-customize-register-fields.php:455
+msgid "Breadcrumbs"
+msgstr "קישורים פנימיים"
+
+#: ../core/page-options/page-options.php:59
+#: ../core/settings/pages/content.php:110
+msgid "Post Navigation"
+msgstr "ניווט בין פוסטים"
+
+#: ../core/page-options/page-options.php:61
+#: ../core/settings/pages/content.php:104
+msgid "Shows links to the next and previous post"
+msgstr "להציג קישורים לפוסט קודם או הבא"
+
+#: ../core/page-options/page-options.php:73
+#: ../core/settings/pages/content.php:82
+#: ../includes/class-pojo-customize-register-fields.php:470
+msgid "Title Bar"
+msgstr "בר כותרת"
+
+#: ../core/page-options/page-options.php:78
+msgid "Default Background"
+msgstr "רקע ברירת מחדל"
+
+#: ../core/page-options/page-options.php:81
+#: ../includes/class-pojo-customize-register-fields.php:408
+msgid "Transparent Background"
+msgstr "רקע שקוף"
+
+#: ../core/page-options/page-options.php:82
+#: ../core/page-options/page-options.php:282
+#: ../includes/class-pojo-customize-register-fields.php:407
+msgid "Custom Background"
+msgstr "רקע מותאם אישית"
+
+#: ../core/page-options/page-options.php:83
+#: ../core/page-options/page-options.php:255
+msgid "Widgets Area"
+msgstr "אזור וידג'טים"
+
+#: ../core/page-options/page-options.php:95
+msgid "Background Style"
+msgstr "סגנון רקע"
+
+#: ../core/page-options/page-options.php:113
+#: ../core/page-options/page-options.php:294
+msgid "Background Opacity"
+msgstr "שקיפות"
+
+#: ../core/page-options/page-options.php:190
+msgid "Title Bar Height"
+msgstr "גובה בר כותרת"
+
+#: ../core/page-options/page-options.php:191
+msgid "For Example: 100px"
+msgstr "לדוגמא: 100px"
+
+#: ../core/page-options/page-options.php:200
+msgid "Custom Title"
+msgstr "כותרת מותאמת אישית"
+
+#: ../core/page-options/page-options.php:221
+msgid "Title Bar Slider"
+msgstr "סליידר בר כותרת"
+
+#: ../core/page-options/page-options.php:223
+msgid "Choose from Revolution Slider"
+msgstr "בחירה מתוך Rev Slider"
+
+#: ../core/page-options/page-options.php:233
+msgid "NO Found any Slideshows"
+msgstr "לא נמצאו מצגות"
+
+#: ../core/page-options/page-options.php:237
+msgid "Title Bar Slideshow"
+msgstr "מצגת בר כותרת"
+
+#: ../core/page-options/page-options.php:367
+msgid "Sharing"
+msgstr "שיתוף"
+
+#: ../core/page-options/page-options.php:373
+msgid "Hide sharing buttons"
+msgstr "להסתיר כפתורי שיתוף"
+
+#: ../core/page-options/page-options.php:422
+msgid "Choose Layout"
+msgstr "בחירת פריסה"
+
+#: ../core/page-options/page-options.php:443
+msgid "Post Settings"
+msgstr "הגדרות פוסט"
+
+#: ../core/page-options/page-options.php:475
+#: ../core/settings/pages/content.php:202
+msgid "About Author"
+msgstr "אודות המחבר"
+
+#: ../core/page-options/page-options.php:499
+msgid "Blank Page"
+msgstr "עמוד בלאנק"
+
+#: ../core/page-options/page-options.php:505
+msgid "Enable Blank Page"
+msgstr "לאפשר עמוד בלאנק"
+
+#: ../core/page-options/page-options.php:507
+msgid "No Header, No Footer - Just Primary Content"
+msgstr "ללא הידר, ללא פוטר - רק התוכן המרכזי של העמוד"
+
+#: ../core/settings/fields/select_pages.php:9
+msgid "&mdash; Select &mdash;"
+msgstr "&mdash; בחירה &mdash;"
+
+#: ../core/settings/pages/content.php:29
+msgid "Breadcrumbs Home Text"
+msgstr "טקסט דף הבית בקישורים הפנימיים"
+
+#: ../core/settings/pages/content.php:35
+msgid "Breadcrumbs Delimiter"
+msgstr "מפרידון קישורים פנימיים"
+
+#: ../core/settings/pages/content.php:62
+msgid "Hide Current Page in the Breadcrumb"
+msgstr "הסתר עמוד נוכחי בקישורים פנימיים"
+
+#: ../core/settings/pages/content.php:100
+msgid "Turn On"
+msgstr "להפעיל"
+
+#: ../core/settings/pages/content.php:140
+msgid "Post Navigation by Taxonomy"
+msgstr "ניווט בין פוסטים לפי טקסונומיות"
+
+#: ../core/settings/pages/content.php:215
+msgid "Posts:"
+msgstr "פוסטים:"
+
+#: ../core/settings/pages/content.php:244
+msgid "Choosing the Structure of the Content from your Theme"
+msgstr "בחירת מבנה התוכן מתוך ערכת העיצוב"
+
+#: ../core/settings/pages/content.php:346
+msgid "Archive:"
+msgstr "ארכיון:"
+
+#: ../core/settings/pages/content.php:355
+msgid "Content Settings"
+msgstr "הגדרות תוכן"
+
+#: ../core/settings/pages/general.php:11
+msgid "Google Analytics ID"
+msgstr ""
+
+#: ../core/settings/pages/general.php:12
+msgid "Log into your google analytics account to find your ID. e.g. UA-XXXXX-X"
+msgstr ""
+"היכנס לחשבון Google Analytics כדי למצוא את קוד ה ID שלך. למשל UA-XXXXX-X"
+
+#: ../core/settings/pages/general.php:20
+msgid "Integrations"
+msgstr "אינטגרציות"
+
+#: ../core/settings/pages/general.php:21
+msgid ""
+"Google Analytics is a free service offered by Google that generates detailed "
+"statistics about the visitors to a website."
+msgstr ""
+"Google Analytics הוא שירות חינם המוצע על ידי גוגל על מנת לאסוף ולהציג נתונים "
+"סטטיסטיים מפורטים על המבקרים באתר."
+
+#: ../core/settings/pages/general.php:40
+msgid "Favicon Upload"
+msgstr "העלאת אייקון (Favicon)"
+
+#: ../core/settings/pages/general.php:41
+msgid "Upload Icon for any Browser (16x16px ico/png)"
+msgstr "העלאת אייקון (16x16px ico/png)"
+
+#: ../core/settings/pages/general.php:47
+msgid "Apple Touch Icon iPhone"
+msgstr "אייקון לאייפון"
+
+#: ../core/settings/pages/general.php:48
+msgid "Upload Icon for Apple iPhone (57x57 png)"
+msgstr "העלאת אייקון עבור אייפון (57x57 png)"
+
+#: ../core/settings/pages/general.php:54
+msgid "Apple Touch Icon iPhone retina"
+msgstr "אייקון אייפון (Retina)"
+
+#: ../core/settings/pages/general.php:55
+msgid "Upload Icon for Apple iPhone Retina Version (114x114 png)"
+msgstr "העלאת אייקון עבור אייפון במצב רטינה (114x114 png)"
+
+#: ../core/settings/pages/general.php:61
+msgid "Apple Touch Icon iPad"
+msgstr "אייקון לאייפד"
+
+#: ../core/settings/pages/general.php:62
+msgid "Upload Icon for Apple iPad (72x72 png)"
+msgstr "העלאת אייקון עבור אייפד (72x72 png)"
+
+#: ../core/settings/pages/general.php:68
+msgid "Apple Touch Icon iPad retina"
+msgstr "אייקוד לאייפד (Retina)"
+
+#: ../core/settings/pages/general.php:69
+msgid "Upload Icon for Apple iPad Retina Version (144x144 png)"
+msgstr "העלאת אייקון עבור אייפד במצב רטינה (144x144 png)"
+
+#: ../core/settings/pages/general.php:75
+msgid "Custom Favicons"
+msgstr "אייקונים מותאמים אישית"
+
+#: ../core/settings/pages/general.php:76
+#, php-format
+msgid ""
+"Please note: As of version 4.3 this feature will be added to one of the "
+"basic features of WordPress, we recommend you use it in <a href=\"%s"
+"\">Customize > Site Identity</a>."
+msgstr ""
+"שימו לב: החל מגרסה 4.3 תכונה זו נכנסה לאחת מתכונות הבסיס של וורדפרס, אנחנו "
+"ממליצים לנהל זאת באמצעות <a href=\"%s\">התאמה אישית > זהות האתר</a>."
+
+#: ../core/settings/pages/general.php:88
+msgid "Text Field 1"
+msgstr "שדה טקסט 1"
+
+#: ../core/settings/pages/general.php:90
+#, php-format
+msgid "We <i class=\"fa fa-heart\"></i> <a href=\"%s\">WordPress</a>"
+msgstr ""
+
+#: ../core/settings/pages/general.php:95
+msgid "Text Field 2"
+msgstr "שדה טקסט 2"
+
+#: ../core/settings/pages/general.php:97
+#, php-format
+msgid "Theme by <a href=\"%s\" rel=\"nofollow\">Pojo.me</a> - WordPress Themes"
+msgstr ""
+
+#: ../core/settings/pages/general.php:103
+msgid "Copyright Text"
+msgstr "טקסט קרדיט"
+
+#: ../core/settings/pages/general.php:113
+msgid "General"
+msgstr "כללי"
+
+#: ../core/settings/pages/home.php:12
+msgid "Theme Options"
+msgstr "אפשרויות תבנית"
+
+#: ../core/settings/pages/home.php:35
+msgid "Welcome to Pojo"
+msgstr "ברוכים הבאים ל Pojo"
+
+#: ../core/settings/pages/home.php:39
+msgid ""
+"<strong>Congratulations!</strong> Thank you for installing the {THEME_NAME} "
+"{VERSION}. We hope you will enjoy it, as the world of easy and fast web "
+"designing is now open to you!"
+msgstr ""
+"<strong>מזל טוב!</strong> תודה שהתקנת את ערכת העיצוב {THEME_NAME} {VERSION}. "
+"אנו מקווים שתהנה ממנה, ותגלה עולם חדש של אפשרויות לעיצוב אתר אינטרנט בקלות "
+"ובמהירות!"
+
+#: ../core/settings/pages/home.php:57
+msgid ""
+"If this is your first time using our theme, we are happy to show you a few "
+"quick links that will help you learn more about using it."
+msgstr ""
+"אם זו הפעם הראשונה שאתה משתמש עם ערכת העיצוב שלנו, אנחנו שמחים להציג בפניך "
+"מספר קישורים מהירים שיעזרו לך ללמוד עוד על שימוש נכון בערכת העיצוב."
+
+#: ../core/settings/pages/home.php:60
+msgid "1. Activating Your License Key"
+msgstr "1. הפעל את מפתח הרישיון"
+
+#: ../core/settings/pages/home.php:61
+msgid ""
+"To get started, enter the License Key you've received during the purchase. "
+"The License Key also appears in your account's purchase area on our website. "
+"Once it's entered activate it, and then you'll receive all our automatic "
+"updates."
+msgstr ""
+"כדי להתחיל, יש להזין את מפתח הרישיון שקיבלת במהלך הרכישה. מפתח הרישיון מופיע "
+"גם באזור הרכישות בחשבון שלך באתר האינטרנט שלנו. ברגע שהזנת את מפתח הרישיון, "
+"הפעל אותו ולאחר מכן תתחיל לקבל עדכונים אוטומטיים."
+
+#: ../core/settings/pages/home.php:64
+msgid "Activate the License Key"
+msgstr "הפעלת מפתח הרישיון"
+
+#: ../core/settings/pages/home.php:66
+msgid "The License Key has been Successfully Activated"
+msgstr "מפתח הרישיון הופעל בהצלחה"
+
+#: ../core/settings/pages/home.php:71
+msgid "2. Installing the Extensions"
+msgstr "2. התקנת הרחבות"
+
+#: ../core/settings/pages/home.php:72
+msgid ""
+"Before moving on to customizing the theme to your website, activate our "
+"extensions to receive more features that will make your website even better."
+msgstr ""
+"לפני שתעבור להתאמה האישית של ערכת העיצוב, יש להפעיל את ההרחבות שלנו כדי "
+"שתוכל לקבל יותר תכונות שיהפכו את האתר האינטרנט שלך לטוב עוד יותר."
+
+#: ../core/settings/pages/home.php:74
+msgid "Install the Extensions"
+msgstr "התקנת הרחבות"
+
+#: ../core/settings/pages/home.php:76
+msgid "All the Extensions have been Successfully Installed"
+msgstr "כל ההרחבות הותקנו בהצלחה"
+
+#: ../core/settings/pages/home.php:81
+msgid "3. Importing the Demo Content"
+msgstr "3. ייבוא תוכן דמו"
+
+#: ../core/settings/pages/home.php:82
+msgid ""
+"You can create a website that will look like our demo, in a just a few "
+"clicks. In our Demo Import page you can import all the demo's content, "
+"widgets, menus, customizer and front page settings."
+msgstr ""
+"אתה יכול ליצור אתר אינטרנט שייראה בדיוק כמו אתר הדמו שלנו בכמה קליקים. בעמוד "
+"ייבוא תוכן הדמו תוכל לייבא את כל התוכן, וידג'טים, תפריטים, התאמה אישית "
+"והגדרת עמוד הבית."
+
+#: ../core/settings/pages/home.php:84
+msgid "Install Pojo Importer"
+msgstr "התקנת תוסף ייבוא הדמו"
+
+#: ../core/settings/pages/home.php:86
+msgid "Activate Pojo Importer"
+msgstr "הפעלת תוסף ייבוא הדמו"
+
+#: ../core/settings/pages/home.php:88
+msgid "Go to our Demo Import Page"
+msgstr "עבור אל עמוד ייבוא הדמו"
+
+#: ../core/settings/pages/home.php:90
+msgid "The Demo Content has been Successfully Imported"
+msgstr "תוכן הדמו יובא בהצלחה"
+
+#: ../core/settings/pages/home.php:99
+msgid ""
+"If you're planning on making changes in our theme that are beyond the "
+"existing Customizer settings, the Child Theme brings you the perfect "
+"solution."
+msgstr ""
+"אם אתה מתכנן לעשות שינויים בערכת העיצוב שלנו מעבר לדברים הקיימים בהתאמה "
+"האישית המובנית, תבנית בת היא הפתרון המושלם עבורך."
+
+#: ../core/settings/pages/home.php:100
+msgid ""
+"We provide in all our themes an adjusted Child Theme which allows you to "
+"make any changes in the code files and add countless modifications to your "
+"website."
+msgstr ""
+"אנו מספקים לכל ערכות העיצוב שלנו תבנית בת מותאמת שתאפשר לך ליצור שינויים "
+"בקבצי הקוד ולהוסיף אין ספור התאמות אישית לאתר שלך."
+
+#: ../core/settings/pages/home.php:101
+msgid ""
+"http://support.pojo.me/docs/child-theme/?"
+"utm_source=dashboard&utm_medium=link&utm_campaign=home"
+msgstr ""
+"http://pojo.co.il/docs/child-theme/?"
+"utm_source=dashboard&utm_medium=link&utm_campaign=home"
+
+#: ../core/settings/pages/home.php:101
+msgid "For More Info"
+msgstr "למידע נוסף"
+
+#: ../core/settings/pages/home.php:104
+msgid "Support Forum"
+msgstr "פורום תמיכה"
+
+#: ../core/settings/pages/home.php:105
+msgid ""
+"Have a question or problem? We are here to help! Our technical support team "
+"will help you with any question via the Support Forum."
+msgstr ""
+"יש לך שאלה או בעיה? אנחנו כאן כדי לעזור! צוות התמיכה הטכנית שלנו ישמח לעזור "
+"לך עם כל שאלה באמצעות פורום התמיכה."
+
+#: ../core/settings/pages/home.php:106
+msgid ""
+"To do so, just login to the account in which you made your purchase. Once "
+"you're in your account you can open a new topic or add a comment."
+msgstr ""
+"כדי לעשות זאת, יש להתחבר לחשבון שלך באתר שלנו עם הפרטים שהזנת בעת הרכישה, "
+"ולאחר מכן תוכל לפתוח נושא חדש או להוסיף תגובה."
+
+#: ../core/settings/pages/home.php:107
+msgid ""
+"http://support.pojo.me/forum/support/?"
+"utm_source=dashboard&utm_medium=link&utm_campaign=home"
+msgstr ""
+"http://pojo.co.il/forum/support/?"
+"utm_source=dashboard&utm_medium=link&utm_campaign=home"
+
+#: ../core/settings/pages/home.php:107
+msgid "To the Support Forum"
+msgstr "לפורום התמיכה"
+
+#: ../core/settings/pages/home.php:110
+msgid "Documentation"
+msgstr "תיעוד"
+
+#: ../core/settings/pages/home.php:111
+msgid ""
+"In the Documentation area you can find helping guides, tips, troubleshooting "
+"and more information regarding the features that are included in our "
+"Framework."
+msgstr ""
+"באזור התיעוד תמצא כל מה שצריך כדי ללמוד על ערכת העיצוב, מדריכים, טיפים, "
+"בעיות נפוצות ומידע נוסף על התכונות הקיימות בפריימוורק שלנו."
+
+#: ../core/settings/pages/home.php:112
+msgid ""
+"If you can't find the information you're looking for, you're invited to move "
+"on to our Support Forum for more information."
+msgstr ""
+"אם אתה לא מוצא את המידע שאתה מחפש, אתה תמיד יכול לעבור לפורום התמיכה שלנו "
+"ולקבל מידע נוסף מצוות התמיכה."
+
+#: ../core/settings/pages/home.php:113
+msgid ""
+"http://support.pojo.me/documentation/?"
+"utm_source=dashboard&utm_medium=link&utm_campaign=home"
+msgstr ""
+"http://pojo.co.il/documentation/?"
+"utm_source=dashboard&utm_medium=link&utm_campaign=home"
+
+#: ../core/settings/pages/home.php:113
+msgid "To our Documentation"
+msgstr "לתיעוד שלנו"
+
+#: ../core/settings/pages/tools.php:80 ../core/settings/pages/tools.php:81
+#: ../core/settings/pages/tools.php:133
+msgid "Tools"
+msgstr "כלים"
+
+#: ../core/settings/pages/tools.php:100 ../core/settings/pages/tools.php:174
+msgid "Reset Customizer"
+msgstr "איפוס התאמה אישית"
+
+#: ../core/settings/pages/tools.php:113
+msgid "Purge Cache Thumbnails"
+msgstr "נקה זיכרון תמונות ממוזערות"
+
+#: ../core/settings/pages/tools.php:126
+msgid "Reset Page Templates"
+msgstr "איפוס תבניות עמוד"
+
+#: ../core/settings/pages/tools.php:139
+msgid "Customizer Export"
+msgstr "ייצוא התאמה אישית"
+
+#: ../core/settings/pages/tools.php:144
+msgid ""
+"When you click the button below, WordPress will create a JSON file for you "
+"to save on your computer."
+msgstr "ברגע שתלחץ על הכפתור, וורדפרס תייצר קובץ JSON לשמירה על המחשב שלך."
+
+#: ../core/settings/pages/tools.php:145
+msgid "This format, will contain your Customizer settings for your theme."
+msgstr "הפורמט הזה מכיל את הגדרות התאמה אישית של ערכת העיצוב שלך."
+
+#: ../core/settings/pages/tools.php:146
+msgid ""
+"Once you've saved the download file, you can use the Import function to "
+"import the previously exported settings."
+msgstr ""
+"לאחר ששמרת את הקובץ להורדה, ניתן להשתמש באפשרות הייבוא כדי לייבא את ההגדרות "
+"שנשמרו בקובץ הייצוא."
+
+#: ../core/settings/pages/tools.php:148
+msgid "Download Export File"
+msgstr "הורדת קובץ ייצוא"
+
+#: ../core/settings/pages/tools.php:154
+msgid "Customizer Import"
+msgstr "ייבוא התאמה אישית"
+
+#: ../core/settings/pages/tools.php:159
+msgid ""
+"Howdy! Upload your Customizer Settings file and we'll import the options "
+"into this site."
+msgstr ""
+"אהלן! יש להעלות קובץ התאמה אישית והמערכת תייבא את ההגדרות שלך לערכת עיצוב זו."
+
+#: ../core/settings/pages/tools.php:160
+msgid ""
+"Choose a filename.json file to upload, then click Upload File and Import."
+msgstr "יש לבחור קובץ עם סיומת .json להעלאה, ואז ללחוץ על העלאה כדי לייבא."
+
+#: ../core/settings/pages/tools.php:163
+msgid "Choose a file from your computer:"
+msgstr "בחירת קובץ ייבוא מהמחשב:"
+
+#: ../core/settings/pages/tools.php:168
+msgid "Upload Import File"
+msgstr "העלאת קובץ ייבוא"
+
+#: ../core/settings/pages/tools.php:177
+msgid ""
+"Revert your theme back to a brand new installation. This process cannot be "
+"undone!"
+msgstr ""
+"להחזיר את ערכת העיצוב חזרה לעיצוב המקורי שהיה בעת ההתקנה. תהליך זה אינו ניתן "
+"לביטול!"
+
+#: ../core/settings/pages/tools.php:178
+msgid ""
+"Do not forget to backup all your Customizer Settings with the Customizer "
+"Export before the reset."
+msgstr ""
+"לא לשכוח לגבות את כל הגדרות התאמה אישית הנוכחיות באמצעות ייצוא התאמה אישית "
+"לפני איפוס ההגדרות."
+
+#: ../core/settings/pages/tools.php:184
+msgid "Purge all Cache Thumbnails"
+msgstr "נקה זיכרון כל התמונות הממוזערות"
+
+#: ../core/settings/pages/tools.php:186
+msgid ""
+"Clicking on this button will delete all the thumbnails that are stored in "
+"the wp-content/uploads/thumbs folder."
+msgstr ""
+"לחיצה על כפתור זה תמחק את כל התמונות הממוזערות הנמצאות בתיקיה wp-content/"
+"uploads/thumbs בשרת."
+
+#: ../core/settings/pages/tools.php:187
+msgid ""
+"This should not affect the images display on the site, but just refresh the "
+"thumbnails stored on the server. This is useful in cases where you want to "
+"delete unused images."
+msgstr ""
+"זה לא אמור לשנות את תצוגת התמונות באתר, זה רק ירענן את התמונות הממוזערות. "
+"שימושי למחיקת זיכרון של תמונות שאינן בשימוש."
+
+#: ../core/settings/pages/tools.php:193
+msgid "Page Template Reset"
+msgstr "איפוס תבניות עמוד"
+
+#: ../core/settings/pages/tools.php:195
+msgid ""
+"This tool allows you to reset all the site's page templates to default mode. "
+"Please note that this cannot be undone, and is designed for users that are "
+"moving their site to Pojo Framework from a different theme which uses page "
+"templates."
+msgstr ""
+"כלי זה מאפשר לך לאפס את כל התבניות עמוד שבאתר שלך למצב ברירת מחדל. שימו לב, "
+"פעולה זו מיועדת לאתרים שעברו מערכות עיצוב אחרות המשתמשת בתבניות עמוד לערכות "
+"עיצוב של Pojo Framwork והיא אינה ניתנת לשחזור."
+
+#: ../core/settings/pages/tools.php:210
+msgid "Are you sure you want to do this action?"
+msgstr "אתה בטוח שאתה רוצה לעשות פעולה זאת?"
+
+#: ../core/settings/pages/tools.php:222
+msgid "All customizer settings have been successfully deleted."
+msgstr "כל הגדרות התאמה אישית נמחקו בהצלחה."
+
+#: ../core/settings/pages/tools.php:226
+msgid "All options were restored successfully!"
+msgstr "כל האפשרויות שוחזרו בהצלחה!"
+
+#: ../core/settings/pages/tools.php:230
+msgid "All thumbs cache have been successfully deleted."
+msgstr "כל הזיכרון של התמונות הממוזערות נמחק בהצלחה."
+
+#: ../core/settings/pages/tools.php:234
+msgid "All page templates have been successfully reset."
+msgstr "כל התבניות עמוד אופסו בהצלחה"
+
+#: ../core/settings/settings-validations.php:21
+msgid "You have entered an invalid e-mail address."
+msgstr "יש להזין כתובת אימייל חוקית."
+
+#: ../core/setup.php:25
+msgid "Primary Menu"
+msgstr "תפריט ראשי"
+
+#: ../core/setup.php:26
+msgid "Primary Mobile Menu"
+msgstr "תפריט מובייל ראשי"
+
+#: ../core/setup.php:27
+msgid "Sticky Menu"
+msgstr "תפריט דביק"
+
+#: ../core/setup.php:96
+#, php-format
+msgid "Page %s"
+msgstr "עמוד %s"
+
+#: ../core/sidebars/admin-ui.php:26
+msgid "Hide Sidebar"
+msgstr "להסתיר סיידבר"
+
+#: ../core/sidebars/admin-ui.php:43
+msgid "Sidebars"
+msgstr "סיידברים"
+
+#: ../core/smart-page/api.php:426
+msgid "Numbers"
+msgstr "מספרי עמודים"
+
+#: ../core/smart-page/api.php:430
+msgid "Infinite Scroll"
+msgstr "גלילה אינסופית"
+
+#: ../core/units.php:18 ../core/widgets/abstract-class-pojo-widget-base.php:249
+#: ../core/widgets/abstract-class-pojo-widget-base.php:273
+msgid "Edit"
+msgstr "עריכה"
+
+#: ../core/units.php:264
+msgid "Pages:"
+msgstr "עמודים:"
+
+#. /label>
+#: ../core/widgets/abstract-class-pojo-widget-base.php:110
+msgid "Open Visual Editor"
+msgstr "פתיחת עורך טקסט"
+
+#: ../core/widgets/abstract-class-pojo-widget-base.php:215
+msgid "No have any options."
+msgstr "לא נמצאו אפשרויות."
+
+#: ../core/widgets/abstract-class-pojo-widget-base.php:234
+msgid "No Taxonomies Found"
+msgstr "לא נמצאו טקסונומיות"
+
+#: ../core/widgets/abstract-class-pojo-widget-base.php:246
+#: ../core/widgets/abstract-class-pojo-widget-base.php:270
+msgid "Item"
+msgstr "פריט"
+
+#: ../core/widgets/abstract-class-pojo-widget-base.php:289
+msgid "+ Add Item"
+msgstr "+ הוספת פריט"
+
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:12
+msgid ""
+"Add a number here and it will be animated. Examples: 100%, 24/7, 99.9$ etc"
+msgstr ""
+"יש להוסיף מספר כאן על מנת שהוא יקבל אנימציה. לדוגמא: 100%, 24/7, 99.9$ וכו'"
+
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:18
+msgid "Duration (in ms):"
+msgstr "אורך זמן (ms)"
+
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:19
+msgid "Default: 2000, 1000 ms = 1 second"
+msgstr "ברירת מחדל: 2000, 1000 מילישניות = 1 שניה"
+
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:32
+#: ../core/widgets/class-pojo-widget-catalog.php:28
+#: ../core/widgets/class-pojo-widget-image-text.php:47
+msgid "Description:"
+msgstr "תיאור:"
+
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:34
+msgid "Add some content to be displayed below the title"
+msgstr "תוכן שיופיע מתחת לכותרת"
+
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:41
+#: ../core/widgets/class-pojo-widget-image-text.php:81
+msgid "Link to:"
+msgstr "קישור אל"
+
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:69
+msgid "Number Style"
+msgstr "סגנון מספר"
+
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:143
+#: ../core/widgets/class-pojo-widget-image-text.php:117
+msgid "Title Style"
+msgstr "סגנון כותרת"
+
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:217
+#: ../core/widgets/class-pojo-widget-image-text.php:191
+msgid "Style Description"
+msgstr "סגנון תיאור"
+
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:298
+#: ../core/widgets/class-pojo-widget-animated-numbers.php:299
+msgid "Animated Numbers"
+msgstr "מספרים"
+
+#: ../core/widgets/class-pojo-widget-button.php:11
+msgid "Button Text:"
+msgstr "טקסט כפתור:"
+
+#: ../core/widgets/class-pojo-widget-button.php:12
+msgid "Click me"
+msgstr "לחץ כאן"
+
+#: ../core/widgets/class-pojo-widget-button.php:37
+msgid "Background Color:"
+msgstr "צבע רקע:"
+
+#: ../core/widgets/class-pojo-widget-button.php:45
+msgid "Background Opacity:"
+msgstr "אטימות רקע:"
+
+#: ../core/widgets/class-pojo-widget-button.php:53
+msgid "Border Color:"
+msgstr "צבע בורדר:"
+
+#: ../core/widgets/class-pojo-widget-button.php:61
+msgid "Text Color:"
+msgstr "צבע טקסט:"
+
+#: ../core/widgets/class-pojo-widget-button.php:69
+msgid "Size:"
+msgstr "גודל:"
+
+#: ../core/widgets/class-pojo-widget-button.php:72
+#: ../core/widgets/class-pojo-widget-catalog.php:118
+msgid "Small"
+msgstr "קטן"
+
+#: ../core/widgets/class-pojo-widget-button.php:73
+#: ../core/widgets/class-pojo-widget-catalog.php:119
+msgid "Medium"
+msgstr "רגיל"
+
+#: ../core/widgets/class-pojo-widget-button.php:74
+#: ../core/widgets/class-pojo-widget-catalog.php:120
+msgid "Large"
+msgstr "גדול"
+
+#: ../core/widgets/class-pojo-widget-button.php:75
+msgid "XL"
+msgstr ""
+
+#: ../core/widgets/class-pojo-widget-button.php:76
+msgid "XXL"
+msgstr ""
+
+#: ../core/widgets/class-pojo-widget-button.php:84
+msgid "Icon:"
+msgstr "אייקון"
+
+#: ../core/widgets/class-pojo-widget-button.php:87
+#, php-format
+msgid "Check in <a href=\"%s\" target=\"_blank\">Font-Awesome</a>."
+msgstr "ניתן להזין קוד <a href=\"%s\" target=\"_blank\">Font-Awesome</a>."
+
+#: ../core/widgets/class-pojo-widget-button.php:96
+msgctxt "button-align"
+msgid "None"
+msgstr "ללא"
+
+#: ../core/widgets/class-pojo-widget-button.php:97
+msgctxt "button-align"
+msgid "Center"
+msgstr "מרכז"
+
+#: ../core/widgets/class-pojo-widget-button.php:98
+msgctxt "button-align"
+msgid "Right"
+msgstr "שמאל"
+
+#: ../core/widgets/class-pojo-widget-button.php:99
+msgctxt "button-align"
+msgid "Left"
+msgstr "ימין"
+
+#: ../core/widgets/class-pojo-widget-button.php:100
+msgctxt "button-align"
+msgid "Block"
+msgstr "בלוק"
+
+#: ../core/widgets/class-pojo-widget-button.php:107
+#: ../core/widgets/class-pojo-widget-button.php:108
+msgid "Button"
+msgstr "כפתור"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:22
+msgid "Enter the list item title here."
+msgstr "יש להזין כותרת פריט כאן."
+
+#: ../core/widgets/class-pojo-widget-catalog.php:29
+msgid "Enter the item description here."
+msgstr "יש להזין תיאור פריט כאן."
+
+#: ../core/widgets/class-pojo-widget-catalog.php:37
+msgid "Pricing:"
+msgstr "מחיר:"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:38
+msgid "Enter the price for the item here, Eg: 34$, 55.5€, £12, 14₪."
+msgstr "יש להזין כאן מחיר פריט: לדוגמא34$, 55.5€, £12, 14₪."
+
+#: ../core/widgets/class-pojo-widget-catalog.php:44
+#: ../core/widgets/class-pojo-widget-image-text.php:55
+#: ../core/widgets/class-pojo-widget-image.php:24
+#: ../core/widgets/class-pojo-widget-testimonials.php:25
+msgid "Choose Image:"
+msgstr "בחירת תמונה:"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:45
+msgid "Upload a new, or choose a image from your media library."
+msgstr "להעלות תמונה חדשה או לבחור מתוך ספריית המדיה."
+
+#: ../core/widgets/class-pojo-widget-catalog.php:52
+msgid "Item Link"
+msgstr "קישור פריט"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:53
+msgid "Where should your item link to?"
+msgstr "להיכן הפריט יקושר?"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:56
+msgid "No link"
+msgstr "ללא קישור"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:57
+msgid "Link to thumbnail in lightbox (image needs to be set)."
+msgstr "לייטבוקס של תמונת הפריט (יש להגדיר תמונה לפני)."
+
+#: ../core/widgets/class-pojo-widget-catalog.php:58
+msgid "Set custom link"
+msgstr "קישור מותאם אישית"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:86
+msgid "Disable item"
+msgstr "להסתיר פריט"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:87
+msgid "Temporarily disable and hide the item without deleting it."
+msgstr "להסתיר פריט באופן זמני, מבלי למחוק אותו."
+
+#: ../core/widgets/class-pojo-widget-catalog.php:94
+#: ../core/widgets/class-pojo-widget-testimonials.php:72
+msgid "Items"
+msgstr "פריטים"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:102
+msgid "Thumbnail Shape:"
+msgstr "צורת תמונה:"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:106
+msgid "Circle"
+msgstr "עגול"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:107
+#: ../includes/class-pojo-theme-template.php:75
+msgid "Square"
+msgstr "קוביות"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:114
+#: ../core/widgets/class-pojo-widget-testimonials.php:149
+msgid "Thumbnail Size:"
+msgstr "גודל תמונה:"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:121
+msgid "Full size"
+msgstr "גודל מלא"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:128
+msgid "Catalog"
+msgstr "קטלוג"
+
+#: ../core/widgets/class-pojo-widget-catalog.php:129
+msgid "Display a product catalog or pricing list."
+msgstr "להציג רשימת מוצרים או שירותים עם מחיר."
+
+#: ../core/widgets/class-pojo-widget-embed-video.php:19
+msgid "Video Link:"
+msgstr "קישור וידאו:"
+
+#: ../core/widgets/class-pojo-widget-embed-video.php:27
+msgid "Ratio:"
+msgstr "יחס:"
+
+#: ../core/widgets/class-pojo-widget-embed-video.php:40
+msgid "YouTube Options"
+msgstr "אפשרויות יוטיוב"
+
+#: ../core/widgets/class-pojo-widget-embed-video.php:46
+msgid "AutoPlay"
+msgstr "ניגון אוטומטי\t\t"
+
+#: ../core/widgets/class-pojo-widget-embed-video.php:58
+msgid "Show suggested videos when the video finishes"
+msgstr "הצג סרטונים מוצעים כאשר הסרטון מסיים"
+
+#: ../core/widgets/class-pojo-widget-embed-video.php:70
+msgid "Show player controls"
+msgstr "הצג פקדי נגן"
+
+#: ../core/widgets/class-pojo-widget-embed-video.php:82
+msgid "Show video title and player actions"
+msgstr "הצג כותרת סרטון ופעולות פקדים"
+
+#: ../core/widgets/class-pojo-widget-embed-video.php:94
+msgid "Video"
+msgstr "וידאו"
+
+#: ../core/widgets/class-pojo-widget-embed-video.php:95
+msgid "Embed a video in your site"
+msgstr "הטמע וידאו באתר שלך"
+
+#: ../core/widgets/class-pojo-widget-google-maps.php:17
+msgid "Address Text Field:"
+msgstr "שדה כתובת:"
+
+#: ../core/widgets/class-pojo-widget-google-maps.php:19
+msgid "5th Ave, New York, United States"
+msgstr "אבן גבירול 69 תל אביב יפו, ישראל"
+
+#: ../core/widgets/class-pojo-widget-google-maps.php:29
+msgid "Zoom:"
+msgstr "תקריב:"
+
+#: ../core/widgets/class-pojo-widget-google-maps.php:40
+msgid "200px"
+msgstr ""
+
+#: ../core/widgets/class-pojo-widget-google-maps.php:46
+msgid "Maps"
+msgstr "מפות"
+
+#: ../core/widgets/class-pojo-widget-google-maps.php:47
+msgid "Add a google map with your location"
+msgstr "להציג את המיקום שלך עם מפות גוגל"
+
+#: ../core/widgets/class-pojo-widget-image-text.php:62
+#: ../core/widgets/class-pojo-widget-image.php:31
+msgid "Alt Text:"
+msgstr "טקסט חלופי:"
+
+#: ../core/widgets/class-pojo-widget-image-text.php:68
+msgid "Image Position:"
+msgstr "מיקום תמונה"
+
+#: ../core/widgets/class-pojo-widget-image-text.php:71
+#: ../core/widgets/class-pojo-widget-social-links.php:49
+msgid "Top"
+msgstr "למעלה"
+
+#: ../core/widgets/class-pojo-widget-image-text.php:99
+msgid "Image Hover Animation:"
+msgstr "אנימציית מעבר תמונה:"
+
+#: ../core/widgets/class-pojo-widget-image-text.php:272
+msgid "Image & Text"
+msgstr "תמונה וטקסט"
+
+#: ../core/widgets/class-pojo-widget-image-text.php:273
+msgid "Display a combination of image and text"
+msgstr "להציג שילוב של תמונה וטקסט"
+
+#: ../core/widgets/class-pojo-widget-image.php:69
+msgid "Caption:"
+msgstr "כיתוב תמונה:"
+
+#: ../core/widgets/class-pojo-widget-image.php:76
+msgid "Hover Animation:"
+msgstr "אנימציית מעבר:"
+
+#: ../core/widgets/class-pojo-widget-image.php:85
+msgid "Image"
+msgstr "תמונה"
+
+#: ../core/widgets/class-pojo-widget-image.php:86
+msgid "Add an image to your site"
+msgstr "הוסף תמונה לאתר שלך"
+
+#: ../core/widgets/class-pojo-widget-opening-hours.php:13
+msgid "Sunday"
+msgstr "ראשון"
+
+#: ../core/widgets/class-pojo-widget-opening-hours.php:14
+msgid "Monday"
+msgstr "שני"
+
+#: ../core/widgets/class-pojo-widget-opening-hours.php:15
+msgid "Tuesday"
+msgstr "שלישי"
+
+#: ../core/widgets/class-pojo-widget-opening-hours.php:16
+msgid "Wednesday"
+msgstr "רביעי"
+
+#: ../core/widgets/class-pojo-widget-opening-hours.php:17
+msgid "Thursday"
+msgstr "חמישי"
+
+#: ../core/widgets/class-pojo-widget-opening-hours.php:18
+msgid "Friday"
+msgstr "שישי"
+
+#: ../core/widgets/class-pojo-widget-opening-hours.php:19
+msgid "Saturday"
+msgstr "שבת"
+
+#: ../core/widgets/class-pojo-widget-opening-hours.php:33
+#, php-format
+msgid "Week starts by <a href=\"%s\" target=\"_blank\">General Settings</a>."
+msgstr "השבוע מתחיל לפי <a href=\"%s\" target=\"_blank\">הגדרות כלליות</a>."
+
+#: ../core/widgets/class-pojo-widget-opening-hours.php:48
+msgid "Hours"
+msgstr "שעות"
+
+#: ../core/widgets/class-pojo-widget-opening-hours.php:49
+msgid "Show your business's opening hours"
+msgstr "הצג את שעות הפתיחה של העסק שלך"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:46
+msgid "Featured Post"
+msgstr "פוסט ראשי"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:51
+msgid "Featured Post Options"
+msgstr "אפשרויות פוסט ראשי"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:70
+#: ../core/widgets/class-pojo-widget-posts-group.php:205
+#: ../core/widgets/class-pojo-widget-recent-posts.php:56
+msgid "Thumbnail:"
+msgstr "תמונה ראשית:"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:82
+#: ../core/widgets/class-pojo-widget-posts-group.php:217
+#: ../core/widgets/class-pojo-widget-recent-posts.php:115
+msgid "Excerpt:"
+msgstr "תקציר:"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:94
+#: ../core/widgets/class-pojo-widget-posts-group.php:229
+#: ../core/widgets/class-pojo-widget-recent-posts.php:127
+msgid "Number Words:"
+msgstr "מספר מילים:"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:103
+#: ../core/widgets/class-pojo-widget-posts-group.php:238
+#: ../core/widgets/class-pojo-widget-recent-posts.php:138
+msgid "Read More:"
+msgstr ":קרא עוד"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:115
+#: ../core/widgets/class-pojo-widget-posts-group.php:250
+#: ../core/widgets/class-pojo-widget-recent-posts.php:150
+msgid "Custom Read More:"
+msgstr "קרא עוד מותאם אישית:"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:121
+#: ../core/widgets/class-pojo-widget-posts-group.php:256
+#: ../core/widgets/class-pojo-widget-recent-posts.php:156
+msgid "Date:"
+msgstr "תאריך:"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:133
+#: ../core/widgets/class-pojo-widget-posts-group.php:268
+#: ../core/widgets/class-pojo-widget-recent-posts.php:168
+msgid "Time:"
+msgstr "זמן:"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:145
+#: ../core/widgets/class-pojo-widget-posts-group.php:280
+#: ../core/widgets/class-pojo-widget-recent-posts.php:180
+msgid "Comments:"
+msgstr ":תגובות"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:157
+#: ../core/widgets/class-pojo-widget-posts-group.php:292
+#: ../core/widgets/class-pojo-widget-recent-posts.php:192
+msgid "Author:"
+msgstr "מחבר:"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:181
+#: ../core/widgets/class-pojo-widget-posts-group.php:186
+msgid "Post Options"
+msgstr "אפשרויות פוסט"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:376
+msgid "Posts Group"
+msgstr "קבוצת פוסטים"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:377
+msgid "Display posts group by category"
+msgstr "הצגת קבוצות פוסטים לפי קטגוריה"
+
+#: ../core/widgets/class-pojo-widget-posts-group.php:422
+#: ../core/widgets/class-pojo-widget-recent-posts.php:261
+msgid "No posts found."
+msgstr "לא נמצאו פוסטים"
+
+#: ../core/widgets/class-pojo-widget-recent-posts.php:215
+msgid "Posts"
+msgstr "פוסטים"
+
+#: ../core/widgets/class-pojo-widget-recent-posts.php:216
+msgid "Display recent posts by category"
+msgstr "להציג פוסטים אחרונים לפי קטגוריה"
+
+#: ../core/widgets/class-pojo-widget-social-links.php:46
+msgid "Tooltip:"
+msgstr "טולטיפ:"
+
+#: ../core/widgets/class-pojo-widget-social-links.php:52
+msgid "Bottom"
+msgstr "מלמטה"
+
+#: ../core/widgets/class-pojo-widget-social-links.php:62
+msgid "Links:"
+msgstr "קישורים:"
+
+#: ../core/widgets/class-pojo-widget-social-links.php:76
+msgid "Social Links"
+msgstr "רשתות חברתיות"
+
+#: ../core/widgets/class-pojo-widget-social-links.php:77
+msgid "Add links to all of your social media and sharing site profiles"
+msgstr "הוספת קישורים לכל הרשתות החברתיות ושתף את הפרופיל החברתי שלך"
+
+#: ../core/widgets/class-pojo-widget-sub-page-menu.php:27
+msgid "Do not show anything"
+msgstr "לא מציג שום דבר"
+
+#: ../core/widgets/class-pojo-widget-sub-page-menu.php:36
+msgid "Post Type:"
+msgstr "סוג פוסט:"
+
+#: ../core/widgets/class-pojo-widget-sub-page-menu.php:44
+msgid "Sort by:"
+msgstr "סידור לפי:"
+
+#: ../core/widgets/class-pojo-widget-sub-page-menu.php:48
+msgid "Post title"
+msgstr "כותרת פוסט"
+
+#: ../core/widgets/class-pojo-widget-sub-page-menu.php:49
+msgid "Page order"
+msgstr "סדר עמודים"
+
+#: ../core/widgets/class-pojo-widget-sub-page-menu.php:50
+msgid "Page ID"
+msgstr "מקט עמוד"
+
+#: ../core/widgets/class-pojo-widget-sub-page-menu.php:57
+msgid "Exclude:"
+msgstr "למעט:"
+
+#: ../core/widgets/class-pojo-widget-sub-page-menu.php:59
+msgid "Page IDs, separated by commas."
+msgstr "מספרי עמודים, מחולקים בפסיקים."
+
+#: ../core/widgets/class-pojo-widget-sub-page-menu.php:65
+msgid "Show menu if no found sub pages:"
+msgstr "הצגת תפריט אם אין עמודי משנה"
+
+#: ../core/widgets/class-pojo-widget-sub-page-menu.php:74
+msgid "Sub Page Menu"
+msgstr "תפריט עמודי משנה"
+
+#: ../core/widgets/class-pojo-widget-sub-page-menu.php:75
+msgid "Display a list of sub pages"
+msgstr "הצגת תפריט של עמודי משנה"
+
+#: ../core/widgets/class-pojo-widget-tabs.php:38
+msgid "Content:"
+msgstr "תוכן:"
+
+#: ../core/widgets/class-pojo-widget-tabs.php:46
+msgid "Don't add automatic paragraphs (for HTML code)"
+msgstr "לא לחלק לפסקאות בצורה אוטומטית (עבור קוד HTML)"
+
+#: ../core/widgets/class-pojo-widget-tabs.php:53
+#: ../core/widgets/class-pojo-widget-tabs.php:64
+#: ../core/widgets/class-pojo-widget-tabs.php:74
+msgid "Tabs"
+msgstr "טאבים"
+
+#: ../core/widgets/class-pojo-widget-tabs.php:61
+msgid "Type:"
+msgstr "סוג:"
+
+#: ../core/widgets/class-pojo-widget-tabs.php:65
+msgid "Toggle"
+msgstr "ספוילר"
+
+#: ../core/widgets/class-pojo-widget-tabs.php:66
+msgid "Accordion"
+msgstr "אקורדיון"
+
+#: ../core/widgets/class-pojo-widget-tabs.php:75
+msgid "Add tabs, an accordion or toggles to your site"
+msgstr "הוספת לשוניות, אקורדיון או ספוילר לאתר שלך"
+
+#: ../core/widgets/class-pojo-widget-testimonials.php:19
+msgid "Name:"
+msgstr "שם:"
+
+#: ../core/widgets/class-pojo-widget-testimonials.php:32
+msgid "Company / Subtitle Below Name:"
+msgstr "חברה / כותרת משנה מתחת לשם:"
+
+#: ../core/widgets/class-pojo-widget-testimonials.php:46
+msgid "Link Text:"
+msgstr "טקסט קישור:"
+
+#: ../core/widgets/class-pojo-widget-testimonials.php:64
+msgid "Content / Quote:"
+msgstr "תוכן / ציטוט:"
+
+#: ../core/widgets/class-pojo-widget-testimonials.php:94
+msgid "Autorotation:"
+msgstr "סיבוב אוטומטי"
+
+#: ../core/widgets/class-pojo-widget-testimonials.php:96
+msgid "Slider will rotate every X seconds"
+msgstr "הסליידר יתחלף מידי X שניות"
+
+#: ../core/widgets/class-pojo-widget-testimonials.php:122
+msgid "Navigation:"
+msgstr "ניווט:"
+
+#: ../core/widgets/class-pojo-widget-testimonials.php:136
+msgid "Transition Style:"
+msgstr "סגנון אנימציה:"
+
+#: ../core/widgets/class-pojo-widget-testimonials.php:153
+msgid "Small Circle"
+msgstr "תמונה מעוגלת"
+
+#: ../core/widgets/class-pojo-widget-testimonials.php:154
+msgid "Full Size"
+msgstr "גודל מלא"
+
+#: ../core/widgets/class-pojo-widget-testimonials.php:161
+msgid "Testimonials"
+msgstr "טסטמוניאל"
+
+#: ../core/widgets/class-pojo-widget-testimonials.php:162
+msgid "Show testimonials regarding your products and services"
+msgstr "להציג המלצות לקוחות על המוצרים או השירותים שלך"
+
+#: ../header.php:53
+msgid "Toggle navigation"
+msgstr "תפריט"
+
+#: ../header.php:67
+#, php-format
+msgid "Please setup Menu <a href=\"%s\">here</a>"
+msgstr "יש להגדיר תפריט ראשי ב<a href=\"%s\">אזור התפריטים</a>"
+
+#: ../includes/class-pojo-customize-register-fields.php:12
+msgid "Site Name"
+msgstr "שם אתר"
+
+#: ../includes/class-pojo-customize-register-fields.php:27
+msgid "Choose Logo"
+msgstr "בחירת לוגו"
+
+#: ../includes/class-pojo-customize-register-fields.php:34
+msgid "Percent Size"
+msgstr "גודל באחוזים"
+
+#: ../includes/class-pojo-customize-register-fields.php:42
+msgid "Logo Margin Top"
+msgstr "ריווח מעל הלוגו"
+
+#: ../includes/class-pojo-customize-register-fields.php:50
+msgid "Logo Margin Bottom"
+msgstr "ריווח תחתון ללוגו"
+
+#: ../includes/class-pojo-customize-register-fields.php:58
+#, fuzzy
+msgid "Mobile Logo"
+msgstr "נייד"
+
+#: ../includes/class-pojo-customize-register-fields.php:66
+msgid "Logo"
+msgstr "לוגו"
+
+#: ../includes/class-pojo-customize-register-fields.php:108
+msgid "Body Text"
+msgstr "טקסט כללי"
+
+#: ../includes/class-pojo-customize-register-fields.php:133
+#: ../includes/class-pojo-customize-register-fields.php:507
+#: ../includes/class-pojo-customize-register-fields.php:569
+#: ../includes/class-pojo-customize-register-fields.php:631
+msgid "Link Hover"
+msgstr "מעבר על קישור"
+
+#: ../includes/class-pojo-customize-register-fields.php:161
+msgid "H1 - Page Title"
+msgstr "H1 - כותרת עמוד"
+
+#: ../includes/class-pojo-customize-register-fields.php:191
+msgid "H3 - Masonry Title"
+msgstr "H3 - כותרת פסיפס"
+
+#: ../includes/class-pojo-customize-register-fields.php:207
+msgid "H4 - Grid Title"
+msgstr "H4 - כותרת גריד"
+
+#: ../includes/class-pojo-customize-register-fields.php:252
+msgid "Typography"
+msgstr "טיפוגרפיה"
+
+#: ../includes/class-pojo-customize-register-fields.php:288
+msgid "Header"
+msgstr "הידר"
+
+#: ../includes/class-pojo-customize-register-fields.php:303
+msgid "Menu Primary"
+msgstr "תפריט ראשי"
+
+#: ../includes/class-pojo-customize-register-fields.php:319
+#, fuzzy
+msgid "Menu Divider - Color"
+msgstr "צבע מפריד:"
+
+#: ../includes/class-pojo-customize-register-fields.php:329
+msgid "Menu Color Hover"
+msgstr "מעבר טקסט על התפריט"
+
+#: ../includes/class-pojo-customize-register-fields.php:339
+msgid "Menu Background Hover"
+msgstr "מעבר רקע על התפריט"
+
+#: ../includes/class-pojo-customize-register-fields.php:348
+msgid "Sub Menu - Background"
+msgstr "רקע תפריט משנה"
+
+#: ../includes/class-pojo-customize-register-fields.php:357
+msgid "Sub Menu - BG Hover"
+msgstr "מעבר רקע על התפריט"
+
+#: ../includes/class-pojo-customize-register-fields.php:366
+msgid "Sub Menu"
+msgstr "תפריט משנה"
+
+#: ../includes/class-pojo-customize-register-fields.php:381
+msgid "Sub Menu - Hover"
+msgstr "מעבר על התפריט משנה"
+
+#: ../includes/class-pojo-customize-register-fields.php:483
+#: ../includes/class-pojo-customize-register-fields.php:545
+#: ../includes/class-pojo-customize-register-fields.php:607
+msgid "Text"
+msgstr "טקסט"
+
+#: ../includes/class-pojo-customize-register-fields.php:517
+#: ../includes/class-pojo-customize-register-fields.php:579
+msgid "Widget Title"
+msgstr "כותרת וידג'ט"
+
+#: ../includes/class-pojo-customize-register-fields.php:594
+msgid "Footer"
+msgstr "פוטר"
+
+#: ../includes/class-pojo-customize-register-fields.php:641
+msgid "Copyright"
+msgstr "קרדיט"
+
+#: ../includes/class-pojo-customize-register-fields.php:687
+msgid "Mobile"
+msgstr "נייד"
+
+#: ../includes/class-pojo-theme-template.php:59
+msgid "Blog"
+msgstr "בלוג"
+
+#: ../includes/class-pojo-theme-template.php:60
+#: ../includes/class-pojo-theme-template.php:65
+msgid "Grid"
+msgstr "גריד"
+
+#: ../includes/class-pojo-theme-template.php:61
+#: ../includes/class-pojo-theme-template.php:66
+msgid "Masonry"
+msgstr "פסיפס"
+
+#: ../includes/class-pojo-theme-template.php:73
+#: ../includes/class-pojo-theme-template.php:82
+msgid "Grid Three"
+msgstr "גריד - 3 עמודות"
+
+#: ../includes/class-pojo-theme-template.php:74
+#: ../includes/class-pojo-theme-template.php:83
+msgid "Grid Four"
+msgstr "גריד - 4 עמודות"
+
+#: ../includes/class-pojo-theme-template.php:81
+msgid "List"
+msgstr "רשימה"
+
+#: ../includes/theme-setup.php:8
+msgid "Main Sidebar"
+msgstr "סרגל צדדי ראשי"
+
+#: ../includes/theme-setup.php:9
+msgid "These are widgets for the Main Sidebar"
+msgstr "וידג'טים עבור סרגל צדדי ראשי"
+
+#: ../includes/theme-setup.php:20
+msgid "Sticky Header"
+msgstr "הידר דביק"
+
+#: ../includes/theme-setup.php:21
+msgid "These are widgets for the Sticky Header"
+msgstr "וידג'טים עבור אזור ההידר"
+
+#: ../languages/strings.php:4
+msgid "Superstar"
+msgstr ""
+
+#: ../languages/strings.php:5
+#, fuzzy
+msgid "Pojo"
+msgstr "הגדרות מקומות"
+
+#: ../loop/404.php:14
+msgid "404"
+msgstr "שגיאה 404"
+
+#: ../loop/404.php:15
+msgid "Not Found"
+msgstr "לא נמצא"
+
+#: ../loop/404.php:16
+msgid "Sorry, this page could not be found!"
+msgstr "מצטערים, דף זה לא נמצא!"
+
+#: ../loop/archive-pojo_gallery.php:11
+msgid "Archive Galleries"
+msgstr "ארכיון גלריות"
+
+#: ../loop/archive.php:14
+#, php-format
+msgid "Daily Archive: %s"
+msgstr "ארכיון יומי: %s"
+
+#: ../loop/archive.php:16
+#, php-format
+msgid "Monthly Archive: %s"
+msgstr "ארכיון חודשי: %s"
+
+#: ../loop/archive.php:16
+#, fuzzy
+msgctxt "monthly archives date format"
+msgid "F Y"
+msgstr "שכפול לגובה"
+
+#: ../loop/archive.php:18
+#, php-format
+msgid "Yearly Archive: %s"
+msgstr "ארכיון שנתי: %s"
+
+#: ../loop/archive.php:18
+#, fuzzy
+msgctxt "yearly archives date format"
+msgid "Y"
+msgstr "שכפול לגובה"
+
+#: ../loop/archive.php:28
+msgid "Archive"
+msgstr "ארכיון"
+
+#: ../loop/page.php:32 ../loop/single-pojo_gallery.php:36 ../loop/single.php:47
+msgid "&laquo; Previous"
+msgstr "&laquo; הקודם"
+
+#: ../loop/page.php:33 ../loop/single-pojo_gallery.php:37 ../loop/single.php:48
+msgid "Next &raquo;"
+msgstr "הבא &raquo;"
+
+#: ../loop/search.php:13
+#, php-format
+msgid "Search Results for: %s"
+msgstr "תוצאות חיפוש עבור: %s"

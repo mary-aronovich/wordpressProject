@@ -1,0 +1,43 @@
+
+/*= Pojo Admin Tabs
+---------------------------------------*/
+
+.pojo-admin-tabs {
+	&.builder-tabs {
+		border-bottom: 1px solid #CCC;
+		list-style: none;
+		margin: 0 0 10px;
+		padding: 0;
+		line-height: 1;
+		li {
+			float: left;
+			a.nav-tab {
+				margin-left: 0.5em;
+				outline: none;
+				font-size: 12px;
+				font-weight: normal;
+				line-height: 1.4;
+				&:hover,
+				&:active,
+				&:focus {
+					outline: none;
+					box-shadow: none;
+					-webkit-box-shadow: none;
+					color: inherit;
+				}
+				&.nav-tab-active {
+					background-color: #F5F5F5;
+				}
+			}
+		}
+	}
+}
+
+div.pojo-admin-tabs-content {
+	div.pojo-admin-tab-panel {
+		display: none;
+		&.tab-active {
+			display: block;
+		}
+	}
+}

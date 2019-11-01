@@ -1,0 +1,308 @@
+# Translation of Themes - Twenty Seventeen in Hebrew
+# This file is distributed under the same license as the Themes - Twenty Seventeen package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-08-09 09:56:07+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: he_IL\n"
+"Project-Id-Version: Themes - Twenty Seventeen\n"
+
+#. Description of the theme
+msgid "Twenty Seventeen brings your site to life with header video and immersive featured images. With a focus on business sites, it features multiple sections on the front page as well as widgets, navigation and social menus, a logo, and more. Personalize its asymmetrical grid with a custom color scheme and showcase your multimedia content with post formats. Our default theme for 2017 works great in many languages, for any abilities, and on any device."
+msgstr "תבנית Twenty Seventeen מעשירה את האתר עם תמונות מרשימות ואנימציות עדינות. תוך התמקדות באתרים עסקיים, התבנית מציגה אזורים מרובים בדף הבית, וידג'טים, תפריטי ניווט, תפריטי מדיה חברתית, לוגו ועוד. התבנית מאפשרת לבצע התאמה של אופן הפריסה עם בחירת סכימת צבעים והצגת המדיה באמצעות פורמטים. תבנית ברירת המחדל לשנת 2017 פועלת מצויין בהרבה שפות, לכל מטרה ועל כל מכשיר."
+
+#. Theme Name of the theme
+msgid "Twenty Seventeen"
+msgstr "Twenty Seventeen"
+
+#: template-parts/footer/footer-widgets.php:18
+msgid "Footer"
+msgstr "כותרת תחתונה"
+
+#: functions.php:338
+msgid "Add widgets here to appear in your sidebar on blog posts and archive pages."
+msgstr "הוסיפו ווידג׳טים לכאן כדי שיוצגו בסרגל הצידי של פוסטים ועמודי ארכיון באתר."
+
+#: sidebar.php:18 functions.php:336
+msgid "Blog Sidebar"
+msgstr "סגל צידי באתר"
+
+#: template-parts/navigation/navigation-top.php:31
+#: template-parts/header/site-branding.php:34
+msgid "Scroll down to content"
+msgstr "גלול מטה אל התוכן"
+
+#: functions.php:179
+msgctxt "Theme starter content"
+msgid "Coffee"
+msgstr "קפה"
+
+#: functions.php:175
+msgctxt "Theme starter content"
+msgid "Sandwich"
+msgstr "סנדוויץ'"
+
+#: functions.php:171
+msgctxt "Theme starter content"
+msgid "Espresso"
+msgstr "אספרסו"
+
+#: inc/custom-header.php:128
+msgid "Pause background video"
+msgstr "עצור וידאו רקע"
+
+#: inc/custom-header.php:127
+msgid "Play background video"
+msgstr "נגן וידאו ברקע"
+
+#: inc/template-tags.php:151
+msgid "Front Page Section %1$s Placeholder"
+msgstr "מציין מקום של %1$s אזור דף הבית"
+
+#: inc/customizer.php:109
+msgid "When the two-column layout is assigned, the page title is in one column and content is in the other."
+msgstr "כאשר מוגדרת פריסה של שני טורים, כותרת הדף תוצג בטור אחד והתוכן בטור השני."
+
+#: single.php:34
+msgid "Next Post"
+msgstr "הפוסט הבא"
+
+#: index.php:27
+msgid "Posts"
+msgstr "פוסטים"
+
+#: inc/template-tags.php:89
+msgid "Tags"
+msgstr "תגיות"
+
+#: inc/template-tags.php:85
+msgid "Categories"
+msgstr "קטגוריות"
+
+#. translators: used between list items, there is a space after the comma
+#: inc/template-tags.php:66
+msgid ", "
+msgstr ", "
+
+#. translators: %s: post date
+#: inc/template-tags.php:52
+msgid "<span class=\"screen-reader-text\">Posted on</span> %s"
+msgstr "<span class=\"screen-reader-text\">פורסם ב </span> %s"
+
+#. translators: %s: post author
+#: inc/template-tags.php:21
+msgid "by %s"
+msgstr "מאת %s"
+
+#: inc/icon-functions.php:44
+msgid "Please define an SVG icon filename."
+msgstr "נא להגדיר שם קובץ SVG."
+
+#: inc/icon-functions.php:39
+msgid "Please define default parameters in the form of an array."
+msgstr "נא להגדיר פרמטרים בתצורת מערך."
+
+#: inc/customizer.php:143
+msgid "Select pages to feature in each area from the dropdowns. Add an image to a section by setting a featured image in the page editor. Empty sections will not be displayed."
+msgstr "בחר דפים שיוצגו בכל אזור בתפריטי הבחירה. הוסף תמונה לאזור על ידי בחירת תמונה ראשית בעורך. אזורים ריקים לא יוצגו."
+
+#. translators: %d is the front page section number
+#: inc/customizer.php:142
+msgid "Front Page Section %d Content"
+msgstr "תוכן של %d אזור דף הבית"
+
+#: inc/customizer.php:112 inc/customizer.php:171
+msgid "Two Column"
+msgstr "שני טורים"
+
+#: inc/customizer.php:111 inc/customizer.php:170
+msgid "One Column"
+msgstr "טור אחד"
+
+#: inc/customizer.php:106
+msgid "Page Layout"
+msgstr "פריסת עמוד"
+
+#: inc/customizer.php:89
+msgid "Theme Options"
+msgstr "אפשרויות תבנית"
+
+#: inc/customizer.php:64
+msgid "Custom"
+msgstr "מותאם"
+
+#: inc/customizer.php:62
+msgid "Light"
+msgstr "בהיר"
+
+#: inc/customizer.php:60
+msgid "Color Scheme"
+msgstr "סכימת צבעים"
+
+#: inc/custom-header.php:56
+msgid "Default Header Image"
+msgstr "תמונת כותרת ברירת מחדל"
+
+#: functions.php:360
+msgid "Footer 2"
+msgstr "פוטר 2"
+
+#: functions.php:350 functions.php:362
+msgid "Add widgets here to appear in your footer."
+msgstr "יש להוסיף וידג'טים שיוצגו בפוטר."
+
+#: functions.php:348
+msgid "Footer 1"
+msgstr "פוטר 1"
+
+#: functions.php:289
+msgctxt "Libre Franklin font: on or off"
+msgid "on"
+msgstr "off"
+
+#: template-parts/navigation/navigation-top.php:12 functions.php:64
+#: functions.php:203
+msgid "Top Menu"
+msgstr "תפריט עליון"
+
+#: comments.php:62
+msgid "Reply"
+msgstr "הגב"
+
+#: template-parts/post/content-none.php:28
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
+msgstr "מה שחיפשת לא נמצא. אולי חיפוש יכול לעזור."
+
+#: search.php:54
+msgid "Sorry, but nothing matched your search terms. Please try again with some different keywords."
+msgstr "לא נמצאו תוצאות התואמות לחיפוש. יש לנסות שנית עם מילות מפתח חלופיות."
+
+#: template-parts/post/content-none.php:24
+msgid "Ready to publish your first post? <a href=\"%1$s\">Get started here</a>."
+msgstr "מוכנים לפרסם את הפוסט הראשון? <a href=\"%1$s\">התחילו כאן</a>."
+
+#: template-parts/post/content-none.php:17 search.php:21
+msgid "Nothing Found"
+msgstr "דבר לא נמצא"
+
+#: single.php:33
+msgid "Previous Post"
+msgstr "הפוסט הקודם"
+
+#: single.php:33 comments.php:71
+msgid "Previous"
+msgstr "קודם"
+
+#: single.php:34 comments.php:72
+msgid "Next"
+msgstr "הבא"
+
+#: searchform.php:20
+msgctxt "submit button"
+msgid "Search"
+msgstr "חיפוש"
+
+#: searchform.php:19
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "חיפוש &hellip;"
+
+#: searchform.php:17
+msgctxt "label"
+msgid "Search for:"
+msgstr "חפש:"
+
+#. translators: %s: Name of current post
+#: template-parts/page/content-front-page-panels.php:45
+#: template-parts/page/content-front-page.php:42
+#: template-parts/post/content-audio.php:84 template-parts/post/content.php:57
+#: template-parts/post/content-gallery.php:71
+#: template-parts/post/content-video.php:83
+#: template-parts/post/content-image.php:61 functions.php:390
+msgid "Continue reading<span class=\"screen-reader-text\"> \"%s\"</span>"
+msgstr "להמשיך לקרוא<span class=\"screen-reader-text\"> %s</span>"
+
+#: inc/customizer.php:63
+msgid "Dark"
+msgstr "שחור"
+
+#: inc/back-compat.php:39 inc/back-compat.php:52 inc/back-compat.php:70
+msgid "Twenty Seventeen requires at least WordPress version 4.7. You are running version %s. Please upgrade and try again."
+msgstr "דרישת המינימום להפעלת התבנית Twenty Seventeen היא וורדפרס בגרסה 4.7. האתר מפעיל וורדפרס בגרסה %s. יש לשדרג את גרסת וורדפרס ולנסות שנית."
+
+#: template-parts/page/content-page.php:26
+#: template-parts/post/content-audio.php:91 template-parts/post/content.php:64
+#: template-parts/post/content-gallery.php:78
+#: template-parts/post/content-video.php:90
+#: template-parts/post/content-image.php:68
+msgid "Pages:"
+msgstr "עמודים:"
+
+#: template-parts/navigation/navigation-top.php:17
+msgid "Menu"
+msgstr "תפריט"
+
+#: header.php:28
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
+
+#: functions.php:482
+msgid "Collapse child menu"
+msgstr "הסתר תפריט"
+
+#: functions.php:481
+msgid "Expand child menu"
+msgstr "הצג תפריט"
+
+#: functions.php:65 functions.php:214
+msgid "Social Links Menu"
+msgstr "תפריט קישורים חברתיים"
+
+#: template-parts/footer/site-info.php:19
+msgid "Proudly powered by %s"
+msgstr "פועל על %s"
+
+#: footer.php:26
+msgid "Footer Social Links Menu"
+msgstr "תפריט קישורים חברתיים בתחתית"
+
+#: comments.php:82
+msgid "Comments are closed."
+msgstr "סגור לתגובות."
+
+#: archive.php:50 search.php:47 index.php:54
+msgid "Page"
+msgstr "עמוד"
+
+#: 404.php:21
+msgid "Oops! That page can&rsquo;t be found."
+msgstr "העמוד לא נמצא."
+
+#: 404.php:24
+msgid "It looks like nothing was found at this location. Maybe try a search?"
+msgstr "נראה כי אין כאן כלום. אולי כדאי לנסות את אפשרות החיפוש."
+
+#: archive.php:48 search.php:45 index.php:52
+msgid "Previous page"
+msgstr "עמוד קודם"
+
+#: archive.php:49 search.php:46 index.php:53
+msgid "Next page"
+msgstr "עמוד הבא"
+
+#. Author of the theme
+msgid "the WordPress team"
+msgstr "צוות וורדפרס"
+
+#. Theme URI of the theme
+msgid "https://wordpress.org/themes/twentyseventeen/"
+msgstr "https://he.wordpress.org/themes/twentyseventeen/"
+
+#. Author URI of the theme
+#: template-parts/footer/site-info.php:18
+msgid "https://wordpress.org/"
+msgstr "https://he.wordpress.org/"

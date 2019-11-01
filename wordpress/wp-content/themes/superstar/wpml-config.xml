@@ -1,0 +1,7 @@
+<wpml-config>
+	<admin-texts>
+		<key name="breadcrumbs_home_text" />
+		<key name="txt_copyright_right" />
+		<key name="txt_copyright_left" />
+	</admin-texts>
+</wpml-config>

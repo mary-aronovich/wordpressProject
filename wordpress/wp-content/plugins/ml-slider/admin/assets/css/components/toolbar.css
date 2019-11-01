@@ -1,0 +1,17 @@
+.ms-toolbar-button {
+	@apply flex flex-col justify-end items-center h-full pb-4 px-2 leading-none text-gray-darker transition no-underline !important;
+	&:hover, &:active {
+		@apply outline-none bg-gray-lighter text-black !important;
+	}
+	&:focus {
+		@apply text-gray-darker !important;
+	}
+	&.disabled {
+		@apply text-gray-light !important;
+	}
+	span {
+		@apply text-xs !important;
+		padding-top: 0.35rem !important;
+		white-space: nowrap !important;
+	}
+}

@@ -1,0 +1,19 @@
+div#wpcontent {
+	@apply px-0;
+}
+
+div#wpbody-content {
+	@apply bg-gray-light pb-0;
+}
+
+div#wpbody-content > .notice {
+	@apply m-6;
+}
+
+div#wpbody-content > * {
+	@apply hidden;
+}
+
+img {
+	@apply border-none;
+}

@@ -1,0 +1,283 @@
+/*= Pojo Global - Custom CSS
+---------------------------------------*/
+
+.clearfix:before,
+.clearfix:after {
+	display: table;
+	content: " ";
+}
+
+.clearfix:after {
+	clear: both;
+}
+
+.copy-paste-shortcode {
+	width: 100%;
+	& + span {
+		display: block;
+		font-size: 0.9em;
+		padding-top: 5px;
+	}
+}
+
+//Settings & Options
+.field-multi-checkbox {
+	max-height: 350px;
+	overflow-y: auto;
+}
+
+tr.pojo-settings-child-row {
+	border-bottom: 1px solid #FFF;
+	&.no-border {
+		border-bottom: none;
+	}
+	th {
+		font-size: 90%;
+		font-weight: normal;
+	}
+}
+
+/*= Pojo Admin Dashbord
+---------------------------------------*/
+#dashboard_right_now {
+	.main {
+		p {
+			display: none;
+			&.display-block {
+				display: block;
+			}
+		}
+	}
+}
+
+.welcome-panel {
+	.welcome-slideshows-forms:before {
+		content: "\f175";
+		top: -2px;
+	}
+	.welcome-setting:before {
+		content: "\f108";
+		top: -2px;
+	}
+}
+
+.theme-overlay .parent-theme {
+	display: none;
+}
+
+/* Admin Bar - Back & Front
+*******************************************/
+#wpadminbar .quicklinks li .blavatar:before {
+	content: "\f319";
+}
+
+#wpadminbar li#wp-admin-bar-pojo-dashboard .ab-item:before {
+	content: "\f311";
+}
+
+#wpadminbar .menupop .menupop > .ab-item:before {
+	-moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+/**************END***********/
+
+#side-sortables {
+	.atmb-send_button_color {
+		.radio-image {
+			margin-top: 5px;
+			.radio-image-item {
+				.square(28px);
+				img {
+					&.radio-select-img-item {
+						border-width: 3px;
+						border-color: #FFFFFF;
+						opacity: 1;
+						&:hover {
+							border-color: #dddddd;
+						}
+						&.item-checked {
+							border-color: #1E8CBE;
+							-webkit-box-shadow: 0 0 2px 0 rgba(30, 140, 190, 1); /* WebKit */
+							-moz-box-shadow: 0 0 2px 0 rgba(30, 140, 190, 1); /* Firefox */
+							box-shadow: 0 0 2px 0 rgba(30, 140, 190, 1); /* Standard */
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/*= Login Style
+---------------------------------------*/
+tr.pojo-login-style-logo-image {
+	ul.at-image-ul-wrap li {
+		img {
+			width: 320px;
+			height: 100px;
+			max-width: 100%;
+		}
+	}
+}
+
+/*= Images Radio
+---------------------------------------*/
+
+.pojo_button {
+	.radio-image-item {
+		.square(28px);
+		img {
+			&.radio-select-img-item {
+				border-width: 3px;
+				border-color: #FFFFFF;
+				opacity: 1;
+				&:hover {
+					border-color: #dddddd;
+				}
+				&.item-checked {
+					border-color: #1E8CBE;
+					-webkit-box-shadow: 0 0 2px 0 rgba(30, 140, 190, 1); /* WebKit */
+					-moz-box-shadow:0 0 2px 0 rgba(30, 140, 190, 1); /* Firefox */
+					box-shadow: 0 0 2px 0 rgba(30, 140, 190, 1); /* Standard */
+				}
+			}
+		}
+	}
+}
+
+.radio-image-item {
+	display: inline-block;
+	text-align: center;
+	vertical-align: top;
+	width: 65px;
+	padding-right: 10px;
+	font-size: 11px;
+	line-height: 1.2em;
+	color: #888888;
+}
+
+.radio-image-item label {
+	vertical-align: top;
+}
+
+img.radio-select-img-item {
+	border: 3px solid #dfdfdf;
+	margin: 0 auto;
+	cursor: pointer;
+	opacity: 0.9;
+}
+
+img.radio-select-img-item:hover {
+	border-color: #999999;
+	opacity: 0.9;
+}
+
+img.radio-select-img-item.item-checked {
+	border-color: #1E8CBE;
+	opacity: 1;
+}
+
+.radio-select-img-item:hover + label {
+	color: #666666;
+}
+
+.radio-select-img-item.item-checked + label {
+	color: #1E8CBE;
+}
+
+/*= Images Input
+---------------------------------------*/
+
+ul.at-image-ul-wrap {
+	margin: 0;
+}
+
+ul.at-image-ul-wrap li.image {
+	display: inline-block;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+ul.at-image-ul-wrap li.image:first-child {
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.rtl ul.at-image-ul-wrap li.image:first-child {
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+ul.at-image-ul-wrap li img {
+	max-width: 115px;
+	height: auto;
+	vertical-align: middle;
+	border: 1px solid #dfdfdf;
+	padding: 3px;
+}
+
+ul.at-image-ul-wrap li .image-delete {
+	display: none;
+	margin: 0;
+	position: absolute;
+	left: 4px;
+	top: 4px;
+}
+
+ul.at-image-ul-wrap li:hover .image-delete {
+	display: block;
+	z-index: 999;
+}
+
+// Scroll Up for Customizer
+#customize-control-scroll_up_icon .radio-image-item {
+	width: 46px;
+	padding: 3px;
+	line-height: 1;
+}
+
+#customize-control-scroll_up_icon img.radio-select-img-item {
+	padding: 5px;
+	border-width: 2px;
+}
+//End
+
+#pojo-page-format h2 {
+	padding: 0;
+	margin: 20px 0;
+}
+
+body.elementor-editor-active {
+	#pojo-page-format {
+		display: none;
+	}
+}
+
+.rtl .settings_panel,
+.rtl .view_wrapper,
+.rtl .settings_wrap {
+	direction: ltr;
+}
+
+.rtl .settings_panel th,
+.rtl .view_wrapper th,
+.rtl .settings_wrap th {
+	text-align: left;
+}
+
+//Infinity Scroll
+div.pojo-loading {
+	display: inline-block;
+	font-weight: bold;
+	.spinner {
+		display: inline-block;
+		visibility: visible;
+		float: none;
+		vertical-align: middle;
+	}
+}

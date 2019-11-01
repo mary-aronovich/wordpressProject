@@ -1,0 +1,111 @@
+# Translation of Themes - Hello Elementor in Hebrew
+# This file is distributed under the same license as the Themes - Hello Elementor package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2019-09-08 12:07:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: he_IL\n"
+"Project-Id-Version: Themes - Hello Elementor\n"
+
+#. Theme Name of the theme
+msgid "Hello Elementor"
+msgstr "שלום אלמנטור"
+
+#. Description of the theme
+msgid "A plain-vanilla & lightweight theme for Elementor page builder"
+msgstr "תבנית בסיסית וקלת משקל עבור בונה העמודים אלמנטור"
+
+#: includes/admin-functions.php:48
+msgid "Hello theme is a lightweight starter theme. We recommend you use it together with Elementor Page Builder plugin, they work perfectly together!"
+msgstr "שלום אלמנטור היא תבנית בסיס קלת משקל. אנו ממליצים לעשות בה שימוש בשילוב התוסף אלמנטור, הם עובדים נהדר יחד!"
+
+#: includes/admin-functions.php:50
+msgid "Install Elementor"
+msgstr "התקנת אלמנטור"
+
+#: includes/admin-functions.php:41
+msgid "Activate Elementor"
+msgstr "הפעלת אלמנטור"
+
+#: includes/admin-functions.php:140
+msgid "Thanks for installing Hello Theme!"
+msgstr "תודה על התקנת התבנית שלום אלמנטור!"
+
+#: includes/admin-functions.php:143
+msgid "Learn more about Elementor"
+msgstr "ללמוד עוד על אלמנטור"
+
+#: includes/admin-functions.php:39
+msgid "Hello theme is a lightweight starter theme designed to work perfectly with Elementor Page Builder plugin."
+msgstr "ערכת העיצוב ״שלום אלמנטור״ היא תבנית בסיס קלת משקל ומהירה שפותחה לעבוד בצורה מושלמת עם התוסף אלמנטור."
+
+#. translators: 1: number of comments
+#: comments.php:31
+msgctxt "comments title"
+msgid "%1$s Response"
+msgid_plural "%1$s Responses"
+msgstr[0] "תגובה אחת"
+msgstr[1] "%1$s תגובות"
+
+#: functions.php:32
+msgid "Primary"
+msgstr "ראשי"
+
+#: template-parts/404.php:15
+msgid "The page can&rsquo;t be found."
+msgstr "העמוד המבוקש לא נמצא."
+
+#: template-parts/single.php:25
+msgid "Tagged "
+msgstr "תוייג"
+
+#: template-parts/header.php:23
+msgid "Home"
+msgstr "דף הבית"
+
+#: template-parts/search.php:16
+msgid "Search results for: "
+msgstr "תוצאות חיפוש עבור:"
+
+#: comments.php:27
+msgctxt "comments title"
+msgid "One Response"
+msgstr "תגובה אחת"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:48 template-parts/search.php:46
+msgid "newer %s"
+msgstr "%s חדשות יותר"
+
+#. Translators: HTML arrow
+#: template-parts/archive.php:46 template-parts/search.php:44
+msgid "%s older"
+msgstr "%s ישנות יותר"
+
+#: template-parts/search.php:32
+msgid "It seems we can't find what you're looking for."
+msgstr "עושה רושם שהתוכן המבוקש לא נמצא."
+
+#: comments.php:67
+msgid "Comments are closed."
+msgstr "סגור לתגובות."
+
+#: template-parts/404.php:19
+msgid "It looks like nothing was found at this location."
+msgstr "עושה רושם שהתוכן המבוקש לא נמצא בכתובת זו."
+
+#. Author URI of the theme
+msgid "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/?utm_source=wp-themes&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Theme URI of the theme
+msgid "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+msgstr "https://elementor.com/hello-theme/?utm_source=wp-themes&utm_campaign=theme-uri&utm_medium=wp-dash"
+
+#. Author of the theme
+msgid "Elementor Team"
+msgstr "צוות אלמנטור"

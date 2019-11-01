@@ -1,0 +1,537 @@
+# Translation of Plugins - One Click Accessibility - Stable (latest release) in Hebrew
+# This file is distributed under the same license as the Plugins - One Click Accessibility - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-03 14:07:28+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: he_IL\n"
+"Project-Id-Version: Plugins - One Click Accessibility - Stable (latest release)\n"
+
+#: includes/pojo-a11y-settings.php:583
+msgid "Customize Toolbar"
+msgstr "התאמה אישית"
+
+#: includes/pojo-a11y-settings.php:582
+msgid "Set Accessibility Toolbar Settings"
+msgstr "הגדר אפשרויות סרגל נגישות"
+
+#: includes/pojo-a11y-settings.php:581
+msgid "Set Accessibility settings"
+msgstr "הגדר אפשרויות נגישות"
+
+#: includes/pojo-a11y-settings.php:572 includes/pojo-a11y-settings.php:573
+#: includes/pojo-a11y-settings.php:583
+msgid "Customize"
+msgstr "התאמה אישית"
+
+#: includes/pojo-a11y-settings.php:565 includes/pojo-a11y-settings.php:582
+msgid "Toolbar"
+msgstr "סרגל נגישות"
+
+#. Author URI of the plugin/theme
+msgid "https://wpaccessibility.io/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+msgstr "https://wpaccessibility.io/?utm_source=wp-plugins&utm_campaign=author-uri&utm_medium=wp-dash"
+
+#. Description of the plugin/theme
+msgid "The One Click Accessibility plugin is the fastest plugin to help you make your website more accessible."
+msgstr "The One Click Accessibility plugin is the fastest plugin to help you make your website more accessible."
+
+#. Plugin URI of the plugin/theme
+msgid "https://wpaccessibility.io/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+msgstr "https://wpaccessibility.io/?utm_source=wp-plugins&utm_campaign=plugin-uri&utm_medium=wp-dash"
+
+#: includes/pojo-a11y-settings.php:557 includes/pojo-a11y-settings.php:581
+msgid "Settings"
+msgstr "הגדרות"
+
+#: includes/pojo-a11y-settings.php:348
+msgid "Define how long your toolbar settings will be remembered"
+msgstr "הגדר למשך כמה זמן ההגדרות נגישות של המשתמש ישמרו"
+
+#: includes/pojo-a11y-settings.php:324
+msgid "This option will add <code>role=\"link\"</code> to all links on the page."
+msgstr "אפשרות זו תוסיף <code>role=\"link\"</code> לכל הקישורים בעמוד"
+
+#: includes/pojo-a11y-settings.php:300
+msgid "Add skip to content link when using keyboard."
+msgstr "הוספת קישור דלג אל התוכן בעת שימוש בניווט מקלדת"
+
+#: includes/pojo-a11y-customizer.php:165 includes/pojo-a11y-settings.php:564
+msgid "Accessibility Toolbar"
+msgstr "סרגל נגישות"
+
+#: includes/pojo-a11y-customizer.php:164
+msgid "Additional Toolbar settings can be configured at the %s page."
+msgstr "הגדרות נגישות נוספות ניתנות להגדרה בעמוד %s."
+
+#: includes/pojo-a11y-customizer.php:163
+msgid "Use the control below to customize the appearance and layout of the Accessibility Toolbar"
+msgstr "יש להשתמש באפשרויות הבאות כדי להתאים אישית את הנראות והעיצוב של סרגל הנגישות."
+
+#: includes/pojo-a11y-customizer.php:126
+msgid "Set Focus outline style"
+msgstr "הגדרת עיצוב קו פוקוס חיצוני"
+
+#: includes/pojo-a11y-customizer.php:154
+msgid "Set Focus outline color"
+msgstr "הגדרת צבע קו פוקוס חיצוני"
+
+#: includes/pojo-a11y-customizer.php:146
+msgid "Set Focus outline width"
+msgstr "הגדרת רוחב קו פוקוס חיצוני"
+
+#: includes/pojo-a11y-customizer.php:108
+msgid "Set Toolbar active text color"
+msgstr "הגדרת צבע מצב פעיל בסרגל נגישות"
+
+#: includes/pojo-a11y-customizer.php:103
+msgid "Active Color"
+msgstr "צבע במצב פעיל"
+
+#: includes/pojo-a11y-customizer.php:98
+msgid "Set Toolbar active background color"
+msgstr "הגדרת צבע רקע במצב פעיל"
+
+#: includes/pojo-a11y-customizer.php:93
+msgid "Active Background"
+msgstr "רקע במצב פעיל"
+
+#: includes/pojo-a11y-customizer.php:88
+msgid "Set Toolbar toggle button icon color"
+msgstr "הגדרת צבע רקע כפתור פתיחה"
+
+#: includes/pojo-a11y-customizer.php:78
+msgid "Set Toolbar toggle button background color"
+msgstr "הגדרת צבע סרגל נגישות"
+
+#: includes/pojo-a11y-customizer.php:70
+msgid "Set Toolbar text color"
+msgstr "הגדרת צבע טקסט בסרגל נגישות"
+
+#: includes/pojo-a11y-customizer.php:65
+msgid "Toolbar Color"
+msgstr "צבע סרגל נגישות"
+
+#: includes/pojo-a11y-customizer.php:60
+msgid "Set Toolbar background color"
+msgstr "הגדרת צבע רקע סרגל נגישות"
+
+#: includes/pojo-a11y-customizer.php:55
+msgid "Toolbar Background"
+msgstr "רקע סרגל נגישות"
+
+#. #-#-#-#-#  pojo-accessibility-code.pot (One Click Accessibility 2.0.3) 
+#. #-#-#-#-#
+#. Plugin Name of the plugin/theme
+#. #-#-#-#-#  pojo-accessibility-code.pot (One Click Accessibility 2.0.3) 
+#. #-#-#-#-#
+#. Author of the plugin/theme
+#: includes/pojo-a11y-admin-ui.php:150 includes/pojo-a11y-settings.php:628
+#: includes/pojo-a11y-settings.php:629
+msgid "One Click Accessibility"
+msgstr "סרגל נגישות"
+
+#: includes/pojo-a11y-customizer.php:47
+msgid "Offset from Top (Mobile)"
+msgstr "ריווח עליון (נייד)"
+
+#: includes/pojo-a11y-customizer.php:50
+msgid "Set Toolbar top offset (Mobile)"
+msgstr "הגדרת ריווח עליון של סרגל הנגישות (נייד)"
+
+#: includes/pojo-a11y-customizer.php:42
+msgid "Set Toolbar top offset (Desktop)"
+msgstr "הגדרת ריווח עליון של סרגל הנגישות (דסקטופ)"
+
+#: includes/pojo-a11y-customizer.php:39
+msgid "Offset from Top (Desktop)"
+msgstr "ריווח עליון (דסקטופ)"
+
+#: includes/pojo-a11y-customizer.php:34
+msgid "Set Toolbar Position"
+msgstr "הגדרת מיקום סרגל נגישות"
+
+#: includes/pojo-a11y-customizer.php:27
+msgid "Toolbar Position"
+msgstr "מיקום סרגל נגישות"
+
+#: includes/pojo-a11y-customizer.php:22
+msgid "Set Toolbar Icon"
+msgstr "הגדרת אייקון סרגל נגישות"
+
+#: includes/pojo-a11y-customizer.php:18
+msgid "One Click"
+msgstr "One Click"
+
+#: includes/pojo-a11y-customizer.php:17
+msgid "Wheelchair"
+msgstr "Wheelchair"
+
+#: includes/pojo-a11y-customizer.php:14
+msgid "Toolbar Icon"
+msgstr "אייקון סרגל נגישות"
+
+#. translators: 1: One Click Accessibility, 2: Link to plugin review
+#: includes/pojo-a11y-admin-ui.php:149
+msgid "Enjoyed %1$s? Please leave us a %2$s rating. We really appreciate your support!"
+msgstr "אהבתם את %1$s? אנא השאירו לנו דירוג %2$s. נודה לכם על תמיכתכם!"
+
+#: includes/pojo-a11y-admin-ui.php:124
+msgid "Install Now For Free!"
+msgstr "התקן עכשיו, זה חינם!"
+
+#: includes/pojo-a11y-admin-ui.php:120
+msgid "Learn more about Elementor"
+msgstr "למד עוד אודות אלמנטור"
+
+#: includes/pojo-a11y-admin-ui.php:119
+msgid "Create high-end, pixel perfect websites at record speeds. Any theme, any page, any design. The most advanced frontend drag & drop page builder."
+msgstr "יצירת עמודי אינטרנט מדהימים בקלות ובמהירות באמצעות עורך ויזואלי Drag & Drop מתקדם ישירות על הפרונט של האתר. כל תבנית, כל עמוד, כל עיצוב."
+
+#: includes/pojo-a11y-admin-ui.php:118
+msgid "Do You Like One Click Accessibility? You'll Love Elementor!"
+msgstr "אוהבים את תוסף סרגל נגישות? בטח תאהבו גם את אלמנטור!"
+
+#: includes/pojo-a11y-settings.php:357
+msgid "1 Month"
+msgstr "חודש אחד"
+
+#: includes/pojo-a11y-settings.php:356
+msgid "1 Week"
+msgstr "שבוע אחד"
+
+#: includes/pojo-a11y-settings.php:355
+msgid "3 Days"
+msgstr "3 ימים"
+
+#: includes/pojo-a11y-settings.php:354
+msgid "2 Days"
+msgstr "יומיים"
+
+#: includes/pojo-a11y-settings.php:353
+msgid "1 Day"
+msgstr "יום אחד"
+
+#: includes/pojo-a11y-settings.php:352
+msgid "12 Hours"
+msgstr "12 שעות"
+
+#: includes/pojo-a11y-settings.php:351
+msgid "6 Hours"
+msgstr "6 שעות"
+
+#: includes/pojo-a11y-settings.php:350
+msgid "1 Hour"
+msgstr "שעה אחת"
+
+#: includes/pojo-a11y-settings.php:346
+msgid "Remember user for"
+msgstr "זכור את המשתמש למשך"
+
+#: includes/pojo-a11y-settings.php:335
+msgid "Consistent accessibility throughout your site visit. Site remembers you and stays accessible."
+msgstr "השאר את כל האתר נגיש לפי בחירת המשתמש. האתר יזכור את בחירת הגולש לאורך כל האתר."
+
+#: includes/pojo-a11y-settings.php:334
+msgid "Sitewide Accessibility"
+msgstr "נגישות ברחבי האתר"
+
+#: includes/pojo-a11y-settings.php:556
+msgid "Accessibility Settings"
+msgstr "הגדרות נגישות"
+
+#: includes/pojo-a11y-settings.php:273
+msgid "Style Settings"
+msgstr "הגדרות סגנון"
+
+#: includes/pojo-a11y-settings.php:274
+msgid "For style settings of accessibility tools go to > Customize > <a href=\"%s\">Accessibility</a>."
+msgstr "להגדרות סגנון של כלי הנגישות יש לעבור אל > התאמה אישית > <a href=\"%s\">נגישות</a>."
+
+#: includes/pojo-a11y-settings.php:322
+msgid "Add landmark roles to all links"
+msgstr "להוסיף ציון תפקיד דרך לכל הקישורים"
+
+#: includes/pojo-a11y-settings.php:312
+msgid "This option will reset all your target links to open in the same window or tab."
+msgstr "אפשרות זו מאפסת את פתיחת כל הקישורים באתר באותו חלון או לשונית."
+
+#: includes/pojo-a11y-settings.php:310
+msgid "Remove target attribute from links"
+msgstr "הסרת תכונת יעד מקישורים"
+
+#: includes/pojo-a11y-settings.php:298
+msgid "Skip to Content link"
+msgstr "קישור דילוג אל התוכן"
+
+#: includes/pojo-a11y-settings.php:265
+msgid "Toolbar Settings"
+msgstr "הגדרות סרגל נגישות"
+
+#: includes/pojo-a11y-settings.php:286
+msgid "Add Outline Focus"
+msgstr "הוספת קו פוקוס"
+
+#: includes/pojo-a11y-settings.php:257
+msgid "Link for feedback page in your website. Leave blank to disable."
+msgstr "קישור אל עמוד המשוב של האתר שלך. יש להשאיר ריק כדי לא להציג."
+
+#: includes/pojo-a11y-settings.php:254
+msgid "Feedback Link"
+msgstr "קישור משוב"
+
+#: includes/pojo-a11y-settings.php:246
+msgid "Feedback Title"
+msgstr "כותרת משוב"
+
+#: includes/pojo-a11y-settings.php:236
+msgid "Help Link"
+msgstr "קישור עזרה"
+
+#: includes/pojo-a11y-settings.php:239
+msgid "Link for help page in your website. Leave blank to disable."
+msgstr "קישור אל עמוד העזרה של האתר שלך. יש להשאיר ריק כדי לא להציג."
+
+#: includes/pojo-a11y-settings.php:228
+msgid "Help Title"
+msgstr "כותרת עזרה"
+
+#: includes/pojo-a11y-settings.php:231
+msgid "Help"
+msgstr "עזרה"
+
+#: includes/pojo-a11y-settings.php:221
+msgid "Link for sitemap page in your website. Leave blank to disable."
+msgstr "קישור אל עמוד מפת האתר של האתר שלך. יש להשאיר ריק כדי לא להציג."
+
+#: includes/pojo-a11y-settings.php:213
+msgid "Sitemap"
+msgstr "מפת אתר"
+
+#: includes/pojo-a11y-settings.php:218
+msgid "Sitemap Link"
+msgstr "קישור מפת אתר"
+
+#: includes/pojo-a11y-settings.php:210
+msgid "Sitemap Title"
+msgstr "כותרת מפת אתר"
+
+#: includes/pojo-a11y-settings.php:190 includes/pojo-a11y-settings.php:205
+msgid "Readable Font"
+msgstr "פונט קריא"
+
+#: includes/pojo-a11y-settings.php:202
+msgid "Readable Font Title"
+msgstr "כותרת פונט קריא"
+
+#: includes/pojo-a11y-settings.php:170 includes/pojo-a11y-settings.php:185
+msgid "Links Underline"
+msgstr "הדגשת קישורים"
+
+#: includes/pojo-a11y-settings.php:182
+msgid "Links Underline Title"
+msgstr "כותרת הדגשת קישורים"
+
+#: includes/pojo-a11y-settings.php:150 includes/pojo-a11y-settings.php:165
+msgid "Light Background"
+msgstr "רקע בהיר"
+
+#: includes/pojo-a11y-settings.php:162
+msgid "Light Background Title"
+msgstr "כותרת רקע בהיר"
+
+#: includes/pojo-a11y-settings.php:130 includes/pojo-a11y-settings.php:145
+msgid "Negative Contrast"
+msgstr "ניגודיות הפוכה"
+
+#: includes/pojo-a11y-settings.php:142
+msgid "Negative Contrast Title"
+msgstr "כותרת ניגודיות הפוכה"
+
+#: includes/pojo-a11y-settings.php:122
+msgid "High Contrast Title"
+msgstr "כותרת ניגודיות גבוהה"
+
+#: includes/pojo-a11y-settings.php:102
+msgid "Grayscale Title"
+msgstr "כותרת גווני אפור"
+
+#: includes/pojo-a11y-settings.php:110 includes/pojo-a11y-settings.php:125
+msgid "High Contrast"
+msgstr "ניגודיות גבוהה"
+
+#: includes/pojo-a11y-settings.php:82 includes/pojo-a11y-settings.php:85
+msgid "Decrease Text"
+msgstr "הקטן טקסט"
+
+#: includes/pojo-a11y-settings.php:90 includes/pojo-a11y-settings.php:105
+msgid "Grayscale"
+msgstr "גווני אפור"
+
+#: includes/pojo-a11y-settings.php:66 includes/pojo-a11y-settings.php:94
+#: includes/pojo-a11y-settings.php:114 includes/pojo-a11y-settings.php:134
+#: includes/pojo-a11y-settings.php:154 includes/pojo-a11y-settings.php:174
+#: includes/pojo-a11y-settings.php:194 includes/pojo-a11y-settings.php:290
+#: includes/pojo-a11y-settings.php:302 includes/pojo-a11y-settings.php:314
+#: includes/pojo-a11y-settings.php:326 includes/pojo-a11y-settings.php:338
+msgid "Enable"
+msgstr "לאפשר"
+
+#: includes/pojo-a11y-settings.php:74 includes/pojo-a11y-settings.php:77
+msgid "Increase Text"
+msgstr "הגדל טקסט"
+
+#: includes/pojo-a11y-settings.php:57
+msgid "Accessibility Tools"
+msgstr "כלי נגישות"
+
+#: includes/pojo-a11y-settings.php:62
+msgid "Resize Font"
+msgstr "שינוי גודל פונט"
+
+#: includes/pojo-a11y-settings.php:55
+msgid "Title top of the toolbar (recommended)."
+msgstr "הכותרת של סרגל הנגישות (מומלץ)."
+
+#: includes/pojo-a11y-settings.php:43
+msgid "Hidden Phone"
+msgstr "להסתיר במובייל"
+
+#: includes/pojo-a11y-settings.php:41
+msgid "Hidden Desktop"
+msgstr "להסתיר בדסקטופ"
+
+#: includes/pojo-a11y-settings.php:42
+msgid "Hidden Tablet"
+msgstr "להסתיר בטאבלט"
+
+#: includes/pojo-a11y-settings.php:39
+msgid "Visible Tablet"
+msgstr "להציג בטאבלט"
+
+#: includes/pojo-a11y-settings.php:40
+msgid "Visible Phone"
+msgstr "להציג במובייל"
+
+#: includes/pojo-a11y-settings.php:37
+msgid "Show on all devices"
+msgstr "הצג בכל מצב"
+
+#: includes/pojo-a11y-settings.php:38
+msgid "Visible Desktop"
+msgstr "להציג בדסקטופ"
+
+#: includes/pojo-a11y-frontend.php:181
+msgid "Reset"
+msgstr "איפוס"
+
+#: includes/pojo-a11y-settings.php:34
+msgid "Display Toolbar"
+msgstr "תצוגת סרגל נגישות"
+
+#: includes/pojo-a11y-frontend.php:105
+msgid "Open toolbar"
+msgstr "פתח סרגל נגישות"
+
+#: includes/pojo-a11y-customizer.php:151
+msgid "Focus Outline Color"
+msgstr "צבע קו פוקוס"
+
+#: includes/pojo-a11y-customizer.php:19 includes/pojo-a11y-customizer.php:169
+#: includes/pojo-a11y-settings.php:547 includes/pojo-a11y-settings.php:548
+msgid "Accessibility"
+msgstr "נגישות"
+
+#: includes/pojo-a11y-customizer.php:113
+msgid "Focus Outline Style"
+msgstr "סגנון קו פוקוס"
+
+#: includes/pojo-a11y-customizer.php:131
+msgid "Focus Outline Width"
+msgstr "רוחב קו פוקוס"
+
+#: includes/pojo-a11y-customizer.php:75
+msgid "Toggle Button Background"
+msgstr "רקע כפתור פתיחה"
+
+#: includes/pojo-a11y-customizer.php:83
+msgid "Toggle Button Color"
+msgstr "צבע כפתור פתיחה"
+
+#: includes/pojo-a11y-customizer.php:30
+msgid "Left"
+msgstr "שמאל"
+
+#: includes/pojo-a11y-customizer.php:31
+msgid "Right"
+msgstr "ימין"
+
+#: pojo-accessibility.php:64 pojo-accessibility.php:75
+msgid "Cheatin&#8217; huh?"
+msgstr "מרמה, אה?"
+
+#: includes/pojo-a11y-settings.php:365
+msgid "General Settings"
+msgstr "הגדות כלליות"
+
+#: includes/pojo-a11y-settings.php:249
+msgid "Feedback"
+msgstr "פידבק"
+
+#: includes/pojo-a11y-settings.php:53
+msgid "Title"
+msgstr "Title"
+
+#: includes/pojo-a11y-settings.php:44 includes/pojo-a11y-settings.php:67
+#: includes/pojo-a11y-settings.php:95 includes/pojo-a11y-settings.php:115
+#: includes/pojo-a11y-settings.php:135 includes/pojo-a11y-settings.php:155
+#: includes/pojo-a11y-settings.php:175 includes/pojo-a11y-settings.php:195
+#: includes/pojo-a11y-settings.php:291 includes/pojo-a11y-settings.php:303
+#: includes/pojo-a11y-settings.php:315 includes/pojo-a11y-settings.php:327
+#: includes/pojo-a11y-settings.php:339
+msgid "Disable"
+msgstr "כבה"
+
+#: includes/pojo-a11y-frontend.php:66
+msgid "Skip to content"
+msgstr "דילוג לתוכן"
+
+#: includes/pojo-a11y-customizer.php:123
+msgid "Initial"
+msgstr "Initial"
+
+#: includes/pojo-a11y-customizer.php:122
+msgid "Outset"
+msgstr "Outset"
+
+#: includes/pojo-a11y-customizer.php:121
+msgid "Ridge"
+msgstr "Ridge"
+
+#: includes/pojo-a11y-customizer.php:120
+msgid "Groove"
+msgstr "Groove"
+
+#: includes/pojo-a11y-customizer.php:119
+msgid "Double"
+msgstr "Double"
+
+#: includes/pojo-a11y-customizer.php:118
+msgid "Dashed"
+msgstr "Dashed"
+
+#: includes/pojo-a11y-customizer.php:117
+msgid "Dotted"
+msgstr "Dotted"
+
+#: includes/pojo-a11y-customizer.php:116
+msgid "Solid"
+msgstr "Solid"
+
+#: includes/pojo-a11y-settings.php:288
+msgid "Add outline to elements on keyboard focus."
+msgstr "הוספת קו פוקוס לאלמנטים בעת מעבר מקלדת"

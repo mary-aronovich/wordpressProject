@@ -1,0 +1,104 @@
+
+/*= Pojo Admin Modal
+---------------------------------------*/
+
+div.pojo-admin-modal {
+	position: fixed;
+	display: none;
+	top: 50px;
+	bottom: 50px;
+	right: 15%;
+	left: 15%;
+	margin: auto;
+	max-width: 1000px;
+	z-index: 20001;
+	background: #fff;
+	.modal-header {
+		height: 50px;
+		border-bottom: 1px solid #DFDFDF;
+		padding: 0 15px;
+		box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.1);
+		-webkit-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.1);
+		-moz-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.1);
+		position: relative;
+		h3.modal-title {
+			margin: 0 !important;
+			line-height: 50px !important;
+			padding: 0 10px !important;
+		}
+		.pojo-modal-close {
+			line-height: 50px;
+			text-align: center;
+			text-decoration: none;
+		}
+	}
+	.modal-content {
+		position: absolute;
+		overflow: auto;
+		top: 50px;
+		left: 0;
+		right: 0;
+		bottom: 50px;
+		padding: 15px;
+		input, select, textarea {
+			padding: 7px 12px;
+			border-radius: 0;
+		}
+		textarea {
+			min-height: 200px;
+		}
+		select {
+			height: auto;
+		}
+		label {
+			padding-bottom: 10px;
+		}
+		.pojo-setting-upload-image-wrap {
+			margin-left: 1em;
+			margin-right: 1em;
+		}
+		.field-checkbox {
+			label {
+				padding-bottom: 0;
+			}
+		}
+	}
+	.modal-footer {
+		height: 50px;
+		border-top: 1px solid #DFDFDF;
+		box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.1) inset;
+		-webkit-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.1) inset;
+		-moz-box-shadow: 0 4px 4px -4px rgba(0, 0, 0, 0.1) inset;
+		position: absolute;
+		bottom: 0;
+		background: none repeat scroll 0% 0% #FCFCFC;
+		width: 100%;
+		.button {
+			position: absolute;
+			right: 30px;
+			top: 10px;
+			padding: 0 35px 2px;
+		}
+	}
+}
+
+.pojo_catalog {
+	div.pojo-admin-modal {
+		.modal-content {
+			textarea {
+				min-height: 100px;
+			}
+		}
+	}
+}
+
+div.pojo-admin-modal-backdrop {
+	z-index: 20000;
+	display: none;
+	top: 0; bottom: 0;
+	left: 0; right: 0;
+	position: fixed;
+	background: #000;
+	.opacity(.7);
+}
+

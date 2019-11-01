@@ -1,0 +1,53 @@
+
+/*= Pojo Feedback
+---------------------------------------*/
+
+.pojo-dismiss-feedback-button {
+	opacity: 0.5;
+	&:hover {
+		opacity: 1;
+	}
+}
+
+// Modal
+
+.pojo-feedback-modal {
+	background-color: #f7f7f7;
+	height: 100%;
+	display: table;
+	width: 100%;
+	text-align: center;
+	.modal-wrapper {
+		display: table-cell;
+		vertical-align: middle;
+		padding: 10px;
+		.modal-inner {
+			background-color: #ffffff;
+			border: 1px solid #eeeeee;
+			max-width: 500px;
+			overflow: hidden;
+			padding: 20px;
+			margin: auto;
+			h1 {
+				text-transform: uppercase;
+			}
+			.radio-group {
+				text-align: justify;
+				max-width: 200px;
+				margin: 10px auto;
+				label {
+					display: block;
+					margin-bottom: 3px;
+				}
+			}
+			.feedback-comment {
+				margin-bottom: 15px;
+				textarea {
+					width: 100%;
+					box-sizing: border-box;
+					padding: 12px;
+				}
+			}
+		}
+	}
+}

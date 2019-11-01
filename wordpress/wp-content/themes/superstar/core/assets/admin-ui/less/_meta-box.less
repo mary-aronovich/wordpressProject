@@ -1,0 +1,263 @@
+
+/*= Admin Meta Box
+---------------------------------------*/
+
+h4.atmb-heading {
+	margin-bottom: 0;
+}
+
+.atmb-wrap-fields {
+	.atmb-field-row {
+		padding: 10px 0;
+		border-bottom: 1px solid #EEEEEE;
+		&.atmb-heading_general_settings,
+		&.atmb-heading_sub_header,
+		&.atmb-heading_page_content {
+			border-bottom-color: #dfdfdf;
+		}
+	}
+	.atmb-is_display_sub_header {
+		border-top: none;
+	}
+	.atmb-label,
+	.atmb-input {
+		display: inline-block;
+		vertical-align: middle;
+	}
+	.atmb-label {
+		width: 29%;
+		max-width: 180px;
+		~ .atmb-input {
+			width: 70%;
+		}
+	}
+	.atmb-input {
+		width: 100%;
+	}
+	.atmb-field-row .atmb-input textarea {
+		min-height: 100px;
+		min-width: 300px;
+		~ .atmb-note {
+			padding: 0;
+		}
+	}
+	.atmb-note {
+		padding: 0 10px;
+		font-size: 0.9em;
+		font-style: italic;
+	}
+}
+
+.atmb-field-row .atmb-input input[type="text"],
+.atmb-field-row .atmb-input select {
+	min-width: 220px;
+}
+
+.atmb-multi-checkboxes {
+	max-height: 400px;
+	overflow-y: auto;
+}
+
+/*= Images Input
+---------------------------------------*/
+
+ul.at-image-ul-wrap li.image {
+	display: inline-block;
+	position: relative;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+}
+
+ul.at-image-ul-wrap li.image:first-child {
+	margin-left: 0;
+	margin-right: 5px;
+}
+
+.rtl ul.at-image-ul-wrap li.image:first-child {
+	margin-left: 5px;
+	margin-right: 0;
+}
+
+ul.at-image-ul-wrap li img {
+	width: 115px;
+	height: 115px;
+	vertical-align: middle;
+	border: 1px solid #dfdfdf;
+	padding: 3px;
+	border-radius: 3px;
+}
+
+#customize-control-image_logo {
+	ul.at-image-ul-wrap li.image {
+		max-width: 100%;
+		margin: 0;
+	}
+	ul.at-image-ul-wrap li img {
+		width: auto;
+		height: auto;
+		max-width: 95%;
+	}
+}
+
+ul.at-image-ul-wrap li:hover .image-delete {
+	display: block;
+	z-index: 999;
+}
+
+#ppf-post-cpt-post {
+	.atmb-taxonomy_terms {
+		.atmb-checkbox-list-item {
+			margin-left: 180px;
+			margin-right: 0;
+		}
+	}
+}
+
+#ppf-post-cpt-post {
+	.atmb-taxonomy_terms {
+		.atmb-checkbox-list-item {
+			margin-left: 180px;
+			margin-right: 0;
+		}
+	}
+}
+
+.atmb-display .atmb-checkbox-list-item {
+	margin-right: 0;
+	margin-left: 0;
+}
+
+.atmb-checkbox-list-item label {
+	padding: 0 3px;
+}
+
+/*= Repeater
+---------------------------------------*/
+
+.atmb-repeater-ol {
+	list-style: none;
+	margin: 0;
+	.sortable-placeholder {
+		margin-bottom: 10px;
+	}
+}
+
+li.atmb-repeater-row {
+	position: relative;
+	background: #FCFCFC;
+	margin-bottom: 10px;
+	padding-right: 20px;
+	-webkit-box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.1);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+	zoom: 1; /* ie7 fix */
+	&:hover {
+		-webkit-box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+		box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.1);
+	}
+	&:before,
+	&:after {
+		content: "";
+		display: table;
+	}
+	&:after {
+		clear: both;
+	}
+}
+
+.rtl li.atmb-repeater-row .atmb-btn-repeater-remove-row {
+	right: auto;
+	left: 1em;
+}
+
+.row-sortable-handle {
+	background-color: #bbbbbb;
+	color: #FFFFFF;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	text-align: center;
+	top: 0;
+	width: 20px;
+	cursor: move;
+	.atmb-btn-repeater-remove-row {
+		display: inline-block;
+		-webkit-font-smoothing: antialiased;
+		font: normal 16px/1 'dashicons';
+		vertical-align: middle;
+		text-decoration: none;
+		color: #FFFFFF;
+		&:after {
+			content: "\f153";
+		}
+	}
+}
+
+/*= Meta Box - Sidebar
+---------------------------------------*/
+
+#side-sortables {
+	.atmb-label,
+	.atmb-input {
+		width: 100%;
+	}
+	.atmb-heading {
+		border-bottom: 1px solid #EEEEEE;
+		margin: 0;
+	}
+	.radio-image-item {
+		width: 127px;
+		padding: 0;
+	}
+	.atmb-wrap-fields .atmb-field-row {
+		border: none;
+		padding: 5px 0;
+	}
+}
+
+/*= Meta Box - Formats
+---------------------------------------*/
+
+#pojo-formats-panel-sortables {
+	> div.postbox {
+		display: none;
+	}
+	h3 {
+		border-bottom: 1px solid #eee;
+	}
+}
+
+/*= Meta Box - Builder Templates
+---------------------------------------*/
+
+#pojo-templates {
+	.atmb-field-row {
+		.atmb-label {
+			display: block;
+			line-height: 24px;
+			~ .atmb-input {
+				width: 100%;
+			}
+		}
+		&.atmb-template_actions {
+			.atmb-label {
+				display: none;
+			}
+			.description {
+				margin-top: 10px;
+			}
+		}
+	}
+	.atmb-input {
+		input[type="text"] {
+			width: 100%;
+			padding: 12px;
+			font-size: 18px;
+		}
+	}
+}

@@ -1,0 +1,6 @@
+h1 {
+	@apply mt-0 mb-4 !important;
+}
+p {
+	@apply mt-0 mb-3 !important;
+}

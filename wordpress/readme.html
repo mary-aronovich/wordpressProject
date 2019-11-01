@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+	<meta name="viewport" content="width=device-width" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>וורדפרס &#8250; ReadMe</title>
+	<link rel="stylesheet" href="wp-admin/css/install.css?ver=20100228" type="text/css" />
+	<link rel="stylesheet" href="wp-admin/css/install-rtl.css?ver=20100228" type="text/css" />
+	<style type="text/css" media="screen">
+	<!--
+	* { font-family: Arial, sans-serif; }
+	body { direction: rtl; text-align: right; }
+	-->
+	</style>
+</head>
+<body>
+
+<h1 id="logo">
+	<a href="https://he.wordpress.org/"><img alt="וורדפרס" src="wp-admin/images/wordpress-logo.png" width="250" height="68" /></a>
+	<br />וורדפרס
+</h1>
+<p style="text-align: center">מערכת ניהול תוכן בקוד פתוח</p>
+
+<h2>הערת פתיחה</h2>
+<p>ברוכים הבאים. וורדפרס הוא פרוייקט מיוחד מאוד בשבילי. כל מפתח ותורם מוסיף משהו למערכת, וביחד אנחנו יוצרים משהו יפהפה שאני גאה לקחת בו חלק. אלפי שעות הושקעו בוורדפרס, ואנחנו ממשיכים לשפר אותה מדי יום. תודה לך על שהכנסת אותה לעולם שלך.</p>
+<p style="text-align: left;">&#8212; מאט מולנווג</p>
+
+<h2>התקנה - חמש דקות קצרות</h2>
+<ol>
+	<li>יש לפתוח את קובץ ההתקנה שהורדתם (zip או tgz) בתיקייה ריקה, ולהעלות את כל הקבצים לשרת.</li>
+	<li>יש לגשת לקובץ <a href="wp-admin/install.php">wp-admin/install.php</a> בדפדפן, ולמלא אחר ההוראות שיופיעו על המסך כדי ליצור את קובץ הגדרות <code>wp-config.php</code> שמכיל הגדרות להתחברות לבסיס הנתונים.
+		<ol>
+			<li>אם מוצגת הודעת שגיאה או שהתהליך לא מסתיים בהצלחה, לא צריך לדאוג. בשרתים מסויימים זה לא עובד - ניתן לבצע את אותה הפעולה באופן ידני. כדי לערוך את הקובץ בעצמכם, צריך לפתוח את הקובץ <code>wp-config-sample.php</code> בעורך טקסט פשוט (כמו Notepad) ולמלא את פרטי ההתחברות לבסיס הנתונים.</li>
+			<li>יש לשמור את הקובץ בשם <code>wp-config.php</code> ולהעלות אותו לשרת.</li>
+			<li>יש לגשת לקובץ <a href="wp-admin/install.php">wp-admin/install.php</a> דרך הדפדפן.</li>
+		</ol>
+	</li>
+	<li>אחרי יצירת קובץ ההגדרות, תוכנית ההתקנה תתחבר לבסיס הנתונים ותיצור בו את הטבלאות הנחוצות לפעולה של וורדפרס. אם התהליך נכשל, כדאי לוודא שהוזנו פרטים נכונים בקובץ <code>wp-config.php</code> ולנסות שוב. אם גם זה לא עובד, אפשר לבקש עזרה <a href="https://wordpress.org/support/">בפורום התמיכה</a>, עם כמה שיותר מידע על הבעיה.</li>
+	<li>כשבסיס הנתונים יהיה מוכן, תוכנית ההתקנה תבקש לבחור שם לאתר, ולהזין מספר פרטים בסיסיים אודותיך. אין צורך לבחור סיסמה ושם משתמש בשלב זה - אם שדות אלה ישארו ריקים, הסיסמה ושם המשתמש שיבחרו יוצגו בעמוד הבא. <strong>כדאי לשנן את הסיסמה או לרשום אותה במקום בטוח</strong>.</li>
+	<li>בסוף, ההתקנה תעברו ל<a href="wp-login.php">עמוד ההתחברות</a>. פרטי ההתחברות והקישורים הרלבנטיים ישלחו למייל שלך.</li>
+</ol>
+
+<h2>שדרוג</h2>
+<h3>שדרוג אוטומטי</h3>
+<p>החל מגרסה 2.7, וורדפרס תומכת בשדרוג אוטומטי:</p>
+<ol>
+	<li>גשו לעמוד <a href="wp-admin/update-core.php">wp-admin/update-core.php</a> בלוח הבקרה.</li>
+	<li>מלאו את ההוראות והמערכת תעשה את השאר.</li>
+</ol>
+
+<h3>שדרוג ידני</h3>
+<ol>
+	<li>לפני שדרוג כלשהו כדאי מאוד להכין גיבויים של בסיס הנתונים וכל הקבצים.</li>
+	<li>יש למחוק את הקבצים הישנים של וורדפרס, מלבד הקבצים שעשיתם בהם שינויים כמו התיקייה wp-content.</li>
+	<li>יש להעלות את הקבצים של הגרסה החדשה.</li>
+	<li>לסיום השדרוג, צריך לבצע שדרוג דרך עמוד <a href="wp-admin/upgrade.php">wp-admin/upgrade.php</a>.</li>
+</ol>
+
+<h2>דרישות מערכת</h2>
+<ul>
+	<li><a href="https://secure.php.net/">PHP</a> בגרסה <strong>5.6.20</strong>, או גרסה חדשה יותר.</li>
+	<li><a href="https://www.mysql.com/">MySQL</a> בגרסה <strong>5.0</strong>, או גרסה חדשה יותר.</li>
+</ul>
+
+<h3>דרישות מומלצות</h3>
+<ul>
+	<li><a href="https://secure.php.net/">PHP</a> בגרסה <strong>7.3</strong>, או גרסה חדשה יותר.</li>
+	<li><a href="https://www.mysql.com/">MySQL</a> בגרסה <strong>5.6</strong>, או גרסה חדשה יותר.</li>
+	<li>מודול <a href="https://httpd.apache.org/docs/2.2/mod/mod_rewrite.html">mod_rewrite</a> של אפאצ'י.</li>
+	<li>תמיכה ב-<a href="https://wordpress.org/news/2016/12/moving-toward-ssl/">HTTPS</a>.</li>
+	<li>קישור לאתר <a href="https://wordpress.org/">wordpress.org</a> באתר שלך.</li>
+</ul>
+
+<h2>תיעוד ותמיכה בוורדפרס</h2>
+<p>קיימים מספר מקורות מידע מקוונים המכילים אוצר בלום של תיעוד ותמיכה בוורדפרס.</p> 
+<dl>
+	<dt><a href="https://codex.wordpress.org/">וורדפרס קודקס</a></dt>
+		<dd>"הקודקס" הוא כמו אנציקלופדיה גדולה של כל מה שקשור לוורדפרס. זהו המקור המקיף ביותר למידע על וורדפרס שקיים היום ברשת.</dd>
+	<dt><a href="https://he.wordpress.org/news/">וורדפרס בלוג</a></dt>
+		<dd>עדכונים וחדשות שקשורים לוורדפרס. התראות על פוסטים חדשים יופיעו בלוח הבקרה, אבל בכל זאת כדאי להרשם ולבדוק לעיתים קרובות.</dd>
+	<dt><a href="https://planet.wordpress.org/">וורדפרס פלאנט</a></dt>
+		<dd>מעין קורא RSS שמאגד חדשות על וורדפרס מכל רחבי האינטרנט.</dd>
+	<dt><a href="https://wordpress.org/support/">הפורומים של וורדפרס</a></dt>
+		<dd>הפורומים יעילים מאוד ומארחים קהילת גדולה ופעילה מאוד של מתשמשים שמוכנים לעזור בכל שאלה ובעיה.</dd>
+</dl>
+
+<h2>רישיון</h2>
+<p>וורדפרס בעברית מופצת תחת רישיון GPL. הרישיון המלא נמצא בקובץ <a href="license.txt">license.txt</a>.</p>
+
+</body>
+</html>

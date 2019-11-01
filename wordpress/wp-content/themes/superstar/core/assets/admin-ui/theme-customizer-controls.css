@@ -1,0 +1,243 @@
+/*
+************* Customize for POJO *****************
+*/
+
+.pojo-btn-control-toggle-wrap {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-top-color: rgb(204, 204, 204);
+    border-right-color: rgb(204, 204, 204);
+    border-bottom-color: rgb(204, 204, 204);
+    border-left-color: rgb(204, 204, 204);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+    height: 22px;
+    margin: 0 6px 6px 0;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    vertical-align: bottom;
+    display: inline-block;
+    padding-left: 30px;
+    -webkit-box-shadow: 0 1px 0 #ccc;
+    box-shadow: 0 1px 0 #ccc;
+    top: 0;
+}
+
+.wp-color-result:after {
+    background: rgb(255, 255, 255);
+    -webkit-border-radius: 0 2px 2px 0;
+    border-radius: 0 2px 2px 0;
+    border-left: 1px solid #ccc;
+    font-size:11px;
+    color: #555;
+    content: attr(title);
+    display: block;
+    line-height: 22px;
+    padding: 0 6px;
+    position: relative;
+    right: 0;
+    text-align: center;
+    top: 0;
+}
+
+.wp-picker-container {
+    display: inline-block; /*for wp 4.9*/
+}
+
+#customize-controls ul.at-image-ul-wrap {
+    max-width: 100%;
+    max-height: 300px;
+    padding: 0;
+}
+
+#customize-controls ul.at-image-ul-wrap li.image {
+    display: block;
+}
+
+#customize-controls ul.at-image-ul-wrap li img {
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 3px;
+    vertical-align: middle;
+    width: auto;
+    height: auto;
+    max-width: 100%;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.pojo-customize-font-and-size {
+    background-color: #666666;
+    background-image: url(images/aa.png);
+    background-position: 5% center;
+    background-repeat: no-repeat;
+}
+
+.pojo-customize-font-and-size:hover,
+.pojo-customize-font-and-size:focus {
+    background-color: #333333 !important;
+    background-image: url(images/aa.png);
+    background-position: 5% center;
+    background-repeat: no-repeat;
+}
+
+.pojo-customize-bg-image,
+.pojo-customize-bg-image:hover,
+.pojo-customize-bg-image:focus {
+    background-image: url(images/empty-image.png);
+    background-position: 7% center;
+    background-repeat: no-repeat;
+}
+
+/*= Columns
+----------------------------------------------*/
+
+.pojo-row:before, .pojo-row:after {
+    content: '';
+    display: table;
+}
+
+.pojo-row:after {
+    clear: both;
+}
+
+.pojo-column {
+    float: left;
+    -webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+    -moz-box-sizing: border-box;    /* Firefox, other Gecko */
+    box-sizing: border-box;         /* Opera/IE 8+ */
+}
+
+.column-3 {
+    width: 25%;
+}
+.column-4 {
+    width: 33.3333%;
+}
+.column-5 {
+    width: 41.6667%;
+}
+.column-6 {
+    width: 50%;
+}
+.column-7 {
+    width: 58.3333%;
+}
+
+.pojo-column select {
+    width: 100%;
+}
+
+/*= Color Picker
+----------------------------------------------*/
+
+.wp-picker-open + .wp-picker-input-wrap input[type="text"] {
+    max-width: 80px;
+}
+
+.wp-picker-input-wrap {
+    position: absolute;
+}
+
+.wp-full-overlay {
+    z-index: 150000 !important;
+}
+
+/*= Background Opacity
+----------------------------------------------*/
+
+.background-color-opacity {
+    margin: 5px 0;
+    display: block;
+}
+
+.background-color-opacity .customize-control-title {
+    font-weight: normal;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.background-color-opacity input[type="number"] {
+    display: inline-block;
+    width: 55px;
+    margin: 0 5px;
+}
+
+/*= Typography Controler
+----------------------------------------------*/
+
+.customize-control-typography .wp-picker-container {
+    position: relative;
+}
+
+/*= Custom Image
+----------------------------------------------*/
+
+.at-upload-image-wrap {
+    margin-bottom: 10px;
+}
+
+.image {
+    position: relative;
+}
+
+.image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.image-delete {
+    opacity: 0;
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.image:hover .image-delete {
+    opacity: 1;
+}
+
+/*= Image Radio
+----------------------------------------------*/
+
+.radio-image-item {display: inline-block;text-align: center;vertical-align: top;width: 60px;font-size: 11px;line-height: 1.2em;color: #888888;}
+.radio-image-item label {vertical-align: top;}
+
+img.radio-select-img-item { border: 2px solid #dfdfdf;margin: 0 auto;cursor: pointer;opacity: 0.9;max-width: 40px;height: auto;}
+img.radio-select-img-item:hover {border-color: #666666;opacity: 0.9;}
+img.radio-select-img-item.item-checked {border-color: #1E8CBE;opacity: 1;}
+
+.radio-select-img-item:hover + label {color: #666666;}
+.radio-select-img-item.item-checked + label {color: #1E8CBE;}
+
+/*= Custom CSS
+----------------------------------------------*/
+
+#customize-control-pojo_custom_css textarea {
+    direction: ltr;
+    text-align: left;
+    min-height: 250px;
+}
+
+/*= RTL
+----------------------------------------------*/
+body.rtl .pojo-column { float: right; }
+body.rtl #customize-controls .image-delete {left: auto;right: -5px;}
+body.rtl .pojo-customize-font-and-size,
+body.rtl .pojo-customize-font-and-size:hover,
+body.rtl .pojo-customize-font-and-size:focus {
+    background-position: 97% center;
+}
+
+body.rtl .pojo-customize-bg-image,
+body.rtl .pojo-customize-bg-image:hover,
+body.rtl .pojo-customize-bg-image:focus {
+    background-position: 92% center;
+}

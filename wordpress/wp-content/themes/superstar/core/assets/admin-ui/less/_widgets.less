@@ -1,0 +1,63 @@
+
+/*= Widgets Repeater
+---------------------------------------*/
+
+.field-repeater {
+	.field-repeater-list {
+		margin-bottom: 10px;
+		.field-repeater-row {
+			margin-top: 10px;
+			.field-row-actions {
+				border: 1px solid #E5E5E5;
+				background-color: #FAFAFA;
+				padding: 1em;
+				font-weight: bold;
+				cursor: move;
+				overflow: hidden;
+				.number-row {
+					float: left;
+				}
+				.item-actions {
+					float: right;
+				}
+				a.btn-remove-current-row,
+				a.btn-edit-current-row {
+					text-decoration: none;
+					&:before {
+						display: inline-block;
+						-webkit-font-smoothing: antialiased;
+						font: normal 1.2em/1 'dashicons';
+						vertical-align: middle;
+						margin-right: 2px;
+					}
+				}
+				.btn-remove-current-row {
+					&:before {
+						content: "\f335";
+					}
+					&:hover {
+						color: #ff0000;
+					}
+				}
+				.btn-edit-current-row {
+					&:before {
+						content: "\f464";
+					}
+				}
+				&:hover {
+					border-color: #999999;
+				}
+			}
+			.field-row-content {
+				border-width: 0 1px 1px;
+				border-style: solid;
+				border-color: #e5e5e5;
+				overflow: hidden;
+				p {
+					margin-left: 1em;
+					margin-right: 1em;
+				}
+			}
+		}
+	}
+}

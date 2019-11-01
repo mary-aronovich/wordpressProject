@@ -1,0 +1,63 @@
+
+/*= Pojo Forms
+---------------------------------------*/
+
+#pojo-forms-form {
+	.atmb-repeater-row {
+		padding: 0 30px 0 10px;
+	}
+	a.atmb-button-collapse {
+		background-color: transparent;
+		border: none;
+		color: #0073AA;
+		line-height: inherit;
+		padding: 0;
+		font-size: inherit;
+		height: auto;
+		box-shadow: none;
+		&:active,
+		&:hover {
+			color: #00A0D2;
+		}
+		&:focus {
+			color: #124964;
+			box-shadow: none;
+		}
+		&:before {
+			content: "\f343";
+			display: inline-block;
+			-webkit-font-smoothing: antialiased;
+			font: normal 11px/1 'dashicons';
+			vertical-align: middle;
+			margin: 0 2px;
+		}
+		&.close {
+			&:before {
+				content: "\f347";
+			}
+		}
+	}
+	.atmb-button-collapse {
+		.atmb-field-row {
+			background-color: #f7f7f7;
+			padding: 10px;
+		}
+	}
+}
+
+// Dashboard Icon.
+#adminmenu #menu-posts-pojo_forms div.wp-menu-image:before {
+	content: "\f175";
+}
+
+#dashboard_right_now .pojo_forms-count a:before {
+	content: "\f175";
+}
+
+.pojo-setting-upload-file-wrap {
+	&.form-field {
+		.pojo-input-file-upload {
+			width: 80%;
+		}
+	}
+}

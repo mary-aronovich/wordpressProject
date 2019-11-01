@@ -1,0 +1,233 @@
+
+/*= Pojo Builder
+---------------------------------------*/
+
+#page-builder {
+	.inside {
+		margin: 0;
+		padding: 0;
+	}
+}
+
+// General
+.pb-builder-placeholder {
+	border: 1px dashed #bbb;
+	float: left;
+	padding: 4px 7px 4px 8px;
+	margin: 0 5px 10px;
+	position: relative;
+}
+
+.pb-row-placeholder {
+	background: #f5f5f5;
+	border: 1px dashed #bbb;
+	padding: 20px 10px;
+	margin: 0 0 20px;
+	position: relative;
+}
+
+// Section
+#pb-rows {
+	margin: 10px 10px 0;
+	.pb-row {
+		height: auto;
+		width: 100%;
+		background: #EEEEEE;
+		padding: 20px 30px 20px 20px;
+		margin-bottom: 20px;
+		position: relative;
+		overflow: hidden;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+}
+
+.pb-row-sortable-handle {
+	cursor: move;
+}
+
+.pb-row-tools {
+	background: #bbbbbb;
+	height: 100%;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 10px;
+}
+
+#pb-rows div.pb-row.ppb-state-hover {
+	border: 4px dashed #dcdcdc;
+}
+
+.pb-row-setting-toggle {
+	background: #f9f9f9;
+	padding: 5px 20px;
+	margin: 0 -20px -20px;
+	overflow: hidden;
+	color: #cccccc;
+	a {
+		&:hover,
+		&:focus {
+			box-shadow: none;
+		}
+	}
+	.pb-row-setting-left {
+		float: left;
+	}
+	.pb-row-setting-right {
+		float: right;
+	}
+	.pb-btn-row-setting-toggle {
+		&:before {
+			content: "\f347";
+			display: inline-block;
+			-webkit-font-smoothing: antialiased;
+			font: normal 11px/1 'dashicons';
+			vertical-align: middle;
+			margin: 0 2px;
+		}
+		&.active {
+			&:before {
+				content: "\f343";
+			}
+		}
+	}
+	a {
+		text-decoration: none;
+		&.pb-btn-delete-row {
+			color: #A00;
+			&:hover
+			{
+				color: #F00;
+			}
+		}
+	}
+}
+
+.pb-row-setting-content {
+	background: #f9f9f9;
+	padding: 5px 0;
+	margin-top: 20px;
+	margin-right: -30px;
+	margin-left: -20px;
+	.pb-row-setting-line {
+		background: #FFFFFF;
+		padding: 5px 20px;
+		margin-bottom: 1px;
+		.label {
+			display: inline-block;
+			width: 50%;
+			max-width: 300px;
+			min-width: 200px;
+			vertical-align: middle;
+		}
+		p.description {
+			font-size: 11px;
+		}
+		.input {
+			display: inline-block;
+			width: 50%;
+			max-width: 350px;
+			vertical-align: middle;
+			input,
+			select {
+				min-width: 290px;
+			}
+		}
+	}
+}
+
+.pb-rows-actions {
+	margin: 0 10px 10px;
+}
+
+.pb-add-row-options {
+	background: #f9f9f9;
+	margin: 10px;
+	padding: 20px 10px;
+	.pb-add-row-btn {
+		display: inline-block;
+		text-decoration: none;
+		text-align: center;
+		border: 1px solid transparent;
+		color: #BBBBBB;
+		margin-left: 15px;
+		span {
+			display: block;
+		}
+		&:hover,
+		&:focus {
+			color: #0073AA;
+		}
+		&:before {
+			content: '\e839';
+			font-family: "picon";
+			font-size: 760%;
+			font-style: normal;
+			font-weight: normal;
+			display: inline-block;
+			text-decoration: inherit;
+			width: 1em;
+			text-align: center;
+			font-variant: normal;
+			text-transform: none;
+			line-height: 1em;
+		}
+		&.c-50-50 {
+			&:before {
+				content: '\e840';
+			}
+		}
+		&.c-33-33-33 {
+			&:before {
+				content: '\e841';
+			}
+		}
+		&.c-25-25-25-25 {
+			&:before {
+				content: '\e842';
+			}
+		}
+		&.c-75-25 {
+			&:before {
+				content: '\e843';
+			}
+		}
+		&.c-25-75 {
+			&:before {
+				content: '\e844';
+			}
+		}
+		&.c-33-66 {
+			&:before {
+				content: '\e845';
+			}
+		}
+		&.c-66-33 {
+			&:before {
+				content: '\e846';
+			}
+		}
+		&.c-50-25-25 {
+			&:before {
+				content: '\e848';
+			}
+		}
+		&.c-25-25-50 {
+			&:before {
+				content: '\e847';
+			}
+		}
+		&.c-25-50-25 {
+			&:before {
+				content: '\e849';
+			}
+		}
+	}
+}
+
+// Templates
+.templates-library-actions {
+	float: right;
+}
